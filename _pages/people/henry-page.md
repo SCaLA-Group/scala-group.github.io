@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 
-description: 
-permalink: /people//
+title: Henry Page
+description: Former member
+permalink: /people/henry-page/
 nav: false
-member_id: 
+member_id: henry-page
 ---
 
 {% assign member = site.data.people | where: 'id', page.member_id | first %}
