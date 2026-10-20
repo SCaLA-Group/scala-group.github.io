@@ -1,15 +1,28 @@
 ---
 layout: page
+title: teaching & opportunities
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Thesis projects, courses, research visits, and collaboration.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 5
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Learn through research
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+Students are part of our research community. We welcome interest in bachelor’s and master’s thesis projects, internships, and research collaborations at the intersection of numerical analysis, scientific computing, and machine learning.
 
-{% include courses.liquid %}
+Potential directions include domain decomposition and scalable solvers, scientific machine learning, multiphysics simulation, and research software. A suitable project depends on your background, interests, and the supervision available.
+
+## Thesis projects and internships
+
+The existing [master’s thesis listings](https://searhein.github.io/master_thesis_projects/), [bachelor’s thesis listings](https://searhein.github.io/bachelor_thesis_projects/), and [internship information](https://searhein.github.io/internships/) provide a starting point. Contact us to discuss which topics are currently available.
+
+## Courses
+
+See the [course overview](https://searhein.github.io/courses/) for teaching information and links to course material.
+
+## Research positions and visits
+
+For advertised opportunities, consult [TU Delft’s vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and the [existing positions page](https://searhein.github.io/open_positions/). If you are interested in a research visit or a collaboration, please get in touch with your interests and possible dates.
+
+[Contact SCaLA]({{ '/contact/' | relative_url }})

@@ -1,0 +1,30 @@
+---
+publications:
+  - key: Cumaru:2026:AMF
+    title: An algebraic multiscale framework for two-level overlapping Schwarz preconditioners
+    authors: Cumaru, Filipe et al.
+    year: "2026"
+    month: Oct
+  - key: Soliman:2026:SCG
+    title: Sharpened PCG Iteration Bound for High-Contrast Heterogeneous Scalar Elliptic
+      PDEs
+    authors: Soliman, Philip et al.
+    year: "2026"
+    month: Oct
+talks:
+  - key: Heinlein:2026:BIRS:ALN
+    title: Adaptivity and Localization in Neural Network-Based Discretizations of Space-Time
+      PDEs
+    authors: Heinlein, Alexander
+    year: "2026"
+    month: ""
+    detail: "Invited talk. BIRS workshop 26w5643, Space-Time Approaches to PDE Solvers:
+      Unlocking the Power of Co-Design, November 10, lecture 2.4"
+  - key: Heinlein:2026:ICRAFMN:LET
+    title: Localization and Efficient Training of Scientific Machine Learning Models
+    authors: Heinlein, Alexander
+    year: "2026"
+    month: ""
+    detail: Invited talk. 4th International Conference on Recent Advances in Fluid Mechanics
+      and Nanoscience (ICRAFMN 2026), Dr. B. R. Ambedkar National Institute of Technology
+      Jalandhar, Punjab, India, September 29--October 1

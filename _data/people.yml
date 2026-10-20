@@ -1,0 +1,435 @@
+- first_name: Michael
+  last_name: Aldorf
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Michael Aldorf
+  initials: MA
+  role: Former member
+- first_name: Brendan
+  last_name: Analikwu
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Brendan Analikwu
+  initials: BA
+  role: Former member
+- first_name: Gonzalo
+  last_name: Bonilla Moreno
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Gonzalo Bonilla Moreno
+  initials: GB
+  role: Former member
+- first_name: Giacomo
+  last_name: Bottacini
+  university: Politecnico di Milano
+  department: Department of Mathematics
+  website: https://mox.polimi.it/people/people-details/?id_staff=100124
+  email: giacomo.bottacini@polimi.it
+  note: Visiting PhD candidate, October 2026–April 2027; supervisor Andrea Manzoni
+  category: visitors
+  name: Giacomo Bottacini
+  initials: GB
+  role: Visiting PhD candidate
+- first_name: Femke
+  last_name: Brouwer
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: F.A.Brouwer@student.tudelft.nl
+  category: internship students
+  name: Femke Brouwer
+  initials: FB
+  role: Internship student
+- first_name: Thai Ha
+  last_name: Bui
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: master students
+  name: Thai Ha Bui
+  initials: TB
+  role: Master’s student
+- first_name: Ezra
+  last_name: Cerpac
+  university: Technical University Berlin
+  department: Institute of Mathematics
+  email: E.Cerpac@student.tudelft.nl
+  category: master students
+  name: Ezra Cerpac
+  initials: EC
+  role: Master’s student
+- first_name: Wanxin
+  last_name: Chen
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: W.Chen-39@student.tudelft.nl
+  category: alumni
+  name: Wanxin Chen
+  initials: WC
+  role: Former member
+- first_name: Filipe Antônio
+  last_name: Cumaru Silva Alves
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: F.A.CumaruSilvaAlves@tudelft.nl
+  note: Co-supervisor Hadi Hajibeygi
+  category: phd candidates
+  name: Filipe Antônio Cumaru Silva Alves
+  initials: FC
+  role: PhD candidate
+- first_name: Arturo
+  last_name: De Marinis
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  note: FAB4FUTURE; starting November 2026
+  category: postdoctoral researchers
+  name: Arturo De Marinis
+  initials: AD
+  role: Postdoctoral researcher · joining November 2026
+- first_name: Ruben
+  last_name: Dortland
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: master students
+  name: Ruben Dortland
+  initials: RD
+  role: Master’s student
+- first_name: Aidan
+  last_name: Engelhard
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: A.E.Engelhard@student.tudelft.nl
+  category: master students
+  name: Aidan Engelhard
+  initials: AE
+  role: Master’s student
+- first_name: Uzay
+  last_name: Eskiköy
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  note: Co-supervisor Chris Klijn (TU Delft)
+  category: bachelor students
+  name: Uzay Eskiköy
+  initials: UE
+  role: Bachelor’s student
+- first_name: Elena
+  last_name: Gijon Ruiz
+  university: Delft University of Technology
+  note: In collaboration with ASML
+  category: master students
+  name: Elena Gijon Ruiz
+  initials: EG
+  role: Master’s student
+- first_name: Karel
+  last_name: Gimbergh
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Karel Gimbergh
+  initials: KG
+  role: Former member
+- first_name: Alexander
+  last_name: Heinlein
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  website: https://searhein.github.io/
+  email: a.heinlein@tudelft.nl
+  category: faculty
+  name: Alexander Heinlein
+  initials: AH
+  role: Group lead · Assistant professor
+- first_name: Sylle
+  last_name: Hoogeveen
+  university: ADC Consulting
+  category: alumni
+  name: Sylle Hoogeveen
+  initials: SH
+  role: Former member
+- first_name: Selma
+  last_name: Husanović
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Selma Husanović
+  initials: SH
+  role: Former member
+- first_name: shreyas
+  last_name: kalvankar
+  university: Delft University of Technology
+  department: Intelligent Systems
+  email: S.D.Kalvankar@student.tudelft.nl
+  category: alumni
+  name: shreyas kalvankar
+  initials: sk
+  role: Former member
+- first_name: Thomas
+  last_name: Kamminga
+  university: ASML
+  category: alumni
+  name: Thomas Kamminga
+  initials: TK
+  role: Former member
+- first_name: Mirko
+  last_name: Kemna
+  university: Gradyent
+  category: alumni
+  name: Mirko Kemna
+  initials: MK
+  role: Former member
+- first_name: Konstantinos
+  last_name: Kevopoulos
+  university: Delft University of Technology
+  department: BioMechanical Engineering
+  email: K.Kevopoulos@tudelft.nl
+  note: Co-supervisor Mathias Peirlinck
+  category: phd candidates
+  name: Konstantinos Kevopoulos
+  initials: KK
+  role: PhD candidate
+- first_name: Marius
+  last_name: Kielhöfer
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: M.Kielhofer@student.tudelft.nl
+  category: alumni
+  name: Marius Kielhöfer
+  initials: MK
+  role: Former member
+- first_name: Tyren
+  last_name: Koning
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: T.Koning-1@student.tudelft.nl
+  category: master students
+  name: Tyren Koning
+  initials: TK
+  role: Master’s student
+- first_name: Sieds
+  last_name: Lykles
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: master students
+  name: Sieds Lykles
+  initials: SL
+  role: Master’s student
+- first_name: Mitchell
+  last_name: Maassen van den Brink
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: M.MaassenvandenBrink@student.tudelft.nl
+  category: alumni
+  name: Mitchell Maassen van den Brink
+  initials: MM
+  role: Former member
+- first_name: Martyna
+  last_name: Maziukiewicz
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: M.Maziukiewicz@student.tudelft.nl
+  category: master students
+  name: Martyna Maziukiewicz
+  initials: MM
+  role: Master’s student
+- first_name: Tomáš
+  last_name: Medřický
+  university: Czech Technical University in Prague
+  department: BioMechanical Engineering
+  email: tomas.medricky@fsv.cvut.cz
+  note: CTU supervisor Martin Doškář
+  category: phd candidates
+  name: Tomáš Medřický
+  initials: TM
+  role: PhD candidate
+- first_name: Vosse
+  last_name: Meijssen
+  university: CGI
+  category: alumni
+  name: Vosse Meijssen
+  initials: VM
+  role: Former member
+- first_name: Yuhuang
+  last_name: Meng
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: Y.Meng@tudelft.nl
+  note: Co-supervisor Jing Zhao
+  category: phd candidates
+  name: Yuhuang Meng
+  initials: YM
+  role: PhD candidate
+- first_name: Henry
+  last_name: Page
+  university: Delft University of Technology
+  department: Intelligent Systems
+  email: H.Page@student.tudelft.nl
+  category: alumni
+  name: Henry Page
+  initials: HP
+  role: Former member
+- first_name: Shreyas
+  last_name: Prashanth
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: S.Prashanth-1@tudelft.nl
+  category: alumni
+  name: Shreyas Prashanth
+  initials: SP
+  role: Former member
+- first_name: Hugo
+  last_name: Reijersen van Buuren
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: H.J.G.ReijersenvanBuuren@student.tudelft.nl
+  category: alumni
+  name: Hugo Reijersen van Buuren
+  initials: HR
+  role: Former member
+- first_name: Shivang
+  last_name: Sachar
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  note: Co-supervisor Kees Vuik; joint PhD with DIgSILENT GmbH
+  category: phd candidates
+  name: Shivang Sachar
+  initials: SS
+  role: PhD candidate
+- first_name: Amirreza (Pouyan)
+  last_name: Sadat Madani
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  website: https://scholar.google.com/citations?user=CaodVroAAAAJ&hl=en
+  note: Co-supervisor Oriol Colomés
+  category: phd candidates
+  name: Amirreza (Pouyan) Sadat Madani
+  initials: AS
+  role: PhD candidate
+- first_name: Erik
+  last_name: Sieburgh
+  category: alumni
+  name: Erik Sieburgh
+  initials: ES
+  role: Former member
+- first_name: Ksenia
+  last_name: Slepova
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: K.Slepova@tudelft.nl
+  note: Co-supervisor Martin van Gijzen
+  category: phd candidates
+  name: Ksenia Slepova
+  initials: KS
+  role: PhD candidate
+- first_name: Philip
+  last_name: Soliman
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: P.M.Soliman@student.tudelft.nl
+  category: alumni
+  name: Philip Soliman
+  initials: PS
+  role: Former member
+- first_name: Sahir
+  last_name: Sujahudeen
+  university: Delft University of Technology
+  department: Faculty of Civil Engineering and Geosciences
+  note: Co-supervisor Oriol Colomés; RAPID-Wind
+  category: phd candidates
+  name: Sahir Sujahudeen
+  initials: SS
+  role: PhD candidate
+- first_name: Johannes
+  last_name: Taraz
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: J.J.Taraz@student.tudelft.nl
+  category: alumni
+  name: Johannes Taraz
+  initials: JT
+  role: Former member
+- first_name: Thijs
+  last_name: Terwiel
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: R.M.Terwiel@student.tudelft.nl
+  category: master students
+  name: Thijs Terwiel
+  initials: TT
+  role: Master’s student
+- first_name: Elske
+  last_name: van Leeuwen
+  category: alumni
+  name: Elske van Leeuwen
+  initials: Ev
+  role: Former member
+- first_name: Mirte
+  last_name: van Loenen
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Mirte van Loenen
+  initials: Mv
+  role: Former member
+- first_name: Zomer
+  last_name: van Noord
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: Z.vanNoord@student.tudelft.nl
+  category: alumni
+  name: Zomer van Noord
+  initials: Zv
+  role: Former member
+- first_name: Corné
+  last_name: Verburg
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: C.Verburg@tudelft.nl
+  note: Co-supervisor Neil Budko
+  category: phd candidates
+  name: Corné Verburg
+  initials: CV
+  role: PhD candidate
+- first_name: Coen
+  last_name: Visser
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Coen Visser
+  initials: CV
+  role: Former member
+- first_name: Yuhan
+  last_name: Wu
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: Y.Wu-81@student.tudelft.nl
+  category: alumni
+  name: Yuhan Wu
+  initials: YW
+  role: Former member
+- first_name: Hangyu
+  last_name: Xia
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  category: alumni
+  name: Hangyu Xia
+  initials: HX
+  role: Former member
+- first_name: Anouk
+  last_name: Zandbergen
+  university: Technische Universität Berlin
+  department: Chair of Cyber-Physical Systems in Mechanical Engineering
+  website: https://www.tu.berlin/en/cpsme/about/team/anouk-zandbergen-1
+  email: anouk.zandbergen@tu-berlin.de
+  category: alumni
+  name: Anouk Zandbergen
+  initials: AZ
+  role: Former member
+- first_name: Valdimar
+  last_name: Þórsson
+  university: Delft University of Technology
+  department: Delft Institute of Applied Mathematics
+  email: V.M.orsson@student.tudelft.nl
+  category: alumni
+  name: Valdimar Þórsson
+  initials: VÞ
+  role: Former member

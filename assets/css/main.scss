@@ -1,0 +1,188 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// SCaLA site branding. TU Delft Brandbook EN, primary and secondary palettes.
+:root {
+  --scala-cyan: #00a6d6;
+  --scala-blue: #0076c2;
+  --scala-navy: #0c2340;
+  --global-theme-color: #0076c2;
+  --global-hover-color: #0c2340;
+  --global-hover-text-color: #ffffff;
+}
+html[data-theme="dark"] {
+  --global-theme-color: #00a6d6;
+  --global-hover-color: #00b8c8;
+  --global-hover-text-color: #000000;
+}
+#navbar {
+  border-top: 4px solid var(--scala-cyan);
+}
+.scala-intro {
+  border-left: 5px solid var(--scala-cyan);
+  padding: 0.5rem 0 1rem 1.5rem;
+  margin: 1rem 0 3rem;
+}
+.scala-intro h2 {
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin: 0.6rem 0 1.4rem;
+}
+.scala-lead {
+  font-size: 1.22rem;
+  line-height: 1.65;
+  max-width: 52rem;
+}
+.scala-eyebrow {
+  color: var(--global-theme-color);
+  font-size: 0.77rem;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+}
+.scala-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+a.scala-button {
+  background: var(--scala-navy);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--scala-cyan);
+  border-radius: 0.3rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+a.scala-button-secondary {
+  background: transparent;
+  color: var(--global-text-color);
+}
+a.scala-button:hover {
+  background: var(--scala-cyan);
+  color: #000;
+}
+.scala-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 2.5rem;
+}
+.scala-card {
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--scala-cyan);
+  background: var(--global-card-bg-color);
+  padding: 1.4rem;
+  border-radius: 0.3rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+a.scala-card {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+a.scala-card:hover {
+  border-color: var(--global-theme-color);
+}
+.scala-card h2,
+.scala-card h3 {
+  font-size: 1.25rem;
+  margin: 0.7rem 0;
+}
+.scala-card p:last-child {
+  margin-bottom: 0;
+}
+.scala-card a {
+  margin-right: 0.8rem;
+}
+.scala-avatar {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: var(--scala-navy);
+  color: #fff;
+  border: 2px solid var(--scala-cyan);
+  font-weight: 700;
+}
+.scala-role {
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+.scala-detail {
+  font-size: 0.9rem;
+}
+.scala-people .scala-card {
+  padding: 1.25rem;
+}
+:focus-visible {
+  outline: 3px solid var(--scala-cyan);
+  outline-offset: 3px;
+}
+
+.scala-home-updates,
+.scala-work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+  gap: 2rem;
+  margin: 2.5rem 0;
+  align-items: start;
+}
+.scala-home-updates > .scala-card {
+  margin-top: 0.5rem;
+}
+.scala-work-item {
+  border-top: 1px solid var(--global-divider-color);
+  padding: 1rem 0;
+}
+.scala-work-item h3 {
+  font-size: 1.12rem;
+  line-height: 1.4;
+  margin: 0.4rem 0 0.6rem;
+}
+.scala-work-item p {
+  margin: 0.4rem 0;
+}
+.scala-join {
+  border-top: 4px solid var(--scala-cyan);
+  padding: 1.5rem 0 2rem;
+  margin-top: 2.5rem;
+}
+.scala-join p {
+  max-width: 48rem;
+  margin-bottom: 1.5rem;
+}

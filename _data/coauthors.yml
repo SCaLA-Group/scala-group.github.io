@@ -1,34 +1,455 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Alheit":
+  - firstname: ["Benjamin", "B."]
+    url: https://peirlincklab.com/people/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Alves":
+  - firstname: ["Filipe A. C. S.", "Filipe", "F."]
+    url:
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Balzani":
+  - firstname: ["Daniel", "D."]
+    url: https://www.sfb1683.ruhr-uni-bochum.de/mru/team/dbalzani.html.de
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Bartlett":
+  - firstname: ["Roscoe A.", "Roscoe", "R. A.", "R."]
+    url: https://www.sandia.gov/ccr/staff/roscoe-bartlett/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Beecroft":
+  - firstname: ["Damien", "D."]
+    url: https://amath.washington.edu/people/damien-beecroft
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Berger-Vergiat":
+  - firstname: ["Luc", "L."]
+    url:
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Budko":
+  - firstname: ["Neil", "N."]
+    url: https://repository.tudelft.nl/person/Person_7618a946-f00d-42b8-9edc-3e99367ded61
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Chirinos":
+  - firstname: ["Julio A.", "Julio", "J. A.", "J."]
+    url: https://www.med.upenn.edu/apps/faculty/index.php/g323/p8164475
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Cumaru":
+  - firstname: ["Filipe", "Filipe A.", "F."]
+    url: https://filipe-cumaru.github.io
+
+"Cyr":
+  - firstname: ["Eric C.", "E. C.", "Eric", "E."]
+    url: https://www.sandia.gov/ccr/staff/eric-christopher-cyr/
+
+"Deparis":
+  - firstname: ["Simone", "S."]
+    url: https://people.epfl.ch/Simone.Deparis?lang=en
+
+"Desmars":
+  - firstname: ["Nicolas", "N."]
+    url: https://tore.tuhh.de/entities/person/24f90c1d-c51a-4c0f-aae9-dacac8c6c85c
+
+"Dolean":
+  - firstname: ["Victorita", "V."]
+    url: https://www.victoritadolean.com/
+
+"Dwarka":
+  - firstname: ["Vandana", "V."]
+    url: https://research.tudelft.nl/en/persons/vnsr-dwarka/
+
+"Egberts":
+  - firstname: ["Ginger", "G."]
+    url: https://www.uhasselt.be/nl/wie-is-wie/detail/ginger-egberts
+
+"Ehlers":
+  - firstname: ["Svenja", "S."]
+    url: https://tore.tuhh.de/entities/person/62bb1ce8-d63a-4d9d-814b-8f93643f285b
+
+"Frei":
+  - firstname: ["Stefan", "S."]
+    url: https://www.math.uni-konstanz.de/~frei/
+
+"Giammatteo":
+  - firstname: ["Elena", "E."]
+    url:
+
+"Giovanardi":
+  - firstname: ["Bianca", "B."]
+    url: https://sites.google.com/view/biancagiovanardi/home
+
+"Glas":
+  - firstname: ["Silke", "S."]
+    url: https://silkeglas.de/
+
+"Glusa":
+  - firstname: ["Christian A.", "Christian", "C."]
+    url:
+
+"Gratton":
+  - firstname: ["Serge", "S."]
+    url: https://www.irit.fr/~Serge.Gratton/
+
+"Grimm":
+  - firstname: ["Viktor", "V."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-v-grimm
+
+"Gruber":
+  - firstname: ["Anthony C.", "Anthony", "A. C.", "A."]
+    url: https://www.sandia.gov/ccr/staff/anthony-gruber/
+
+"Heroux":
+  - firstname: ["Michael", "M."]
+    url: https://maherou.github.io/Bio/
+
+"Herrmann":
+  - firstname: ["Julien", "J."]
+    url:
+
+"Hajibeygi":
+  - firstname: ["Hadi", "H."]
+    url: https://www.tudelft.nl/staff/h.hajibeygi/
+
+"Ho":
+  - firstname: ["Kyrill", "K."]
+    url:
+
+"Hochmuth":
+  - firstname: ["Christian", "C."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-c-hochmuth
+
+"Hoffmann":
+  - firstname: ["Norbert", "N."]
+    url: https://cgi.tuhh.de/dyn/www/members/norbert-hoffmann
+
+"Howard":
+  - firstname: ["Amanda A.", "Amanda", "A. A.", "A."]
+    url: https://www.pnnl.gov/people/amanda-howard
+
+"Husanović":
+  - firstname: ["Selma", "S."]
+    url:
+
+"Jacob":
+  - firstname: ["Bruno", "B."]
+    url:
+
+"Kapoor":
+  - firstname: ["Taniya", "T."]
+    url: https://taniyakapoor.github.io
+
+"Kelley":
+  - firstname: ["Brian", "B."]
+    url:
+
+"Kevopoulos":
+  - firstname: ["Konstantinos", "K."]
+    url: https://research.tudelft.nl/en/persons/k-kevopoulos/
+
+"Kiefer":
+  - firstname: ["Björn", "B."]
+    url: https://tu-freiberg.de/en/node/2840/prof-bjorn-kiefer-phd
+
+"Kim":
+  - firstname: ["Hyea Hyun", "Hyea H.", "Hyea", "H."]
+    url: https://khu.elsevierpure.com/en/persons/hyea-hyun-kim/
+
+"Kinnewig":
+  - firstname: ["Sebastian", "S."]
+    url:
+
+"Klawonn":
+  - firstname: ["Axel", "A."]
+    url: https://numerik.uni-koeln.de
+
+"Knepper":
+  - firstname: ["Jascha", "J."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-j-knepper
+
+"Kopaničáková":
+  - firstname: ["Alena", "A."]
+    url: https://kopanicakova.github.io/
+
+"Kuberry":
+  - firstname: ["Paul", "P."]
+    url: https://www.sandia.gov/ccr/staff/paul-allen-kuberry/
+
+"Kemna":
+  - firstname: ["Mirko", "M."]
+    url:
+
+"Kühn":
+  - firstname: ["Martin", "M."]
+    url: https://www.martinkuehn.eu/research/
+
+"Langguth":
+  - firstname: ["Michael", "M."]
+    url: https://www.fz-juelich.de/en/jsc/about-us/structure/divisions/large-scale-data-science/earth-system-data-exploration
+
+"Lederer":
+  - firstname: ["Philip L.", "Philip", "P. L.", "P."]
+    url: https://philiplederer.com
+
+"Lanser":
+  - firstname: ["Martin", "M."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-m-lanser
+
+"Liegeois":
+  - firstname: ["Kim", "K."]
+    url: https://orbi.uliege.be/profile?uid=p088269
+
+"Lin":
+  - firstname: ["Guang", "G."]
+    url: https://www.math.purdue.edu/~lin491/
+
+"Mache":
+  - firstname: ["Ramiyou Karim", "R. K."]
+    url: https://www.fz-juelich.de/en/jsc/about-us/structure/divisions/large-scale-data-science/earth-system-data-exploration
+
+"Mayr":
+  - firstname: ["Matthias", "M."]
+    url: https://www.unibw.de/imcs-en/team/mayr
+
+"Meng":
+  - firstname: ["Yuhuang", "Y."]
+    url:
+
+"Mercier":
+  - firstname: ["Valentin", "V."]
+    url:
+
+"Mishra":
+  - firstname: ["Siddhartha", "Sid", "S."]
+    url: https://math.ethz.ch/sam/the-institute/people/siddhartha-mishra.html
+
+"Mollaali":
+  - firstname: ["Amirhossein", "A."]
+    url:
+
+"Monsuur":
+  - firstname: ["Harald", "H."]
+    url:
+
+"Moseley":
+  - firstname: ["Ben", "B."]
+    url: https://benmoseley.blog/
+
+"Moscoloni":
+  - firstname: ["Beatrice", "B."]
+    url: https://research.tudelft.nl/en/persons/b-moscoloni/
+
+"Mu":
+  - firstname: ["Hongliang", "H."]
+    url: https://people.utwente.nl/h.l.mu
+
+"Murphy":
+  - firstname: ["Sarah H.", "Sarah", "S. H.", "S."]
+    url:
+
+"Perego":
+  - firstname: ["Mauro", "M."]
+    url: https://www.sandia.gov/ccr/staff/mauro-perego/
+
+"Pelzer":
+  - firstname: ["Julia", "J."]
+    url:
+
+"Pearson":
+  - firstname: ["Carl", "C."]
+    url: https://www.sandia.gov/ccr/staff/carl-pearson/
+
+"Peirlinck":
+  - firstname: ["Mathias", "M."]
+    url: https://peirlincklab.com/people/
+
+"Propp":
+  - firstname: ["Adrienne M.", "Adrienne", "A. M.", "A."]
+    url: https://profiles.stanford.edu/adrienne-propp
+
+"Prüger":
+  - firstname: ["Stefan", "S."]
+    url:
+
+"Quarteroni":
+  - firstname: ["Alfio", "A."]
+    url: https://mox.polimi.it/people/alfio-quarteroni/
+
+"Ramesh":
+  - firstname: ["Sharan Nurani", "S. N.", "Sharan", "S"]
+    url:
+
+"Rajamanickam":
+  - firstname: ["Sivasankaran", "Siva", "S."]
+    url: https://www.sandia.gov/people/staff/sivasankaran-rajamanickam/
+
+"Rheinbach":
+  - firstname: ["Oliver", "O."]
+    url: https://tu-freiberg.de/en/node/3768
+
+"Reisch":
+  - firstname: ["Cordula", "C."]
+    url: https://creisch.github.io/
+
+"Richter":
+  - firstname: ["Thomas", "T."]
+    url: https://numerics.ovgu.de/people/richter/
+
+"Roberts":
+  - firstname: ["Nathan V.", "Nathan", "N. V.", "N."]
+    url:
+
+"Röver":
+  - firstname: ["Friederike", "F."]
+    url: https://tu-freiberg.de/urz/service-portfolio/high-performance-computing-hpc/team
+
+"Sandfeld":
+  - firstname: ["Stefan", "S."]
+    url: https://www.fz-juelich.de/profile/sandfeld_s
+
+"Saha":
+  - firstname: ["Tirtho S.", "Tirtho", "T. S.", "T."]
+    url:
+
+"Saßmannshausen":
+  - firstname: ["Lea", "L."]
+    url: https://numerik.uni-koeln.de/en/arbeitsgruppe/l-sassmannshausen-m-sc
+
+"Schmidt":
+  - firstname: ["Agatha", "A."]
+    url: https://memilio.readthedocs.io/en/latest/team.html#agatha-schmidt
+
+"Schlottbom":
+  - firstname: ["Matthias", "M."]
+    url: https://research.utwente.nl/en/persons/matthias-schlottbom/
+
+"Schröder":
+  - firstname: ["Jörg", "J."]
+    url: https://www.uni-due.de/mechanika/index.php
+
+"Schultz":
+  - firstname: ["Martin G.", "Martin", "M."]
+    url: https://www.fz-juelich.de/en/jsc/about-us/structure/research-groups/esde
+
+"Schulte":
+  - firstname: ["Miriam", "M."]
+    url: https://www.ipvs.uni-stuttgart.de/de/institut/team/Schulte-00010/
+
+"Shang":
+  - firstname: ["Yong", "Y."]
+    url:
+
+"Sieburgh":
+  - firstname: ["Erik", "E."]
+    url:
+
+"Smetana":
+  - firstname: ["Kathrin", "K."]
+    url: https://www.stevens.edu/profile/ksmetana
+
+"Soliman":
+  - firstname: ["Philip", "P."]
+    url:
+
+"Stadtler":
+  - firstname: ["Scarlet", "S."]
+    url:
+
+"Steinberger":
+  - firstname: ["Dominik", "D."]
+    url:
+
+"Stender":
+  - firstname: ["Merten", "M."]
+    url: https://www.tu.berlin/en/cpsme
+
+"Stinis":
+  - firstname: ["Panos", "P."]
+    url: https://www.pnnl.gov/people/panos-stinis
+
+"Taraz":
+  - firstname: ["Johannes", "J."]
+    url:
+
+"Tartakovsky":
+  - firstname: ["Daniel", "D."]
+    url: https://tartakovsky.stanford.edu/people/daniel-tartakovsky
+
+"Uhlmann":
+  - firstname: ["Klemens", "K."]
+    url:
+
+"van Beek":
+  - firstname: ["Jan Willem", "Jan W.", "J. W.", "J."]
+    url: https://research.tue.nl/en/persons/jan-willem-van-beek/
+
+"van Eeuwijk":
+  - firstname: ["Fred", "Fred A.", "F. A.", "F."]
+    url: https://research.wur.nl/en/persons/fred-van-eeuwijk/
+
+"van Noorden":
+  - firstname: ["Tycho", "T."]
+    url:
+
+"Verburg":
+  - firstname: ["Corné", "Corne", "C."]
+    url:
+
+"Vermolen":
+  - firstname: ["Fred", "F."]
+    url: https://www.uhasselt.be/nl/wie-is-wie/detail/fred-vermolen
+
+"Visser":
+  - firstname: ["Coen", "C."]
+    url: https://www.maths.ox.ac.uk/people/coen.visser
+
+"Vuik":
+  - firstname: ["Cornelis", "C.", "Kees", "K."]
+    url: https://homepage.tudelft.nl/d2b4e/
+
+"Wang":
+  - firstname: ["Fei", "F."]
+    url:
+
+"Weber":
+  - firstname: ["Janine", "J."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-j-weber-hamacher
+
+"Weber-Hamacher":
+  - firstname: ["Janine", "J."]
+    url: https://numerik.uni-koeln.de/arbeitsgruppe/dr-j-weber-hamacher
+
+"Wedler":
+  - firstname: ["Mathies", "M."]
+    url: https://tore.tuhh.de/entities/person/da3c5664-74fd-474b-86ec-f826b91198ed
+
+"Widlund":
+  - firstname: ["Olof B.", "O. B.", "Olof", "O."]
+    url: https://cs.nyu.edu/~widlund/
+
+"Wick":
+  - firstname: ["Thomas", "T."]
+    url: https://www.ifam.uni-hannover.de/wick
+
+"Willenbring":
+  - firstname: ["James M.", "James", "J. M.", "J."]
+    url:
+
+"Wu":
+  - firstname: ["Yuhan", "Y."]
+    url: https://www.kth.se/profile/yuhanwu
+
+"Yamazaki":
+  - firstname: ["Ichitaro", "I."]
+    url:
+
+"Yang":
+  - firstname: ["Hee Jun", "Hee", "H. J.", "H."]
+    url:
+
+"Zandbergen":
+  - firstname: ["Anouk", "A."]
+    url:
+
+"Zhao":
+  - firstname: ["Jing", "J."]
+    url:
+
+"Zunker":
+  - firstname: ["Henrik", "H."]
+    url: https://memilio.readthedocs.io/en/latest/team.html#henrik-zunker
