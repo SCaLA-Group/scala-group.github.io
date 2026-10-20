@@ -2,20 +2,31 @@
 layout: page
 title: opportunities
 permalink: /opportunities/
-nav: false
-description: Research positions, thesis projects, and visits.
+nav: true
+nav_order: 6
+description: Research positions, visits, internships, and collaboration.
 ---
 
 ## Research positions
 
-Explore [PhD and postdoctoral vacancies at TU Delft](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and [research opportunities](https://searhein.github.io/open_positions/).
+For PhD and postdoctoral opportunities, see [TU Delft vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and our [research opportunities](https://searhein.github.io/open_positions/).
 
-## Student projects
+## Student opportunities
 
-Explore [master’s thesis projects](https://searhein.github.io/master_thesis_projects/), [bachelor’s thesis projects](https://searhein.github.io/bachelor_thesis_projects/), and [internships](https://searhein.github.io/internships/). Contact us to discuss the topics and supervision currently available.
+For thesis projects and internships, see the [Teaching page]({{ '/teaching/' | relative_url }}).
 
 ## Visits and collaboration
 
-Interested in working with SCaLA? Please send a short introduction, your research interests, and potential dates. We welcome conversations across numerical analysis, scientific computing, and machine learning.
+We welcome enquiries about research visits and collaborations across numerical analysis, scientific computing, high-performance computing, and machine learning.
 
-[Contact the group]({{ '/contact/' | relative_url }}) · [Teaching information]({{ '/teaching/' | relative_url }})
+## Contact
+
+For research positions, visits, and collaboration enquiries, contact **Alexander Heinlein** at [a.heinlein@tudelft.nl](mailto:a.heinlein@tudelft.nl). You can also contact individual researchers through the [Group page]({{ '/group/' | relative_url }}).
+
+**SCaLA — Scalable Scientific and Learning Algorithms**  
+Delft Institute of Applied Mathematics (DIAM)  
+Faculty of Electrical Engineering, Mathematics and Computer Science  
+Delft University of Technology  
+Mekelweg 4, 2628 CD Delft, The Netherlands
+
+[DIAM at TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/applied-mathematics) · [Campus map](https://map.tudelftcampus.nl/)

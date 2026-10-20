@@ -16,3 +16,8 @@ Homepage highlights are derived from the bibliography with `bundle exec ruby bin
 The SCaLA logo source supplied by the group is preserved under `docs/branding/`. The web wordmark uses the same nine-node network, SCaLA lettering, and colours. It is used sparingly on Home, while the network mark is used as the favicon.
 
 The portrait scan of the personal group directory found reliable portrait references for Alexander Heinlein, Amirreza (Pouyan) Sadat Madani, Arturo De Marinis, Corné Verburg, Filipe Antônio Cumaru Silva Alves, Giacomo Bottacini, Ksenia Slepova, Sahir Sujahudeen, Shreyas Prashanth, and Yuhuang Meng. Shivang Sachar's listed EPFL image URL is time-limited and was already expired, so it is intentionally not used.
+
+
+## Information architecture
+
+The primary navigation is intentionally concise: **Group, Research, Publications, Talks, Teaching, and Opportunities**. Projects and Software are secondary research destinations linked from Research. Teaching has its own section because courses, thesis supervision, and student learning are central group activities. Positions, visits, internships, collaboration, and contact guidance are grouped under Opportunities. News remains surfaced from Home with a link to the complete News page.

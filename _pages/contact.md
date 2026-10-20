@@ -3,8 +3,7 @@ layout: page
 title: contact
 permalink: /contact/
 description: Connect with the SCaLA research group at TU Delft.
-nav: true
-nav_order: 6
+nav: false
 ---
 
 ## Start a conversation

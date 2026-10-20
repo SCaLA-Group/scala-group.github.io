@@ -1,28 +1,26 @@
 ---
 layout: page
-title: teaching & opportunities
+title: teaching
 permalink: /teaching/
-description: Thesis projects, courses, research visits, and collaboration.
+description: Courses, thesis supervision, and learning through research.
 nav: true
 nav_order: 5
 ---
 
-## Learn through research
-
-Students are part of our research community. We welcome interest in bachelor’s and master’s thesis projects, internships, and research collaborations at the intersection of numerical analysis, scientific computing, and machine learning.
-
-Potential directions include domain decomposition and scalable solvers, scientific machine learning, multiphysics simulation, and research software. A suitable project depends on your background, interests, and the supervision available.
-
-## Thesis projects and internships
-
-Explore [master’s thesis projects](https://searhein.github.io/master_thesis_projects/), [bachelor’s thesis projects](https://searhein.github.io/bachelor_thesis_projects/), and [internships](https://searhein.github.io/internships/). Contact us to discuss which topics are currently available.
+Teaching is an important part of SCaLA. We connect mathematical foundations, numerical methods, scientific computing, and machine learning with hands-on computational work and research.
 
 ## Courses
 
-See the [course overview](https://searhein.github.io/courses/) for teaching information and links to course material.
+See the [course overview](https://searhein.github.io/courses/) for current teaching information, course descriptions, and links to material.
 
-## Research positions and visits
+## Thesis supervision
 
-For advertised opportunities, consult [TU Delft’s vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and [research opportunities](https://searhein.github.io/open_positions/). If you are interested in a research visit or a collaboration, please get in touch with your interests and possible dates.
+Bachelor's and master's students can work on research topics connected to SCaLA, including scalable solvers, scientific machine learning, multiphysics simulation, and research software.
 
-[Contact SCaLA]({{ '/contact/' | relative_url }})
+Explore [master's thesis projects](https://searhein.github.io/master_thesis_projects/) and [bachelor's thesis projects](https://searhein.github.io/bachelor_thesis_projects/).
+
+## Internships and research projects
+
+We also supervise internships and research-oriented student projects when suitable topics and supervision are available.
+
+[Internship information](https://searhein.github.io/internships/) · [Opportunities]({{ '/opportunities/' | relative_url }})

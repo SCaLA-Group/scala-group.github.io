@@ -10,6 +10,8 @@ nav_order: 2
 
 We develop algorithms that connect mathematical foundations with efficient computation. Our research themes overlap: ideas from domain decomposition inform learning algorithms, and demanding applications help shape new numerical methods.
 
+[Research projects]({{ '/projects/' | relative_url }}) · [Research software]({{ '/software/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [Talks]({{ '/talks/' | relative_url }})
+
 ## Scalable solvers
 
 We study domain decomposition and multilevel methods for linear and nonlinear systems arising from partial differential equations. Our interests include robust and adaptive coarse spaces, preconditioning, and algorithms that make effective use of parallel computing architectures.
@@ -26,4 +28,4 @@ We develop discretisations, coupling algorithms, and solvers for problems involv
 
 Implementation is part of the research: we connect theory and algorithms with reusable software and computational experiments. Our software work includes contributions to **[Trilinos](https://trilinos.github.io/)** and **[FROSch](https://shylu-frosch.github.io/)**, the Fast and Robust Overlapping Schwarz framework within Trilinos.
 
-[Research projects]({{ '/projects/' | relative_url }}) · [Software]({{ '/software/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }})
+[Research projects]({{ '/projects/' | relative_url }}) · [Research software]({{ '/software/' | relative_url }})
