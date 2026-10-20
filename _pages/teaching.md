@@ -15,7 +15,7 @@ Potential directions include domain decomposition and scalable solvers, scientif
 
 ## Thesis projects and internships
 
-The existing [master’s thesis listings](https://searhein.github.io/master_thesis_projects/), [bachelor’s thesis listings](https://searhein.github.io/bachelor_thesis_projects/), and [internship information](https://searhein.github.io/internships/) provide a starting point. Contact us to discuss which topics are currently available.
+Explore [master’s thesis projects](https://searhein.github.io/master_thesis_projects/), [bachelor’s thesis projects](https://searhein.github.io/bachelor_thesis_projects/), and [internships](https://searhein.github.io/internships/). Contact us to discuss which topics are currently available.
 
 ## Courses
 
@@ -23,6 +23,6 @@ See the [course overview](https://searhein.github.io/courses/) for teaching info
 
 ## Research positions and visits
 
-For advertised opportunities, consult [TU Delft’s vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and the [existing positions page](https://searhein.github.io/open_positions/). If you are interested in a research visit or a collaboration, please get in touch with your interests and possible dates.
+For advertised opportunities, consult [TU Delft’s vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and [research opportunities](https://searhein.github.io/open_positions/). If you are interested in a research visit or a collaboration, please get in touch with your interests and possible dates.
 
 [Contact SCaLA]({{ '/contact/' | relative_url }})

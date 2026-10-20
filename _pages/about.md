@@ -15,7 +15,7 @@ latest_posts:
 
 <div class="scala-intro">
 <p class="scala-eyebrow">SCIENTIFIC COMPUTING × MACHINE LEARNING</p>
-<h2>Scalable methods.<br>Shared discovery.</h2>
+<h2>Scalable scientific computing and machine learning</h2>
 <p class="scala-lead">We are SCaLA, a research group at TU Delft working at the intersection of scientific computing and machine learning. Together, we develop scalable computational methods through mathematical analysis, algorithm design, and collaborative applications.</p>
 <p>Our work connects numerical analysis, high-performance computing, and scientific machine learning—from robust solvers for partial differential equations to learning algorithms for complex scientific problems.</p>
 <div class="scala-actions"><a class="scala-button" href="{{ '/research/' | relative_url }}">Explore our research</a><a class="scala-button scala-button-secondary" href="{{ '/group/' | relative_url }}">Meet the group</a></div>
@@ -30,8 +30,8 @@ latest_posts:
 <aside class="scala-card" aria-labelledby="home-linkedin">
 <span class="scala-eyebrow">FROM OUR NETWORK</span>
 <h2 id="home-linkedin">On LinkedIn</h2>
-<p>Research updates, discussions, and connections from Alexander Heinlein’s LinkedIn profile.</p>
-<a href="https://www.linkedin.com/in/alexander-heinlein-9b569380/recent-activity/all/">Read updates on LinkedIn ↗</a>
+<p>Research news and perspectives from our network.</p>
+<a href="https://www.linkedin.com/in/alexander-heinlein-9b569380/recent-activity/all/">Alexander Heinlein on LinkedIn ↗</a>
 </aside>
 </div>
 
@@ -54,6 +54,6 @@ latest_posts:
 
 <section class="scala-join" aria-labelledby="home-join">
 <h2 id="home-join">Join us</h2>
-<p>Explore thesis projects, research visits, and collaboration opportunities. See our opportunities page for links to advertised research positions and current student projects.</p>
+<p>We welcome enquiries about research positions, thesis projects, visits, and collaboration.</p>
 <a class="scala-button" href="{{ '/opportunities/' | relative_url }}">Explore opportunities →</a>
 </section>

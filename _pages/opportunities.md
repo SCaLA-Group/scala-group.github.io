@@ -8,7 +8,7 @@ description: Research positions, thesis projects, and visits.
 
 ## Research positions
 
-For current advertised PhD and postdoctoral openings, consult [TU Delft’s vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and the [group’s existing positions page](https://searhein.github.io/open_positions/). Vacancy information and deadlines are maintained at those destinations.
+Explore [PhD and postdoctoral vacancies at TU Delft](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and [research opportunities](https://searhein.github.io/open_positions/).
 
 ## Student projects
 
