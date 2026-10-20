@@ -39,14 +39,14 @@ latest_posts:
 <section aria-labelledby="home-publications">
 <h2 id="home-publications">Recent publications</h2>
 {% for item in site.data.homepage.publications limit:2 %}
-<article class="scala-work-item"><p class="scala-eyebrow">{{ item.month }} {{ item.year }}</p><h3><a href="{{ '/publications/' | relative_url }}#{{ item.key }}">{{ item.title }}</a></h3><p>{{ item.authors }}</p></article>
+<article class="scala-work-item"><p class="scala-eyebrow">{{ item.month }} {{ item.year }}</p><h3><a href="{{ '/publications/' | relative_url }}#{{ item.title | uri_escape }}">{{ item.title }}</a></h3><p>{{ item.authors }}</p></article>
 {% endfor %}
 <a href="{{ '/publications/' | relative_url }}">All publications →</a>
 </section>
 <section aria-labelledby="home-talks">
 <h2 id="home-talks">Recent &amp; upcoming talks</h2>
 {% for item in site.data.homepage.talks limit:2 %}
-<article class="scala-work-item"><p class="scala-eyebrow">{{ item.year }}</p><h3><a href="{{ '/talks/' | relative_url }}#{{ item.key }}">{{ item.title }}</a></h3><p>{{ item.authors }}</p><p class="scala-detail">{{ item.detail }}</p></article>
+<article class="scala-work-item"><p class="scala-eyebrow">{{ item.year }}</p><h3><a href="{{ '/talks/' | relative_url }}#{{ item.title | uri_escape }}">{{ item.title }}</a></h3><p>{{ item.authors }}</p><p class="scala-detail">{{ item.detail }}</p></article>
 {% endfor %}
 <a href="{{ '/talks/' | relative_url }}">All talks →</a>
 </section>
