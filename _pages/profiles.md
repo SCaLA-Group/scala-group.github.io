@@ -21,12 +21,16 @@ Members are listed alphabetically within each section. Affiliated researchers an
 <div class="scala-grid scala-people">
 {% for member in members %}
 <article class="scala-card">
+{% if member.photo %}
+<img class="scala-portrait scala-portrait-card" src="{{ member.photo }}" alt="{{ member.name }}" width="96" height="96" loading="lazy">
+{% else %}
 <div class="scala-avatar" aria-hidden="true">{{ member.initials }}</div>
-<h3>{{ member.name }}</h3>
+{% endif %}
+<h3><a href="{{ member.profile_url | relative_url }}">{{ member.name }}</a></h3>
 <p class="scala-role">{{ member.role }}</p>
 <p>{{ member.university }}</p>
 {% if member.note %}<p class="scala-detail">{{ member.note }}</p>{% endif %}
-{% if member.website %}<a href="{{ member.website }}">Profile</a>{% endif %}
+<a href="{{ member.profile_url | relative_url }}">View profile</a>{% if member.website %}<a href="{{ member.website }}">External profile</a>{% endif %}
 {% if member.email %}<a href="mailto:{{ member.email }}">Email</a>{% endif %}
 </article>
 {% endfor %}

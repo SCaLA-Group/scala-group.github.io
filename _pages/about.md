@@ -14,6 +14,7 @@ latest_posts:
 ---
 
 <div class="scala-intro">
+<a class="scala-home-brand" href="{{ '/' | relative_url }}" aria-label="SCaLA home"><img class="scala-home-logo" src="{{ '/assets/img/scala-logo.svg' | relative_url }}" alt="SCaLA — Scalable Scientific and Learning Algorithms"></a>
 <p class="scala-eyebrow">SCIENTIFIC COMPUTING × MACHINE LEARNING</p>
 <h2>Scalable scientific computing and machine learning</h2>
 <p class="scala-lead">We are SCaLA, a research group at TU Delft working at the intersection of scientific computing and machine learning. Together, we develop scalable computational methods through mathematical analysis, algorithm design, and collaborative applications.</p>

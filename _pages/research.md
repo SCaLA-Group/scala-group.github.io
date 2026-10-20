@@ -24,6 +24,6 @@ We develop discretisations, coupling algorithms, and solvers for problems involv
 
 ## From methods to shared tools
 
-Implementation is part of the research: we connect theory and algorithms with reusable software and computational experiments.
+Implementation is part of the research: we connect theory and algorithms with reusable software and computational experiments. Our software work includes contributions to **[Trilinos](https://trilinos.github.io/)** and **[FROSch](https://shylu-frosch.github.io/)**, the Fast and Robust Overlapping Schwarz framework within Trilinos.
 
 [Research projects]({{ '/projects/' | relative_url }}) · [Software]({{ '/software/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }})

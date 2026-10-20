@@ -48,10 +48,10 @@ html[data-theme="dark"] {
   --global-hover-text-color: #000000;
 }
 #navbar {
-  border-top: 4px solid var(--scala-cyan);
+  border-top: 4px solid var(--scala-blue);
 }
 .scala-intro {
-  border-left: 5px solid var(--scala-cyan);
+  border-left: 5px solid var(--scala-blue);
   padding: 0.5rem 0 1rem 1.5rem;
   margin: 1rem 0 3rem;
 }
@@ -79,10 +79,10 @@ html[data-theme="dark"] {
   margin-top: 1.5rem;
 }
 a.scala-button {
-  background: var(--scala-navy);
+  background: var(--scala-blue-dark);
   color: #fff;
   padding: 0.7rem 1rem;
-  border: 2px solid var(--scala-cyan);
+  border: 2px solid var(--scala-blue);
   border-radius: 0.3rem;
   text-decoration: none;
   font-weight: 600;
@@ -92,7 +92,7 @@ a.scala-button-secondary {
   color: var(--global-text-color);
 }
 a.scala-button:hover {
-  background: var(--scala-cyan);
+  background: var(--scala-blue);
   color: #000;
 }
 .scala-grid {
@@ -103,7 +103,7 @@ a.scala-button:hover {
 }
 .scala-card {
   border: 1px solid var(--global-divider-color);
-  border-top: 3px solid var(--scala-cyan);
+  border-top: 3px solid var(--scala-blue);
   background: var(--global-card-bg-color);
   padding: 1.4rem;
   border-radius: 0.3rem;
@@ -134,9 +134,9 @@ a.scala-card:hover {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: var(--scala-navy);
+  background: var(--scala-blue-dark);
   color: #fff;
-  border: 2px solid var(--scala-cyan);
+  border: 2px solid var(--scala-blue);
   font-weight: 700;
 }
 .scala-role {
@@ -150,7 +150,7 @@ a.scala-card:hover {
   padding: 1.25rem;
 }
 :focus-visible {
-  outline: 3px solid var(--scala-cyan);
+  outline: 3px solid var(--scala-blue);
   outline-offset: 3px;
 }
 
@@ -178,11 +178,33 @@ a.scala-card:hover {
   margin: 0.4rem 0;
 }
 .scala-join {
-  border-top: 4px solid var(--scala-cyan);
+  border-top: 4px solid var(--scala-blue);
   padding: 1.5rem 0 2rem;
   margin-top: 2.5rem;
 }
 .scala-join p {
   max-width: 48rem;
   margin-bottom: 1.5rem;
+}
+
+.scala-home-brand { display: inline-block; margin-bottom: 0.8rem; }
+.scala-home-logo { display: block; width: min(220px, 60vw); height: auto; }
+.scala-portrait {
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 0.3rem;
+  border: 1px solid var(--global-divider-color);
+}
+.scala-portrait-card { width: 96px; height: 96px; }
+.scala-portrait-profile { width: 200px; height: 200px; max-width: 100%; margin-bottom: 1.5rem; }
+.scala-people .scala-avatar { width: 96px; height: 96px; border-radius: 0.3rem; font-size: 1.5rem; }
+.scala-avatar-profile {
+  width: 200px;
+  height: 200px;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 0.3rem;
+  font-size: 2rem;
 }
