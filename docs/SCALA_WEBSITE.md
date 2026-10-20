@@ -26,3 +26,5 @@ The primary navigation is intentionally concise: **Group, Research, Publications
 ## Branding update
 
 The website uses the exact SCaLA vector geometry converted from the supplied rendered logo PDF. The logo is recoloured to the TU Delft palette: cyan `#00A6D6` for the primary mark and dark blue `#0C2340` for the contour. Royal blue `#0076C2` remains the accessible link/theme colour. The favicon is a crop of the same exact vector network mark.
+
+The inner-page header uses the native al-folio header with only its text brand replaced by the SCaLA SVG; the homepage retains its existing hero branding. Navigation, mobile controls, search, and theme switching remain upstream. The new personal portrait is pending an owner-supplied file or URL.

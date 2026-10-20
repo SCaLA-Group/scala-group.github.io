@@ -208,3 +208,11 @@ a.scala-card:hover {
   border-radius: 0.3rem;
   font-size: 2rem;
 }
+
+/* Compact wordmark on inner-page navigation; Home keeps its existing hero logo. */
+#navbar .scala-site-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  max-height: 44px;
+}
