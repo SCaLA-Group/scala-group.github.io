@@ -54,7 +54,10 @@ latest_posts:
 </div>
 
 <section class="scala-join" aria-labelledby="home-join">
-<h2 id="home-join">Join us</h2>
-<p>We welcome enquiries about research positions, thesis projects, visits, and collaboration.</p>
-<a class="scala-button" href="{{ '/opportunities/' | relative_url }}">Explore opportunities →</a>
+<h2 id="home-join">Opportunities</h2>
+<p>We welcome enquiries about research positions, thesis projects, internships, visits, and collaboration.</p>
+<div class="scala-actions">
+<a class="scala-button" href="{{ '/opportunities/' | relative_url }}">Research opportunities →</a>
+<a class="scala-button scala-button-secondary" href="{{ '/teaching/' | relative_url }}">Teaching &amp; thesis projects →</a>
+</div>
 </section>

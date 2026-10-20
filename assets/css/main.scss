@@ -37,21 +37,21 @@
 :root {
   --scala-cyan: #00a6d6;
   --scala-blue: #0076c2;
-  --scala-navy: #0c2340;
+  --scala-dark-blue: #0c2340;
   --global-theme-color: #0076c2;
   --global-hover-color: #0c2340;
   --global-hover-text-color: #ffffff;
 }
 html[data-theme="dark"] {
   --global-theme-color: #00a6d6;
-  --global-hover-color: #00b8c8;
+  --global-hover-color: #00a6d6;
   --global-hover-text-color: #000000;
 }
 #navbar {
-  border-top: 4px solid var(--scala-blue);
+  border-top: 4px solid var(--scala-cyan);
 }
 .scala-intro {
-  border-left: 5px solid var(--scala-blue);
+  border-left: 5px solid var(--scala-cyan);
   padding: 0.5rem 0 1rem 1.5rem;
   margin: 1rem 0 3rem;
 }
@@ -79,10 +79,10 @@ html[data-theme="dark"] {
   margin-top: 1.5rem;
 }
 a.scala-button {
-  background: var(--scala-blue-dark);
+  background: var(--scala-dark-blue);
   color: #fff;
   padding: 0.7rem 1rem;
-  border: 2px solid var(--scala-blue);
+  border: 2px solid var(--scala-cyan);
   border-radius: 0.3rem;
   text-decoration: none;
   font-weight: 600;
@@ -92,7 +92,7 @@ a.scala-button-secondary {
   color: var(--global-text-color);
 }
 a.scala-button:hover {
-  background: var(--scala-blue);
+  background: var(--scala-cyan);
   color: #000;
 }
 .scala-grid {
@@ -103,7 +103,7 @@ a.scala-button:hover {
 }
 .scala-card {
   border: 1px solid var(--global-divider-color);
-  border-top: 3px solid var(--scala-blue);
+  border-top: 3px solid var(--scala-cyan);
   background: var(--global-card-bg-color);
   padding: 1.4rem;
   border-radius: 0.3rem;
@@ -134,9 +134,9 @@ a.scala-card:hover {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  background: var(--scala-blue-dark);
+  background: var(--scala-dark-blue);
   color: #fff;
-  border: 2px solid var(--scala-blue);
+  border: 2px solid var(--scala-cyan);
   font-weight: 700;
 }
 .scala-role {
@@ -150,7 +150,7 @@ a.scala-card:hover {
   padding: 1.25rem;
 }
 :focus-visible {
-  outline: 3px solid var(--scala-blue);
+  outline: 3px solid var(--scala-cyan);
   outline-offset: 3px;
 }
 
@@ -178,7 +178,7 @@ a.scala-card:hover {
   margin: 0.4rem 0;
 }
 .scala-join {
-  border-top: 4px solid var(--scala-blue);
+  border-top: 4px solid var(--scala-cyan);
   padding: 1.5rem 0 2rem;
   margin-top: 2.5rem;
 }

@@ -21,3 +21,8 @@ The portrait scan of the personal group directory found reliable portrait refere
 ## Information architecture
 
 The primary navigation is intentionally concise: **Group, Research, Publications, Talks, Teaching, and Opportunities**. Projects and Software are secondary research destinations linked from Research. Teaching has its own section because courses, thesis supervision, and student learning are central group activities. Positions, visits, internships, collaboration, and contact guidance are grouped under Opportunities. News remains surfaced from Home with a link to the complete News page.
+
+
+## Branding update
+
+The website uses the exact SCaLA vector geometry converted from the supplied rendered logo PDF. The logo is recoloured to the TU Delft palette: cyan `#00A6D6` for the primary mark and dark blue `#0C2340` for the contour. Royal blue `#0076C2` remains the accessible link/theme colour. The favicon is a crop of the same exact vector network mark.
