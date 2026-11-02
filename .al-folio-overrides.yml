@@ -76,7 +76,7 @@ overrides:
     gem_version: 1.0.15
     upstream_path: assets/css/main.scss
     upstream_sha256: 437c6c911c596391413e435dc0ea7095e682e85c572c1fd3fff69f9597455b3e
-    local_sha256: 53ab3d34ba91f27b8a38eb6646c01a8386bb50bb82acc9fe19152e0fd12006da
+    local_sha256: a0fb1fa110a1f532cabed594e66039bebd0d547ebcb6b26cda1a0f77937ffee6
     acknowledged_at: "2026-11-02"
   assets/js/bibsearch.js:
     owner: al_folio_core

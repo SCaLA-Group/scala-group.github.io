@@ -11,7 +11,8 @@ description: Research positions, visits, internships, and collaboration.
   <div class="scala-opportunities-grid">
     <section aria-labelledby="student-opportunities">
       <h2 id="student-opportunities">Theses &amp; internships</h2>
-      <p>Explore student projects connecting numerical methods, scientific machine learning and applications. Contact us to discuss your interests and confirm availability.</p>
+      <p>Explore student projects connecting numerical methods, scientific machine learning and applications.</p>
+      <p>Contact us to discuss your interests and confirm availability.</p>
       <ul class="scala-opportunity-links">
         <li><a href="{{ '/teaching/master-thesis-projects/' | relative_url }}">Master’s theses</a></li>
         <li><a href="{{ '/teaching/bachelor-thesis-projects/' | relative_url }}">Bachelor’s theses</a></li>
@@ -22,7 +23,8 @@ description: Research positions, visits, internships, and collaboration.
 
     <section aria-labelledby="research-positions">
       <h2 id="research-positions">PhD &amp; postdoctoral research</h2>
-      <p>Interested in developing scalable algorithms for scientific computing and machine learning? Explore advertised positions through TU Delft, or get in touch about research in SCaLA.</p>
+      <p>Interested in developing scalable algorithms for scientific computing and machine learning?</p>
+      <p>Explore advertised positions through TU Delft, or get in touch about research in SCaLA.</p>
       <ul class="scala-opportunity-links">
         <li><a href="https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft">TU Delft vacancies</a></li>
         <li><a href="{{ '/research/' | relative_url }}">Our research</a></li>
@@ -32,6 +34,7 @@ description: Research positions, visits, internships, and collaboration.
     <section aria-labelledby="visits-and-collaboration">
       <h2 id="visits-and-collaboration">Visits &amp; collaboration</h2>
       <p>We welcome enquiries about research visits and collaborations across numerical analysis, scientific computing, high-performance computing and machine learning.</p>
+      <p>Contact us to discuss a visit or a joint research project.</p>
       <ul class="scala-opportunity-links">
         <li><a href="{{ '/projects/' | relative_url }}">Collaborative projects</a></li>
         <li><a href="{{ '/group/' | relative_url }}">Meet the group</a></li>
