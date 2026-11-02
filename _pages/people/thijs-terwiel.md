@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thijs Terwiel
-description: Master’s thesis · completed or finishing
+description: Master’s thesis · defense scheduled 3 November 2026
 permalink: /people/thijs-terwiel/
 nav: false
 member_id: thijs-terwiel

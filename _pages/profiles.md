@@ -1,28 +1,19 @@
 ---
 layout: page
-title: group
+title: Group
 permalink: /group/
-description: The researchers, students, and visitors who make up SCaLA.
 nav: true
 nav_order: 1
 ---
 
 {% assign groups = 'faculty|postdoctoral researchers|phd candidates|master students|bachelor students|internship students|visitors|alumni' | split: '|' %}
-<nav class="scala-section-nav scala-group-nav" aria-label="Group sections" data-page-sections>
-{% for group in groups %}
-{% assign members = site.data.people | where: 'category', group %}
-{% if members.size > 0 %}
-<a href="#{{ group | slugify }}">{% case group %}{% when 'postdoctoral researchers' %}Postdocs{% when 'phd candidates' %}PhD candidates{% when 'master students' %}Master’s students{% when 'bachelor students' %}Bachelor’s students{% else %}{{ group | capitalize }}{% endcase %}</a>
-{% endif %}
-{% endfor %}
-</nav>
 
 <div class="scala-member-groups">
 {% for group in groups %}
 {% assign members = site.data.people | where: 'category', group %}
 {% if members.size > 0 %}
 <section class="scala-member-group" aria-labelledby="{{ group | slugify }}">
-<h2 id="{{ group | slugify }}">{% if group == 'phd candidates' %}PhD candidates{% else %}{{ group | capitalize }}{% endif %}</h2>
+<h2 id="{{ group | slugify }}">{% case group %}{% when 'phd candidates' %}PhD candidates{% when 'master students' %}Master’s students{% when 'bachelor students' %}Bachelor’s students{% else %}{{ group | capitalize }}{% endcase %}</h2>
 <div class="scala-grid {% if group == 'alumni' %}scala-archive-grid{% else %}scala-people{% endif %}">
 {% for member in members %}
 {% assign member_project = site.data.member_projects[member.id] %}

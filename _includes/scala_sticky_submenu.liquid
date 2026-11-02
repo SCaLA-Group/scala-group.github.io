@@ -1,0 +1,38 @@
+<div class="scala-sticky-submenu">
+  <div class="container scala-submenu-inner">
+    {% if page.bibliography_page %}
+      <nav class="scala-section-nav scala-year-nav" aria-label="{{ page.title | capitalize }} years" data-bibliography-year-nav>
+        <a href="#bibliography-list">Browse by year</a>
+      </nav>
+    {% elsif scala_section_id == 'group' %}
+      {% include scala_group_navigation.liquid %}
+    {% elsif scala_section.items.size > 0 %}
+      {% include scala_section_navigation.liquid %}
+    {% elsif page.url == '/opportunities/' or page.url == '/contact/' %}
+      <nav class="scala-section-nav" aria-label="Opportunities and contact">
+        <a
+          href="{{ '/opportunities/' | relative_url }}"
+          {% if page.url == '/opportunities/' %}
+            aria-current="page"
+          {% endif %}
+          >Opportunities</a
+        >
+        <a
+          href="{{ '/contact/' | relative_url }}"
+          {% if page.url == '/contact/' %}
+            aria-current="page"
+          {% endif %}
+          >Contact</a
+        >
+        <a href="{{ '/teaching/master-thesis-projects/' | relative_url }}">Student projects</a>
+      </nav>
+    {% else %}
+      <nav class="scala-section-nav" aria-label="Explore SCaLA">
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/software/' | relative_url }}">Software</a>
+        <a href="{{ '/news/' | relative_url }}">News</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
+    {% endif %}
+  </div>
+</div>

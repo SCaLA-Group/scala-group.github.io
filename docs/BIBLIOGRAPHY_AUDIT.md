@@ -1,5 +1,7 @@
 # Bibliography and homepage highlights audit, 25 October 2026
 
+For the subsequent publisher-metadata checks and corrections, see the [2 November content audit](CONTENT_AUDIT_2026-11-02.md).
+
 Checked all 98 bibliography records for citation-key uniqueness, status consistency, duplicate DOI/preprint links, and missing dates. Source checks below address the identified discrepancies; this was not a publisher-by-publisher verification of all records.
 
 ## Homepage selection
@@ -21,6 +23,6 @@ The two chapters with DOI prefix `10.1007/978-3-319-93873-8` have a 2018 print y
 
 ## Validation and remaining unknown date
 
-After correction: 98 unique citation keys, 75 published, 11 accepted, and 12 submitted records; no duplicate non-empty DOI or preprint URLs. All records have exactly one status keyword. `Dolean:Submitted:DPINN` has no year and remains under **Undated** rather than receiving an inferred date. Many older entries have no month; no month was inferred from citation keys or preprint identifiers.
+After correction: 98 unique citation keys, 75 published, 11 accepted, and 12 submitted records; no duplicate non-empty DOI or preprint URLs. All records have exactly one status keyword. At the time of this audit, `Dolean:Submitted:DPINN` had no year and appeared under **Undated**. On 2 November 2026, the author supplied 2025 as its year; the record now uses that date. Many older entries have no month; no month was inferred from citation keys or preprint identifiers.
 
 Run `bundle exec ruby test/scala_highlights.rb` for selection regression checks and `bundle exec ruby bin/update-homepage.rb --check` to detect stale generated highlights.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: home
+title: Home
 permalink: /
 homepage: true
 description: Scalable Scientific and Learning Algorithms at TU Delft. Research in scientific computing, numerical methods and machine learning.
@@ -29,8 +29,10 @@ description: Scalable Scientific and Learning Algorithms at TU Delft. Research i
           <figcaption>
             <h2>{{ item.title }}</h2>
             <p class="scala-gallery-description">{{ item.description }}</p>
-            <a href="{{ item.url | relative_url }}">{{ item.link_label }} <span aria-hidden="true">→</span></a>
+            <div class="scala-gallery-meta">
+            <a class="scala-gallery-action" href="{{ item.url | relative_url }}">{{ item.link_label }} <span aria-hidden="true">→</span></a>
             <p class="scala-gallery-credit"><a href="{% if item.original or item.source_internal %}{{ item.source | relative_url }}{% else %}{{ item.source }}{% endif %}">{{ item.credit }}</a>{% if item.license %} · <a href="{{ item.license_url }}">{{ item.license }}</a>{% endif %}</p>
+            </div>
           </figcaption>
         </figure>
       {% endfor %}

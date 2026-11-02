@@ -1,0 +1,30 @@
+{% assign groups = 'faculty|postdoctoral researchers|phd candidates|master students|bachelor students|internship students|visitors|alumni'
+  | split: '|'
+%}
+<nav
+  class="scala-section-nav scala-group-nav"
+  aria-label="Group sections"
+  {% if page.url == '/group/' %}
+    data-page-sections
+  {% endif %}
+>
+  {% for group in groups %}
+    {% assign members = site.data.people | where: 'category', group %}
+    {% if members.size > 0 %}
+      <a href="{{ "/group/" | relative_url }}#{{ group | slugify }}">
+        {%- case group -%}
+          {%- when 'postdoctoral researchers' -%}
+            Postdocs
+          {%- when 'phd candidates' -%}
+            PhD candidates
+          {%- when 'master students' -%}
+            Master’s
+          {%- when 'bachelor students' -%}
+            Bachelor’s
+          {%- else -%}
+            {{- group | capitalize -}}
+        {%- endcase -%}
+      </a>
+    {% endif %}
+  {% endfor %}
+</nav>

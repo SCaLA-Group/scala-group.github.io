@@ -1,0 +1,33 @@
+- id: scalable-solvers
+  title: Scalable solvers
+  gallery_index: 0
+  summary: We study domain decomposition and multilevel methods for linear and nonlinear systems arising from partial differential equations. Robust coarse spaces, preconditioning and parallel algorithms connect numerical analysis with high-performance computing.
+  links:
+    - label: FROSch
+      url: /software/#frosch
+    - label: Multiscale research
+      url: /people/filipe-antonio-cumaru-silva-alves/#project
+    - label: Collaborative projects
+      url: /projects/#current-projects
+- id: scientific-machine-learning
+  title: Scientific machine learning
+  gallery_index: 6
+  summary: We combine mathematical structure and physical knowledge with machine learning. Our work includes neural approaches to differential equations, hybrid iterative solvers, scalable optimisation, graph learning and surrogate models.
+  links:
+    - label: Hybrid iterative solvers
+      url: /publications/#Meng:2026:OML
+    - label: Domain-decomposed learning
+      url: /publications/#Howard:2025:FBK
+    - label: Research spotlight
+      url: /blog/2026/learning-to-solve-equations/
+- id: multiphysics-and-multiscale-models
+  title: Multiphysics and multiscale models
+  gallery_index: 2
+  summary: We develop discretisations, coupling algorithms and solvers for interacting physical processes and multiple scales. Applications range from cardiovascular simulation and heterogeneous materials to offshore energy and life sciences.
+  links:
+    - label: Offshore wind
+      url: /projects/rapid-wind/
+    - label: Biofabrication
+      url: /projects/fab4future/
+    - label: Wound care
+      url: /projects/nbs/

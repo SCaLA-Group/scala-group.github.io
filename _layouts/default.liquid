@@ -38,9 +38,12 @@
     <!-- Header -->
     {% include scala_navigation_context.liquid %}
     {% include header.liquid %}
+    {% unless page.homepage %}
+      {% include scala_sticky_submenu.liquid %}
+    {% endunless %}
 
     <!-- Content -->
-    <main id="main-content" class="container mt-5" tabindex="-1">
+    <main id="main-content" class="container {% if page.homepage %}scala-home-main{% else %}scala-inner-page{% endif %}" tabindex="-1">
       {% include scala_navigation.liquid %}
       {% if page.toc and page.toc.sidebar %}
         {% assign toc_collapse = page.toc.collapse | default: 'expanded' %}

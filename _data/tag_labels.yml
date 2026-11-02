@@ -1,0 +1,14 @@
+# Human-readable labels; tag keys and archive URLs remain stable.
+ems: EMS
+tutorial: Tutorial
+trilinos: Trilinos
+4tu: 4TU
+docker: Docker
+community: Community
+numerical-solvers: Numerical solvers
+frosch: FROSch
+tudelft: TU Delft
+scientific-machine-learning: Scientific machine learning
+sciml: SciML
+domain-decomposition: Domain decomposition
+gamm: GAMM

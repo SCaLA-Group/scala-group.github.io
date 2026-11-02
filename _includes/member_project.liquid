@@ -12,7 +12,9 @@
   {% else %}
     <p>Project description to be added.</p>
   {% endif %}
-  {% if member_project.collaboration %}
+  {% if teaching_project %}
+    {% include teaching_project_context.liquid project=teaching_project %}
+  {% elsif member_project.collaboration %}
     <p><strong>Collaboration:</strong> {{ member_project.collaboration | escape }}</p>
   {% endif %}
   {% if member_project.co_supervisors %}

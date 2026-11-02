@@ -50,3 +50,21 @@ Removed the two internship project records for Maaike Bukman and Femke Brouwer a
 ## Official course descriptions
 
 25 TU Delft course offerings now link to their matching official Study Guide description: eight current course pages and 17 archived descriptions with page anchors into the correct academic year's PDF. Local course-material links are preserved separately. Verification details and the unmatched contributions are recorded in [STUDYGUIDE_LINKS.md](STUDYGUIDE_LINKS.md).
+
+## Compact catalogue cards, 2 November 2026
+
+Teaching listings use smaller headings, padding and paragraph gaps. Active project cards show a linked title, student/institution metadata, collaboration where applicable and a direct PDF link when supplied. Full supervision and co-supervision information remains on each linked detail page. Repeated “Project details” links are omitted because the title already provides that route. Wide screens fit three active cards per row; narrower screens wrap to two or one. Open, ongoing and archived sections remain separate, with archived cards more compact still. General non-profile cards also have reduced default padding and heading size; member portrait dimensions retain their existing overrides.
+
+## Archive presentation, 2 November 2026
+
+Course years use native disclosures with counts, with only the newest year open initially. Short courses/tutorials and completed/finishing student projects start collapsed. Ongoing projects remain visible. Catalogue fragment links automatically reveal their containing disclosure, and manual expansion works without JavaScript. Project proposals are labelled “Project ideas” with a brief contact link for confirming availability; source status values remain unchanged. Archived projects have stable `project-<id>` catalogue anchors.
+
+## Project universities and partners, 2 November 2026
+
+Project lists (including compact completed-project cards), project detail pages and linked member project sections now share the same university/partner context. `institution` identifies the main university, matching the original site's `university` field; it does not assert that all work physically took place there. `collaboration` lists project partners or collaborating departments. `collaboration_type: industry` labels company collaborations explicitly; other partners retain the neutral “Collaboration” label. A co-supervisor's employer alone is not used to invent a formal partnership.
+
+All migrated project university and collaboration fields were compared with the local source files for searhein.github.io. The public [master's](https://searhein.github.io/master_thesis_projects/) and [bachelor's](https://searhein.github.io/bachelor_thesis_projects/) listings were also checked. External main universities are TU Braunschweig, Università della Svizzera italiana and the University of Stuttgart. TU Berlin remains a collaboration partner for Ezra's TU Delft project, consistent with the original project record; this does not resolve the separate question of his personal affiliation.
+
+The shared context is rendered by `_includes/teaching_project_context.liquid`. Update `_data/teaching.yml` to change it everywhere, including the member profile. Research projects without a linked teaching record retain their existing member-project collaboration fields.
+
+Validation: all 67 project cards display the expected main university and, where supplied, collaboration/industry partner. Representative external-university, industry and member-profile detail pages were checked. No horizontal overflow at 320, 390 or 1440 pixels; teaching regression checks, both builds and override audit passed.

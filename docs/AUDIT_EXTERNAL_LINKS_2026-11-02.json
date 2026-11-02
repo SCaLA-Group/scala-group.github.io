@@ -1,0 +1,3034 @@
+{
+  "checked_date": "2026-11-02",
+  "method": "Public HTTP HEAD with redirects, GET retry for 404/410; Study Guide pages additionally rendered in Chromium. Responses with nonzero curl exit or non-2xx/3xx are inconclusive unless independently resolved.",
+  "initial_checks": [
+    {
+      "url": "http://congress.cimne.com/eccm_ecfd2018/frontal/introduction.asp",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://kups.ub.uni-koeln.de/id/eprint/20708",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://kups.ub.uni-koeln.de/id/eprint/55586",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://kups.ub.uni-koeln.de/id/eprint/64227",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://people.brunel.ac.uk/%C2%A0icsrsss/bicom/mafelap/",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:25663ba2-3cdb-4581-be68-d4fd0a7a4dca",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:31084250-25ee-4901-a3f0-258a6436be29",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:32f4b716-6f83-4a95-b8b5-c3d35a32349f",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:45bffaf0-5ae0-48a2-9fe7-5ebfe2594cb5",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:b3343bea-1270-4280-8192-7f08d162fbb0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://ta.twi.tudelft.nl/users/vuik/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2015-03_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2015-15_fertig_0.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-03_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-04_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-09_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://www.ddm.org/dd24/home.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://www.sciencedirect.com/science/article/pii/S0377042715001405",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "http://www.tudelft.nl/en/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "http://www.victoritadolean.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://aimath.nl/index.php/2025/08/27/5th-aim-workshop/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09394",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.02081",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2207.05559",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2211.05560",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.06671",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.04876",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.11913",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.05486",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.02972",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2308.02137",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.06717",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.12659",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.07888",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.19662",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.21266",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.03571",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.08187",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2408.12198",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.01599",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.07723",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.22871",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.06500",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.14555",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.19632",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2412.19207",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.08126",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.09086",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.16179",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.06062",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.27018",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.12726",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.01706",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.01888",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.08709",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.06842",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.19597",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.21910",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.09460",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.22575",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.30788",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.07211",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.16359",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.18920",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/html/2608.09460v1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://arxiv.org/html/2610.16359v1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cage.ugent.be/acomen2025/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cam.fst.um.edu.mo/international-workshop-on-scientific-computing-and-biomedical-engineering",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://cam.fst.um.edu.mo/workshop-on-scientific-computing-and-learning/",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://casa.win.tue.nl/home/event/colloquium-alexander-heinlein-tu-delft",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://casml.iisc.ac.in/",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cds.uni-koeln.de/en/labs/hpc/hpc-seminar-series/talk20230118",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cds.uni-koeln.de/en/workshops/cominds-2023/home",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://cds.uni-koeln.de/en/workshops/international-workshop-on-scientific-machine-learning-2019/home",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://cfc2023.iacm.info/about_cfc_2023",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cmg.cds.iisc.ac.in/igcm/",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://colloquia.gacm.de/organisation",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://conan.iwr.uni-heidelberg.de/events/hasc_workshop2024/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://conference.iisertvm.ac.in/lacam-25/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://conference.math.muni.cz/equadiff15/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://congress.cimne.com/coupled2021",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://dd23.kaist.ac.kr/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://dd28.kaust.edu.sa/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3766906",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3802822",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/cnm.2756",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/gamm.202100001",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/gamm.202370002",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/nme.6258",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201510037",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201710063",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201800312",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900337",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900398",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900401",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202100055",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202200133",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202200241",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-14244-5_10",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-55874-1_52",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-55874-1_53",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-55874-1_58",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-56750-7_18",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-56750-7_19",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-56750-7_20",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-56750-7_24",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-56750-7_30",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-95025-5_32",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-030-95025-5_54",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-031-50769-4_1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-031-50769-4_19",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-032-22221-3_57",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-39929-4_50",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-52389-7_36",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-93873-8_35",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/978-3-319-93873-8_36",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/s00466-023-02321-y",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1007/s44379-026-00068-w",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cam.2015.02.053",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.camwa.2025.07.006",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.clinbiomech.2025.106558",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cma.2024.117116",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cma.2025.118011",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cma.2025.118723",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.ifacol.2025.03.008",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jcp.2023.112347",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1016/j.oceaneng.2023.116059",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-026-39431-5",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1088/2632-2153/ae7495",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1093/imanum/drae076",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1109/ACCESS.2025.3561033",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1109/IPDPS54959.2023.00073",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1109/MCSE.2026.3696587",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/16M1062843",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1184047",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1205364",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1220613",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/19M1276972",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/20M1344913",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/20M1364540",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1395260",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1431205",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1433605",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/23M1618193",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1145/3766906",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1145/3802822",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.14311/app.2022.34.0043",
+      "status": "302",
+      "exit": 28
+    },
+    {
+      "url": "https://doi.org/10.1515/9783111376776-006",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1515/cmam-2022-0168",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1553/etna_vol48s156",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1553/etna_vol53s562",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1553/etna_vol56s1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1553/etna_vol56s235",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1553/etna_vol65s156",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1557/s43580-022-00321-3",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.23967/c.coupled.2023.008",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.23967/eccomas.2022.015",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/https://doi.org/10.1016/j.camwa.2025.08.013",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/https://doi.org/10.1016/j.cma.2025.118723",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/https://doi.org/10.1016/j.jcp.2025.114027",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://drive.google.com/file/d/1J25FL21A89zcWy-ZQF0rssHqJOcTv6LN/view",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_cTipqycwK9YiXP5K7urXcomKVRh8ECJ/view?usp=sharing",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://drive.google.com/file/d/1cugT822xUH6f8ru-olNOKDJ_fzmvy75m/view",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://dte_aicomas_2025.iacm.info/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://eccomas2024.org/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://eesm.science.energy.gov/technical-highlights/mpas-albany-land-ice-mali-variable-resolution-ice-sheet-model-earth-system",
+      "status": "400",
+      "exit": 0
+    },
+    {
+      "url": "https://ems-tag-sciml.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://epub.oeaw.ac.at/?arp=0x0038c0cb",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://epub.oeaw.ac.at/?arp=0x003c1ad0",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://epub.oeaw.ac.at/?arp=0x003cfd4a",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://epub.oeaw.ac.at/?arp=0x003d4c21",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/16M1062843",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1184047",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1205364?journalCode=sjoce3",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1220613",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/19M1276972",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/21M1431205",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/21M1433605",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://esco2026.fel.zcu.cz/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://eurodyn2023.dryfta.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://eurotug.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://fastmath-scidac.llnl.gov/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://feddlib.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2020_2021/EWI/MSc_AM_Master_AM_2020_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2020_2021/LR/BSc_LR_LR_Bachelor_2020_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2021_2022/EWI/BSc_TW_Bachelor_TW_2021_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2021_2022/EWI/MSc_AM_Master_AM_2021_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2022_2023/EWI/BSc_TW_Bachelor_TW_2022_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2022_2023/EWI/MSc_AM_Master_AM_2022_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2023_2024/EWI/BSc_TW_Bachelor_TW_2023_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2023_2024/EWI/MSc_AM_Master_AM_2023_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/CITG/MSc_AES_AES_Master_2024_(New_Master_Programme)_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/BSc_TW_Bachelor_TW_2024_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/MSc_AM_Master_AM_2024_en.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/_processed_/4/8/csm_cumaru_f_de4f165110.webp",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/_processed_/5/6/csm_kkjzs6_4261a99015.webp",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/_processed_/7/3/csm_wl16nq_31763815f4.webp",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/_processed_/d/6/csm_Meng_Yuhuang_f96b1f07ef.webp",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filelist.tudelft.nl/_processed_/e/1/csm_verburg_c_62e9588aa4.jpg",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://filipe-cumaru.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://gciara.wordpress.com/summer-school-on-dd-methods/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://gepris.dfg.de/gepris/projekt/214421492/ergebnisse",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://gepris.dfg.de/institution/163781547",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://gepris.dfg.de/project/465228106",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/CoenVisser",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/FEDDLib/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/Filipe-Cumaru",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/alshedivat/al-folio",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/corne00",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://github.com/searhein",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://grandmaster.colorado.edu/copper/2021/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://grandmaster.colorado.edu/copper/2022/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://hpcse.it4i.cz/HPCSE24/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://i1.rgstatic.net/ii/profile.image/11431282098077104-1777588262089_Q512/Sahir-Sujahudeen.jpg",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://iciam2023.org/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10177474",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/10965628",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://ieeexplore.ieee.org/document/11534640",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://irma.math.unistra.fr/%C2%A0micheldansac/SciML2024/participants.html",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm-ev.de/index.php/2020/2020-annual-meeting",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2015/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2016/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2022/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2025/95th-annual-meeting-2/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2017/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2018/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2019/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/11285/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/29760/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/36257",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/6841",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/8355/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/8645/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/8756/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9015/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9016/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9017/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9018/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9019/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9675/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/9692/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10363",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10439",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10440",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10441",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/12113",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/12159",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/30668",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/52537",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/9670",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/9671",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/9845",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00466-023-02321-y",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s44379-026-00068-w",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007%2F978-3-030-14244-5_10",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007%2F978-3-319-52389-7_36",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007%2F978-3-319-93873-8_36",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56750-7_18",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56750-7_19",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56750-7_20",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56750-7_24",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-56750-7_30",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-95025-5_32",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-95025-5_54",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-50769-4_1",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-50769-4_19",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-39929-4_50",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-319-93873-8_35",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://map.tudelftcampus.nl/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://mare.ewi.tudelft.nl/project/3769",
+      "status": "400",
+      "exit": 0
+    },
+    {
+      "url": "https://mathplus.de/topic-development-lab/tes-summer-2023/workshop-optimization/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://meetings.siam.org/sess/dsp_talk.cfm?p=151655",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://mox.polimi.it/people/people-details/?id_staff=100124",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://ngsolve.org/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://nl.linkedin.com/in/yuhuang-meng-938b002a4",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://numerics.ovgu.de/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://omula.gitlab.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/gamm.202100001",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202100055",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202200133",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202200241",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2756",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/gamm.202370002",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6258",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201510037",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201710063",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201800312",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900337",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900398",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900401",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://openmechanics.fsv.cvut.cz/people/Tomas-Medricky",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://openreview.net/forum?id=ADBBQA7oyU",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0000-0002-5834-3626",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0000-0003-1578-8104",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0001-6343-6990",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0001-6429-1797",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0001-9436-5398",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0003-9516-4226",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0004-4250-1054",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0008-2160-1362",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://orcid.org/0009-0009-8843-202X",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://pasc17.pasc-conference.org/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://pde-levico21.fbk.eu",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://people.utwente.nl/c.brune",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://phd-dads.polimi.it/wp-content/uploads/2025/07/Screenshot-2025-07-01-at-22.57.42-800x800.png",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://project.inria.fr/ariaworkshop2025/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://projectbanana.github.io/lecture/2021/05/19/Trilinos.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://psu.mediaspace.kaltura.com/media/ISCL+Seminar+Series/1_jzthzsww",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A17281ec4-7b2a-4362-b4bc-ec2516e3b01a",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A2874787e-27ac-4c2e-a1d4-d1ddedf3f87f?collection=education",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A52480fee-a585-4bbe-8785-319b94367ca0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid:bfec0be5-11c9-4570-9c93-66952fadd0a0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:013df562-f8a7-44e6-8009-9d711bcbbb41",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:12973191-eb89-4075-ad78-ce1286ee5aad",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:566f2247-3827-4b0c-aed5-bd54ee0259f2",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:e20ef34f-bfb5-4f76-8ac6-14be1ce80e62",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://research.tudelft.nl/en/persons/f195f5d2-38f3-4377-9512-e1343d1dff6a",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://research.tudelft.nl/en/persons/k-kevopoulos/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://research.vumc.nl/en/persons/ibrahim-korkmaz",
+      "status": "000",
+      "exit": 35
+    },
+    {
+      "url": "https://research.vumc.nl/en/persons/paul-van-zuijlen",
+      "status": "000",
+      "exit": 35
+    },
+    {
+      "url": "https://scholar.google.com/citations?user=CaodVroAAAAJ&hl=en",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://scholar.google.com/citations?user=Pb5ZhSIAAAAJ",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=CaodVroAAAAJ&citpid=2",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://scicomp.rptu.de/events/?event_id1=4443",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://searhein.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://searhein.github.io/gamm-cominds-2024/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://shylu-frosch.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://sites.brown.edu/crunch-group/seminars/machine-learning-x-seminars/machine-learning-x-seminars-2022-2/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://sites.google.com/unipv.it/sciml-errorcontrolanalysis/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://sites.google.com/view/iscl-seminar-series/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://sites.google.com/view/network-platform-cs-math/schedule-and-abstracts",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/14607",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/14615",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/18760",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/21901",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/25362",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33286",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33630",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33633",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://t.e7096c671.entry.domains/HtIwcAiXRsOMWdbORTxL5PkdVpQ=/501x726:1211x1436/451x451/filters:strip_exif()/https%3A%2F%2Ffilelist.tudelft.nl%2FLR%2FOrganisatie%2FAfdelingen%2FDepartment_Space_Engineering%2FA_SM%2FImg%2FArturo%2520de%2520Marinis.jpeg%3Fhash%3D774bb26baa",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://trilinos.github.io",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://trilinos.github.io/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://trilinos.github.io/european_trilinos_user_group_meeting_2019.html",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://trilinos.github.io/trilinos_user-developer_group_meeting_2021.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://trilinos.github.io/trilinos_user-developer_group_meeting_2023.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://tsimf.tsinghua.edu.cn/info/1549/1752.htm",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-01.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-02.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-03.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/preprint_2018_04_heinlein_klawonn_rheinbach_roever.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://v1.nitj.ac.in/icrafmn_2026/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://vacancy.sioux.eu/vacancies/vacancy_master_internships_mathware_209348_31.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://vakwerkhuis.com/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.4tu.nl/ami/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.4tu.nl/ami/Agenda-Events/summer-event-2022/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.4tu.nl/ami/Agenda-Events/summer-event-2023/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.4tu.nl/ami/Research/sri-bridgingNAML/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.aanmelder.nl/143287",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.birs.ca/events/2026/5-day-workshops/26w5643",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.cc.ac.cn/article/183/4569.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.computationalsciencenl.nl/en/ducoms-day/",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://www.dd27.cz/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.dd29.polimi.it/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.ddm.org/dd24/proceedings/PDFs/35_rheinbach_mini_14.pdf",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/9783111376776-006/html",
+      "status": "202",
+      "exit": 0
+    },
+    {
+      "url": "https://www.eccomas2022.org/frontal/",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://www.enumath2019.eu/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.hds-lee.de/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.helmholtz-hida.de/en/research/hds-lee-juelich-/-koeln/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.hlrs.de/training/2022/bc-sciml-nv",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.hlrs.de/training/2023/bc-sciml-nv",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.hsu-hh.de/en/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.icms.org.uk/workshops/2022/icmsstrathclyde-solvers-frequency-domain-wave-problems-and-applications",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://www.jku.at/en/faculty-of-engineering-natural-sciences/organization/subject-areas/mathematics/oemg-dmv-2025/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.kaust.edu.sa/html/img25/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/alexander-heinlein-9b569380",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/filipe-ant%C3%B4nio-cumaru-silva-alves-7a19b319a",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/msahirs",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/thai-ha-bui",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.maastrichtuniversity.nl/nl/nieuws/gekweekt-weefsel-voor-duurzaam-vlees-en-een-betere-gezondheid",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.cas.cz/index.php/events/seminar/12",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.cuhk.edu.hk/conference/dd26/?Conference-Home",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.emory.edu/%C2%A0yxi26/Precond24/",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.mun.ca/dd25/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://www.mb.uni-siegen.de/nm/workshops/gamm-cse-2021/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.moodzdelft.nl/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.nature.com/articles/s41598-026-39431-5",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.nhr-verein.de/NHR-Conference",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Alexander_Heinlein/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Tomas-Medricky-2",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Yuhuang-Meng-2",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999123004424",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999125003109",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0029801823024435",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782524003724?via%3Dihub",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S004578252500283X",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782525009958",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0268003325001317",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0898122125002871",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0898122125003396",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405896325002253",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.scipedia.com/public/Frei_et_al_2022a",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.scipedia.com/public/Hainlein_et_al_2021",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.scipedia.com/public/_2023i",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences-events/siam-conferences/cse25/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/cse23",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/mds22",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/pp22",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/pp24",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.spp2311.de/archive/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tu-chemnitz.de/index.html.en",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tu-chemnitz.de/mathematik/wire/cominds/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tu-chemnitz.de/mathematik/wire/prof.php",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/cse/events/dcse-conferences/numerical-analysis-seminars",
+      "status": "404",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/dhpc",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/ellis-delft-unit/people",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/en/eemcs/the-faculty/departments/applied-mathematics",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/en/events/2026/delft-ai/annual-dcse-conference-2026",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/en/stories/articles/in-depth-study-underpins-smart-offshore-windturbines",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/en/tu-delft-institute-for-computational-science-and-engineering",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/people/dr-a-alexander-heinlein",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.uhasselt.be/en/projects/detail/26843-project-r-14507",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.uhasselt.be/nl/wie-is-wie/detail/ginger-egberts",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://www.uhasselt.be/nl/wie-is-wie/fred-vermolen",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.unibw.de/imcs/team/mayr",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.unige.ch/math/annonces/seminaire-danalyse-numerique",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.utwente.nl/en/eemcs/damut/damutcolloquium/abstracts/2019/2019-01b-08may",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.utwente.nl/en/eemcs/damut/damutcolloquium/abstracts/2023/2023-09-heinlein/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.utwente.nl/en/iwota2025/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.vut.cz/en/ai/research/research-projects",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=087Y9pLFNqI",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dmGvNEICCRI",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fF5vTI3n5Ps",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=rbFGyD7MUbw",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://yic2021.upv.es",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://youtu.be/DbOPyYk6IHQ",
+      "status": "200",
+      "exit": 0
+    }
+  ],
+  "browser_verified_studyguide": [
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/14607",
+      "headings": [
+        "Linear Algebra and Optimization for Machine Learning",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Expected prior knowledge",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/14615",
+      "headings": [
+        "Computational Fluid Dynamics",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Expected prior knowledge",
+        "Other",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/18760",
+      "headings": [
+        "Advanced Reservoir Simulation",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Literature and Course materials",
+        "Expected prior knowledge",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/21901",
+      "headings": [
+        "Scientific Machine Learning",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Expected prior knowledge",
+        "Other",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/25362",
+      "headings": [
+        "Advanced Reservoir Simulation",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Literature and Course materials",
+        "Expected prior knowledge",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33286",
+      "headings": [
+        "Scientific Machine Learning",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Expected prior knowledge",
+        "Other",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33630",
+      "headings": [
+        "Scientific Computing",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Literature and Course materials",
+        "Expected prior knowledge",
+        "Contact for students",
+        "Quick overview"
+      ]
+    },
+    {
+      "url": "https://studyguide.tudelft.nl/courses/study-guide/educations/33633",
+      "headings": [
+        "Linear Algebra and Optimization for Machine Learning",
+        "Description",
+        "Learning objectives",
+        "Teaching method",
+        "Assessment",
+        "Expected prior knowledge",
+        "Quick overview"
+      ]
+    }
+  ],
+  "repaired": {
+    "http://people.brunel.ac.uk/%C2%A0icsrsss/bicom/mafelap/": "https://people.brunel.ac.uk/%7Eicsrsss/bicom/mafelap/",
+    "https://irma.math.unistra.fr/%C2%A0micheldansac/SciML2024/participants.html": "https://irma.math.unistra.fr/%7Emicheldansac/SciML2024/participants.html",
+    "https://www.math.emory.edu/%C2%A0yxi26/Precond24/": "https://www.math.emory.edu/%7Eyxi26/Precond24/",
+    "https://cds.uni-koeln.de/en/workshops/cominds-2023/home": "https://cds.uni-koeln.de/workshops/past-workshops/cominds-2023",
+    "https://cds.uni-koeln.de/en/workshops/international-workshop-on-scientific-machine-learning-2019/home": "https://cds.uni-koeln.de/workshops/past-workshops/international-workshop-on-scientific-machine-learning-2020",
+    "https://www.eccomas2022.org/frontal/": "https://eccomas.org/2022/03/02/eccomas-2022-a-fully-in-person-congress/",
+    "https://www.nhr-verein.de/NHR-Conference": "https://www.nhr-verein.de/events-trainings/nhr-conference/",
+    "https://www.tudelft.nl/cse/events/dcse-conferences/numerical-analysis-seminars": "https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis/events/seminars-in-numerical-analysis"
+  },
+  "removed_dead_url_buttons": [
+    "https://trilinos.github.io/european_trilinos_user_group_meeting_2019.html",
+    "https://www.computationalsciencenl.nl/en/ducoms-day/"
+  ],
+  "repaired_destination_checks": [
+    {
+      "url": "https://people.brunel.ac.uk/%7Eicsrsss/bicom/mafelap/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://irma.math.unistra.fr/%7Emicheldansac/SciML2024/participants.html",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.emory.edu/%7Eyxi26/Precond24/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cds.uni-koeln.de/workshops/past-workshops/cominds-2023",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://cds.uni-koeln.de/workshops/past-workshops/international-workshop-on-scientific-machine-learning-2020",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://eccomas.org/2022/03/02/eccomas-2022-a-fully-in-person-congress/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.nhr-verein.de/events-trainings/nhr-conference/",
+      "status": "200",
+      "exit": 0
+    },
+    {
+      "url": "https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/numerical-analysis/events/seminars-in-numerical-analysis",
+      "status": "200",
+      "exit": 0
+    }
+  ],
+  "inconclusive": [
+    {
+      "url": "http://resolver.tudelft.nl/uuid:25663ba2-3cdb-4581-be68-d4fd0a7a4dca",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:31084250-25ee-4901-a3f0-258a6436be29",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:32f4b716-6f83-4a95-b8b5-c3d35a32349f",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:45bffaf0-5ae0-48a2-9fe7-5ebfe2594cb5",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://resolver.tudelft.nl/uuid:b3343bea-1270-4280-8192-7f08d162fbb0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "http://ta.twi.tudelft.nl/users/vuik/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2015-03_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2015-15_fertig_0.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-03_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-04_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2016-09_fertig.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "http://www.sciencedirect.com/science/article/pii/S0377042715001405",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://cam.fst.um.edu.mo/international-workshop-on-scientific-computing-and-biomedical-engineering",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://cam.fst.um.edu.mo/workshop-on-scientific-computing-and-learning/",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://casml.iisc.ac.in/",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://cmg.cds.iisc.ac.in/igcm/",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3766906",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3802822",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/cnm.2756",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/gamm.202100001",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/gamm.202370002",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/nme.6258",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201510037",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201710063",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201800312",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900337",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900398",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.201900401",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202100055",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202200133",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1002/pamm.202200241",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1093/imanum/drae076",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/16M1062843",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1184047",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1205364",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1220613",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/19M1276972",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/20M1344913",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/20M1364540",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1395260",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1431205",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/21M1433605",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1137/23M1618193",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1145/3766906",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.1145/3802822",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://doi.org/10.14311/app.2022.34.0043",
+      "status": "302",
+      "exit": 28
+    },
+    {
+      "url": "https://eesm.science.energy.gov/technical-highlights/mpas-albany-land-ice-mali-variable-resolution-ice-sheet-model-earth-system",
+      "status": "400",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/16M1062843",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1184047",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1205364?journalCode=sjoce3",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/18M1220613",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/abs/10.1137/19M1276972",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/21M1431205",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://epubs.siam.org/doi/pdf/10.1137/21M1433605",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://esco2026.fel.zcu.cz/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://i1.rgstatic.net/ii/profile.image/11431282098077104-1777588262089_Q512/Sahir-Sujahudeen.jpg",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm-ev.de/index.php/2020/2020-annual-meeting",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2015/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2016/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2022/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/annual-meeting-2025/95th-annual-meeting-2/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2017/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2018/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://jahrestagung.gamm.org/year-2019/annual-meeting/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10363",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10440",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/10441",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/52537",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/9670",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://kups.ub.uni-koeln.de/id/eprint/9845",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://mare.ewi.tudelft.nl/project/3769",
+      "status": "400",
+      "exit": 0
+    },
+    {
+      "url": "https://meetings.siam.org/sess/dsp_talk.cfm?p=151655",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://nl.linkedin.com/in/yuhuang-meng-938b002a4",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/gamm.202100001",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202100055",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202200133",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pamm.202200241",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/cnm.2756",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/gamm.202370002",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6258",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201510037",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201710063",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201800312",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900337",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900398",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pamm.201900401",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A17281ec4-7b2a-4362-b4bc-ec2516e3b01a",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A2874787e-27ac-4c2e-a1d4-d1ddedf3f87f?collection=education",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid%3A52480fee-a585-4bbe-8785-319b94367ca0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/islandora/object/uuid:bfec0be5-11c9-4570-9c93-66952fadd0a0",
+      "status": "301",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:013df562-f8a7-44e6-8009-9d711bcbbb41",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:12973191-eb89-4075-ad78-ce1286ee5aad",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:566f2247-3827-4b0c-aed5-bd54ee0259f2",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://repository.tudelft.nl/record/uuid:e20ef34f-bfb5-4f76-8ac6-14be1ce80e62",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://research.vumc.nl/en/persons/ibrahim-korkmaz",
+      "status": "000",
+      "exit": 35
+    },
+    {
+      "url": "https://research.vumc.nl/en/persons/paul-van-zuijlen",
+      "status": "000",
+      "exit": 35
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-01.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-02.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/2021-03.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://tu-freiberg.de/sites/default/files/media/fakultaet-fuer-mathematik-und-informatik-fakultaet-1-9277/prep/preprint_2018_04_heinlein_klawonn_rheinbach_roever.pdf",
+      "status": "503",
+      "exit": 0
+    },
+    {
+      "url": "https://www.icms.org.uk/workshops/2022/icmsstrathclyde-solvers-frequency-domain-wave-problems-and-applications",
+      "status": "000",
+      "exit": 6
+    },
+    {
+      "url": "https://www.linkedin.com/in/alexander-heinlein-9b569380",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/filipe-ant%C3%B4nio-cumaru-silva-alves-7a19b319a",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/msahirs",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.linkedin.com/in/thai-ha-bui",
+      "status": "999",
+      "exit": 0
+    },
+    {
+      "url": "https://www.math.mun.ca/dd25/",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Alexander_Heinlein/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Tomas-Medricky-2",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.researchgate.net/profile/Yuhuang-Meng-2",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999123004424",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0021999125003109",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0029801823024435",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782524003724?via%3Dihub",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S004578252500283X",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0045782525009958",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0268003325001317",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0898122125002871",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0898122125003396",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405896325002253",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences-events/siam-conferences/cse25/",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/cse23",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/mds22",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/pp22",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.siam.org/conferences/cm/conference/pp24",
+      "status": "403",
+      "exit": 0
+    },
+    {
+      "url": "https://www.uhasselt.be/nl/wie-is-wie/detail/ginger-egberts",
+      "status": "000",
+      "exit": 28
+    },
+    {
+      "url": "https://yic2021.upv.es",
+      "status": "000",
+      "exit": 6
+    }
+  ]
+}

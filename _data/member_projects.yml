@@ -120,13 +120,9 @@ aidan-engelhard:
 uzay-eskikoy:
   teaching_project_id: member-uzay-eskikoy
   kind: Bachelor’s thesis project
-  title_is_descriptive: true
-  review_needed: false
-  source_note: Only Darcy-flow implementation is established. The heading is descriptive,
-    not a registered thesis title.
+  co_supervisors: Danny Lathouwers (TU Delft)
+  source_note: Final thesis PDF and shared CV thesis bibliography.
   link_label: Thesis project
-  reviewed_on: "2026-11-01"
-  review_source: 2026-03-10-meeting-with-uzay-eskikoy.md
 elena-gijon-ruiz:
   teaching_project_id: master-thesis-projects-59-machine-learning-wafer-alignment
   kind: Master’s thesis project
@@ -488,4 +484,10 @@ valdimar-thorsson:
   kind: Master’s thesis project
   source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/39-multi-issue-negotiation.markdown
   co_supervisors: Catholijn M. Jonker
+  link_label: Thesis project
+nevan-van-laerhoven:
+  teaching_project_id: member-nevan-van-laerhoven
+  kind: Bachelor’s thesis project
+  co_supervisors: Sasa Kenjeres (TU Delft)
+  source_note: Shared CV thesis bibliography, vanLaerhoven:2026:SMUF.
   link_label: Thesis project

@@ -7,14 +7,12 @@ category: research
 status: previous
 status_checked_on: 2026-11-02
 status_source: https://www.helmholtz-hida.de/en/research/hds-lee-juelich-/-koeln/
+project_context: Completed doctoral project
+project_programme: HDS-LEE
 ---
-
-_Completed doctoral project within HDS-LEE._
 
 The doctoral project within the Helmholtz School for Data Science in Life, Earth and Energy investigated convolutional neural networks for predicting flow in patient-specific aneurysm geometries.
 
 [Project website](https://www.hds-lee.de/)
-
-[All research projects]({{ "/projects/" | relative_url }})
 
 [HDS-LEE graduate project listing](https://www.helmholtz-hida.de/en/research/hds-lee-juelich-/-koeln/)

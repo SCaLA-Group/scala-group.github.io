@@ -1,43 +1,23 @@
 ---
 layout: page
-title: software
+title: Software
 permalink: /software/
 description: Open-source software and computational tools.
 nav: false
 ---
 
-<div class="scala-topic-grid">
-
-<section class="scala-topic" markdown="1">
-
-## FROSch {#frosch}
-
-A framework for Fast and Robust Overlapping Schwarz preconditioners in Trilinos. [Project website](https://shylu-frosch.github.io/)
-
-</section>
-
-<section class="scala-topic" markdown="1">
-
-## FEDDLib {#feddlib}
-
-A parallel finite element and domain decomposition library based on Trilinos, designed as a testbed for FROSch. [Code and organisation](https://github.com/FEDDLib/)
-
-</section>
-
-<section class="scala-topic" markdown="1">
-
-## Trilinos {#trilinos}
-
-An open-source framework for large-scale scientific and engineering computations on high-performance computing architectures. [Project website](https://trilinos.github.io/)
-
-</section>
-
-<section class="scala-topic" markdown="1">
-
-## NGSolve {#ngsolve}
-
-An open-source finite element package for multiphysics problems, with a flexible Python interface for developing discretisations and solution algorithms. [Project website and documentation](https://ngsolve.org/)
-
-</section>
-
+<p class="scala-research-intro">Open-source tools for scalable solvers, finite elements and scientific computing.</p>
+<div class="scala-software-grid" data-page-sections>
+  {% for software in site.data.research_software %}
+    <section class="scala-software-entry" id="{{ software.id }}" aria-labelledby="{{ software.id }}-title">
+      <div class="scala-software-header">
+        {% if software.image %}<div class="scala-software-identity"><img src="{{ software.image | relative_url }}" alt="{{ software.alt | escape }}" width="120" height="76" loading="lazy" decoding="async"></div>{% endif %}
+        <h2 id="{{ software.id }}-title">{{ software.name | escape }}</h2>
+      </div>
+      <p>{{ software.description | escape }}</p>
+      <nav class="scala-topic-links" aria-label="{{ software.name }} resources">
+        {% for link in software.links %}<a href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label | escape }}</a>{% endfor %}
+      </nav>
+    </section>
+  {% endfor %}
 </div>

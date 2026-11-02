@@ -73,3 +73,35 @@ On phones, active-member photos and initial placeholders are 88 by 132 pixels, b
 ## Homepage simplification, 1 November 2026
 
 The homepage has three main visual bands: introduction/gallery, Latest from SCaLA, and research highlights. Latest uses three equal columns on desktop and one column on phones. Its category labels are subordinate to the single section heading. Research highlights retain bibliography-derived statuses in compact unboxed entries. The full research introduction is retained; repeated gallery destination links and the duplicate blog image are removed, and collaboration links sit in a small closing row rather than a large panel. Existing gallery captions, credits, controls and autoplay are retained.
+
+## Unified page headers, 2 November 2026
+
+Page titles and local navigation share one header. Short titles and their menus sit alongside each other on larger screens; long titles and small screens cause the menu to wrap as a whole. Descriptions follow when they add context. Top-level menu pages omit redundant Home/current-page breadcrumbs, while detail pages retain their hierarchy. Group category links moved from the body into this header, with shorter student labels and no generic introduction or duplicate automatic outline. All category links remain visible. See [navigation](NAVIGATION.md) for implementation and regression checks.
+
+## Consistent headers, 2 November 2026
+
+The unified header now comes from one component, `_includes/scala_page_header.liquid`, used by pages, blog posts and archives. Section menus and bibliography search share the same controls container; title sizes, alignment, gaps and mobile wrapping no longer depend on page-specific header modifiers. Course context and blog publication metadata use one compact metadata style. Breadcrumbs depend on an actual parent relationship rather than `nav` visibility, so independent pages such as Contact do not acquire an extra row. Generic front-matter descriptions remain in SEO metadata; the homepage introduction is unchanged.
+
+## Persistent submenu, 2 November 2026
+
+A single context submenu now stays below the primary navigation while scrolling on every page except the homepage. Group categories, Research/Teaching/Blog sections, and bibliography year shortcuts occupy this shared bar. Section links are no longer repeated beside page titles. The bar stays one line high on phones with horizontal scrolling; category highlighting and anchor offsets account for both visible bars. Profiles retain their local content outline separately from links back to Group categories. See [navigation](NAVIGATION.md) for behaviour and implementation.
+
+## Teaching overview, 2 November 2026
+
+The overview uses two open sections instead of equal-height cards: the latest academic year’s courses, with course codes and teaching periods, followed by current student projects, with student names and thesis levels. Each section uses compact two-column rows on desktop and a single column on phones. Course titles retain their official Study Guide destinations; project titles retain their member-page project anchors. Catalogue and student links sit alongside section headings, and a small enquiry row links to opportunities.
+
+## Visual consistency follow-up, 2 November 2026
+
+Profile section headings share the main article hierarchy, with smaller project subtitles. Card titles and Teaching overview section headings use a consistent medium weight. Nested profile and blog prose follows the existing 74-character reading measure while image rows, tables and cards retain their layout widths. Teaching and bibliography disclosures share caret styling, heading scale and readable metadata colours. Keyboard focus uses the active theme's link colour. The agreed compact headers, right-aligned desktop submenus, submenu-free homepage, aligned gallery, portrait sizes, category separation, publication action/status row and collapsible archives are retained.
+
+Verification for this follow-up: 18 representative pages in both themes at 320, 390, 768, 1100 and 1440px; no overflow or automated accessibility findings. The current 174-page build has no broken local destinations or fragments. Navigation, 50 member profiles, Teaching, site controls/search, gallery, expandable bibliography years and Blog regressions pass. Development and root-URL production builds pass.
+
+Gallery destination links and source/licence credits share one row, aligned left and right, with wrapping on narrow screens. The image area uses the saved space so the desktop panel retains its alignment with the introduction.
+
+Page-heading review: the shared title rule uses a 1.8–2.25rem responsive size, regular (400) weight, 1.2 line height and balanced wrapping for long titles. Main section headings remain 1.4–1.8rem at medium (500) weight; smaller component headings intentionally retain their compact scales. The homepage hero typography is separate and unchanged. Redundant older page-title sizing rules were removed.
+
+## Research section, 2 November 2026
+
+Research presents three illustrated themes using the existing gallery's licensed/original figures and shared credits. Figures link to their full-size assets; theme links connect methods to publications, member projects, current collaborations and software. Projects retain the reviewed current/previous split, with two-column current cards and a compact previous-project list. Project detail pages use shared descriptions, context labels, programme/period metadata and return links. “Previous research contribution” remains distinct from a programme's closure. Existing people links are explicit where named in current project descriptions. Software retains all four gallery anchors and uses existing official logos where available, with a plain heading for FEDDLib; no new image-reuse permission is asserted. The wound-care description was reorganised into concise paragraphs without claiming clinical deployment or validated treatment outcomes.
+
+Research-section verification: all 15 overview/detail routes pass accessibility checks in both themes and responsive checks at 320, 390, 768, 1100 and 1440px. Current/previous counts remain 4/8; the three historical-contribution labels and all four software anchors are preserved. Navigation/gallery regressions, the full local-link scan, formatting, and development/root-URL production builds pass.

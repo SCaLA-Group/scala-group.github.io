@@ -8,9 +8,9 @@ nav: false
 
 **Instructors:** Alexander Heinlein and Martin van Gijzen
 
-## Lecture videos
+## Lecture topics and videos
 
 - [What is a PageRank? (Martin van Gijzen)](https://www.youtube.com/watch?v=dmGvNEICCRI)
 - [A Mathematical Model for the PageRank (Martin van Gijzen)](https://www.youtube.com/watch?v=rbFGyD7MUbw)
 - [Computing the PageRank (Alexander Heinlein)](https://www.youtube.com/watch?v=fF5vTI3n5Ps)
-- [Manipulating the PageRank (Alexander Heinlein)](https://www.youtube.com/watch?v=fF5vTI3n5Ps)
+- Manipulating the PageRank (Alexander Heinlein)

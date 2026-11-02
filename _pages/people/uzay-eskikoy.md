@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Uzay Eskiköy
-description: Bachelor’s student
+description: Bachelor’s thesis · completed
 permalink: /people/uzay-eskikoy/
 nav: false
 member_id: uzay-eskikoy

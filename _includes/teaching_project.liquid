@@ -13,17 +13,12 @@
     {% endif %}
   </p>
 {% endif %}
-{% if project.institution %}
-  <p><strong>Institution:</strong> {{ project.institution | escape }}</p>
-{% endif %}
+{% include teaching_project_context.liquid project=project %}
 {% if project.supervisors %}
   <p><strong>Supervision:</strong> {{ project.supervisors | escape }}</p>
 {% endif %}
 {% if project.co_supervisors %}
   <p><strong>Co-supervision:</strong> {{ project.co_supervisors | escape }}</p>
-{% endif %}
-{% if project.collaboration %}
-  <p><strong>Collaboration:</strong> {{ project.collaboration | escape }}</p>
 {% endif %}
 {% if project.links.size > 0 %}
   <h2>Documents and links</h2>

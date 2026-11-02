@@ -601,6 +601,19 @@ courses:
     cv_source: cv/sections/teaching_experience/2026-04-17.tex
     kind: short-course
 projects:
+  - id: member-nevan-van-laerhoven
+    category: bachelor-thesis-projects
+    title: Surrogate Models for Urban Flows
+    institution: Delft University of Technology
+    status: ongoing
+    order: 101
+    url: "/teaching/projects/member-nevan-van-laerhoven/"
+    member_id: nevan-van-laerhoven
+    student: Nevan van Laerhoven
+    summary: Bachelor’s thesis project on surrogate models for urban flows.
+    supervisors: Alexander Heinlein
+    co_supervisors: Sasa Kenjeres (TU Delft)
+    source_note: Shared CV thesis bibliography, vanLaerhoven:2026:SMUF.
   - id: master-thesis-projects-10-rom-fluid-flow-transient
     category: master-thesis-projects
     title: Convolutional Neural Networks for Time-Dependent Fluid Flow
@@ -653,6 +666,7 @@ projects:
     summary: The project investigates machine-learning approaches to choosing numerical
       solver settings in the COMSOL computational fluid dynamics module.
     collaboration: COMSOL
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Tycho van Noorden (COMSOL)
     links:
@@ -673,6 +687,7 @@ projects:
     url: "/teaching/projects/master-thesis-projects-13-nonlinear-solver-ml/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/13-nonlinear-solver-ml.markdown
     collaboration: COMSOL
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Tycho van Noorden (COMSOL)
     links:
@@ -731,6 +746,7 @@ projects:
     summary: The project explores machine-learning approaches to estimating traffic
       patterns and congestion during road works.
     collaboration: CGI
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Leonoor Portengen, Henk van Haaster (CGI)
     links:
@@ -784,6 +800,7 @@ projects:
     summary: The project investigates machine-learning methods for removing outliers
       while incorporating prior knowledge of the underlying physics.
     collaboration: ASML
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Lucas Bekker (ASML)
     links:
@@ -803,6 +820,7 @@ projects:
     summary: The project studies contrastive learning for filling in missing values
       in high-dimensional metrology data, with a focus on learning from few examples.
     collaboration: ASML
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Sjoerd Wiarda (ASML)
     links:
@@ -931,6 +949,7 @@ projects:
     summary: The project investigates operator-learning methods for estimating loss
       parameters in dredging operations.
     collaboration: Boskalis
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Oscar van der Ven (Boskalis)
   - id: master-thesis-projects-34-dd-nns-complex-shaped-domains
@@ -1043,6 +1062,7 @@ projects:
     summary: The project investigates block preconditioners for monolithic numerical
       solvers used in simulations of very large floating structures.
     collaboration: Mocean
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering)
     links:
@@ -1082,16 +1102,17 @@ projects:
     co_supervisors: Mirko Kemna (Gradyent)
   - id: master-thesis-projects-43-domain-decomposition-frosch
     category: master-thesis-projects
-    title: Domain decomposition Preconditioning with FROSch
+    title: Coarse Spaces for Schwarz Preconditioning of Diffusion and Convection–Diffusion Problems
     institution: TU Delft
-    status: archive
+    status: ongoing
     order: 43
     url: "/teaching/projects/master-thesis-projects-43-domain-decomposition-frosch/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/43-domain-decomposition-frosch.md
     student: Thijs Terwiel
     member_id: thijs-terwiel
-    summary: The project studies domain-decomposition preconditioning with FROSch, the
-      Fast and Robust Overlapping Schwarz framework in Trilinos.
+    summary: The thesis investigates coarse spaces for overlapping Schwarz preconditioners
+      for diffusion and convection–diffusion problems, with analysis and development
+      for FROSch. Defense scheduled for 3 November 2026.
     supervisors: Alexander Heinlein
     co_supervisors: Filipe Antônio Cumaru Silva Alves (TU Delft, DIAM)
   - id: master-thesis-projects-45-collection-bosch
@@ -1103,6 +1124,7 @@ projects:
     url: "/teaching/projects/master-thesis-projects-45-collection-bosch/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/45-collection-bosch.md
     collaboration: Bosch
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Uwe Iben (Bosch)
   - id: master-thesis-projects-46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation
@@ -1118,6 +1140,7 @@ projects:
     summary: The project investigates neural-network surrogate models for solving nonlinear
       wafer-deformation problems in collaboration with ASML.
     collaboration: ASML
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Ozan Celik (ASML)
     links:
@@ -1284,6 +1307,7 @@ projects:
     url: "/teaching/projects/master-thesis-projects-57-physics-informed-ml-optical-system-calibration/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/57-physics-informed-ml-optical-system-calibration.md
     collaboration: Sioux Technologies
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     links:
       - label: Project description
@@ -1315,6 +1339,7 @@ projects:
     summary: The project explores machine-learning methods for wafer alignment in collaboration
       with ASML.
     collaboration: ASML
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     links:
       - label: Project description
@@ -1361,6 +1386,7 @@ projects:
     url: "/teaching/projects/master-thesis-projects-61-data-driven-dredging-production-optimization/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/61-data-driven-dredging-production-optimization.md
     collaboration: Boskalis
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     links:
       - label: Project description
@@ -1421,6 +1447,7 @@ projects:
     member_id: elske-van-leeuwen
     summary: The project explores machine-learning approaches for turbulent flows.
     collaboration: Sioux Technologies
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Werner Lazeroms (Sioux)
     links:
@@ -1521,6 +1548,7 @@ projects:
     url: "/teaching/projects/internships-1-reusability-preconditioners/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/internships/1-reusability-preconditioners.markdown
     collaboration: Ignition Computing
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     co_supervisors: Victorita Dolean (TU Eindhoven)
     links:
@@ -1535,6 +1563,7 @@ projects:
     url: "/teaching/projects/internships-3-physics-informed-ml-optical-system-calibration/"
     source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/internships/3-physics-informed-ml-optical-system-calibration.md
     collaboration: Sioux Technologies
+    collaboration_type: industry
     supervisors: Alexander Heinlein
     links:
       - label: Project description
@@ -1603,19 +1632,18 @@ projects:
     reviewed_on: "2026-11-01"
   - id: member-uzay-eskikoy
     category: bachelor-thesis-projects
-    title: Numerical simulation of Darcy flow
+    title: Sparse Model Discovery and Inverse Recovery for Heterogeneous Diffusion-Type Problems
     institution: Delft University of Technology
-    status: ongoing
+    status: archive
     order: 100
     url: "/teaching/projects/member-uzay-eskikoy/"
     member_id: uzay-eskikoy
     student: Uzay Eskiköy
-    summary: The project concerns the numerical implementation of Darcy flow, a model
-      for flow through porous media.
-    source_note: Source-checked topic summary; see _data/member_projects.yml for the
-      review source. The title is descriptive.
-    review_needed: false
-    reviewed_on: "2026-11-01"
+    summary: The thesis studies sparse model discovery and inverse coefficient recovery
+      for heterogeneous diffusion-type problems, including Darcy flow and neutron diffusion.
+    supervisors: Alexander Heinlein
+    co_supervisors: Danny Lathouwers (TU Delft)
+    source_note: Final thesis PDF and shared CV thesis bibliography.
   - id: member-sieds-lykles
     category: master-thesis-projects
     title: Neural Hamiltonian Monte Carlo Surrogates for Molecular Sampling

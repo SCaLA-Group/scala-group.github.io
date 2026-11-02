@@ -5,6 +5,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const yearGroups = [];
   document.querySelectorAll("[data-collapse-years]").forEach((list) => {
     const headings = [...list.querySelectorAll(":scope > h2.bibliography")];
+    const yearNav = document.querySelector("[data-bibliography-year-nav]");
+    if (yearNav && headings.length) {
+      const links = headings.map((heading) => {
+        if (!heading.id)
+          heading.id = `year-${heading.textContent
+            .trim()
+            .toLowerCase()
+            .replace(/[^a-z0-9]+/g, "-")}`;
+        const link = document.createElement("a");
+        link.href = `#${heading.id}`;
+        link.textContent = heading.textContent.trim();
+        return link;
+      });
+      yearNav.replaceChildren(...links);
+    }
     if (headings.length < 2) return;
     headings.forEach((heading, index) => {
       const entries = [];
@@ -88,6 +103,12 @@ document.addEventListener("DOMContentLoaded", function () {
     const query = target ? "" : hashValue;
     document.getElementById("bibsearch").value = query;
     filterItems(query.toLowerCase());
+
+    const currentYear = target?.closest(".scala-year-group")?.querySelector("h2") || (!query ? yearGroups[0]?.querySelector("h2") : null);
+    document.querySelectorAll("[data-bibliography-year-nav] a").forEach((link) => {
+      if (currentYear && link.hash === `#${currentYear.id}`) link.setAttribute("aria-current", "location");
+      else link.removeAttribute("aria-current");
+    });
 
     // Known fragments navigate to their target; other fragments remain search queries.
     if (target) {

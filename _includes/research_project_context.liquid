@@ -1,0 +1,12 @@
+<div class="scala-research-project-context">
+  <p class="scala-research-project-summary">{{ page.description | escape }}</p>
+  <p class="scala-research-project-meta">
+    <span class="scala-project-status">{{ page.project_context | escape }}</span>
+    {%- if page.project_programme and page.project_programme != page.title -%}
+      <span>{{ page.project_programme | escape }}</span>
+    {%- endif -%}
+    {%- if page.project_period -%}
+      <span>{{ page.project_period | escape }}</span>
+    {%- endif %}
+  </p>
+</div>

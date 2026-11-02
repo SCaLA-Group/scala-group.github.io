@@ -9,17 +9,21 @@ layout: default
 {% endif %}
 
 <div class="post">
-  <div class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.description %}
-      <p class="post-description">{{ page.description }}</p>
+  {% include scala_page_header.liquid %}
+
+  <article
+    {% if page.bibliography_page %}
+      class="scala-bibliography-list"
     {% endif %}
-  </div>
-
-  {% include scala_section_navigation.liquid %}
-
-  <article>
+  >
+    {% if page.collection == 'projects' %}{% include research_project_context.liquid %}{% endif %}
     {{ content }}
+    {% if page.collection == 'projects' %}
+      <nav class="scala-project-return-links" aria-label="More research">
+        <a href="{{ '/projects/' | relative_url }}">All research projects</a><a href="{{ '/research/' | relative_url }}">Research themes</a
+        ><a href="{{ '/software/' | relative_url }}">Research software</a>
+      </nav>
+    {% endif %}
   </article>
 
   {% if page.related_publications %}

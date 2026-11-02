@@ -1,0 +1,1439 @@
+{
+  "checked_on": "2026-11-02",
+  "method": "Crossref REST and DOI CSL-JSON content negotiation. Registry conflicts require publisher-page review; this file is evidence, not an automatic correction list.",
+  "records": [
+    {
+      "key": "Mollaali:2026:CKU",
+      "doi": "10.1088/2632-2153/ae7495",
+      "registry_result": "HTTP Error 429: Too Many Requests",
+      "registry_title": null,
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": null,
+      "registry_dates": {},
+      "title_similarity_before_correction": null
+    },
+    {
+      "key": "Yang:2025:NSH",
+      "doi": "10.1007/s44379-026-00068-w",
+      "registry_result": "retrieved",
+      "registry_title": "Numerical study on hyperparameter settings for neural network approximation to partial differential equations",
+      "registry_volume": "2",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2026, 6]]
+        },
+        "published-online": {
+          "date-parts": [[2026, 5, 23]]
+        },
+        "published": {
+          "date-parts": [[2026, 5, 23]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Wu:2026:DLHIM",
+      "doi": "10.1109/MCSE.2026.3696587",
+      "registry_result": "retrieved",
+      "registry_title": "Are Deep-Learning-Based Hybrid Partial Differential Equation Solvers Reliable? Why Training Paradigms and Update Strategies Matter",
+      "registry_volume": "28",
+      "registry_issue": "3",
+      "registry_pages": "56-67",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2026, 7]]
+        },
+        "published": {
+          "date-parts": [[2026, 7]]
+        }
+      },
+      "title_similarity_before_correction": 0.881
+    },
+    {
+      "key": "Visser:2026:PAC",
+      "doi": "10.1016/j.cma.2025.118723",
+      "registry_result": "retrieved",
+      "registry_title": ["PACMANN: Point adaptive collocation method for artificial neural networks"],
+      "registry_volume": "452",
+      "registry_issue": null,
+      "registry_pages": "118723",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2026, 4]]
+        },
+        "published": {
+          "date-parts": [[2026, 4]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Schmidt:2026:TGNN",
+      "doi": "10.1038/s41598-026-39431-5",
+      "registry_result": "retrieved",
+      "registry_title": ["Graph neural network surrogates to leverage mechanistic expert knowledge towards reliable and immediate pandemic response"],
+      "registry_volume": "16",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2026, 2, 13]]
+        },
+        "published": {
+          "date-parts": [[2026, 2, 13]]
+        }
+      },
+      "title_similarity_before_correction": 0.538
+    },
+    {
+      "key": "Mayr:2026:TES",
+      "doi": "10.1145/3802822",
+      "registry_result": "retrieved",
+      "registry_title": "Trilinos: Enabling Scientific Computing across Diverse Hardware Architectures at Scale",
+      "registry_volume": "52",
+      "registry_issue": "2",
+      "registry_pages": "1-34",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2026, 6, 30]]
+        },
+        "published-online": {
+          "date-parts": [[2026, 6, 8]]
+        },
+        "published": {
+          "date-parts": [[2026, 6, 8]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2026:MBO",
+      "doi": "10.1553/etna_vol65s156",
+      "registry_result": "retrieved",
+      "registry_title": ["Monolithic and block overlapping Schwarz preconditioners for the incompressible Navier-Stokes equations"],
+      "registry_volume": "65",
+      "registry_issue": null,
+      "registry_pages": "156-206",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2026]]
+        },
+        "published": {
+          "date-parts": [[2026]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Giammatteo:2025:HDA",
+      "doi": "10.1016/j.camwa.2025.08.013",
+      "registry_result": "retrieved",
+      "registry_title": "High-order discretized ACMS method for the simulation of finite-size two-dimensional photonic crystals",
+      "registry_volume": "196",
+      "registry_issue": null,
+      "registry_pages": "376-394",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 10]]
+        },
+        "published": {
+          "date-parts": [[2025, 10]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2025:CDF",
+      "doi": "10.1145/3766906",
+      "registry_result": "retrieved",
+      "registry_title": ["Coupling deal.II and FROSch: A Sustainable and Accessible (O)RAS Preconditioner"],
+      "registry_volume": "51",
+      "registry_issue": "4",
+      "registry_pages": "1-29",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 12, 31]]
+        },
+        "published-online": {
+          "date-parts": [[2025, 12, 12]]
+        },
+        "published": {
+          "date-parts": [[2025, 12, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Zandbergen:2025:IPT",
+      "doi": "10.1016/j.camwa.2025.07.006",
+      "registry_result": "retrieved",
+      "registry_title": ["Improving pseudo-time stepping convergence for CFD simulations with neural networks"],
+      "registry_volume": "196",
+      "registry_issue": null,
+      "registry_pages": "64-83",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 10]]
+        },
+        "published": {
+          "date-parts": [[2025, 10]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Grimm:2025:LSO",
+      "doi": "10.1016/j.jcp.2025.114027",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Learning the solution operator of two-dimensional incompressible Navier-Stokes equations using physics-aware convolutional neural networks"
+      ],
+      "registry_volume": "535",
+      "registry_issue": null,
+      "registry_pages": "114027",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 8]]
+        },
+        "published": {
+          "date-parts": [[2025, 8]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Husanovic:2025:DON",
+      "doi": "10.1016/j.clinbiomech.2025.106558",
+      "registry_result": "retrieved",
+      "registry_title": "Deep operator network models for predicting post-burn contraction",
+      "registry_volume": "127",
+      "registry_issue": null,
+      "registry_pages": "106558",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 7]]
+        },
+        "published": {
+          "date-parts": [[2025, 7]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Shang:2025:DDM",
+      "doi": "10.1016/j.cma.2025.118011",
+      "registry_result": "retrieved",
+      "registry_title": ["Overlapping Schwarz preconditioners for randomized neural networks with domain decomposition"],
+      "registry_volume": "442",
+      "registry_issue": null,
+      "registry_pages": "118011",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 7]]
+        },
+        "published": {
+          "date-parts": [[2025, 7]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2025:MDD",
+      "doi": "10.1515/9783111376776-006",
+      "registry_result": "retrieved",
+      "registry_title": ["Multifidelity domain decomposition-based physics-informed neural networks and operators for time-dependent problems"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "79-92",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 4, 22]]
+        },
+        "published": {
+          "date-parts": [[2025, 4, 22]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Verburg:2025:DDU",
+      "doi": "10.1109/ACCESS.2025.3561033",
+      "registry_result": "retrieved",
+      "registry_title": "DDU-Net: A Domain Decomposition-Based CNN for High-Resolution Image Segmentation on Multiple GPUs",
+      "registry_volume": "13",
+      "registry_issue": null,
+      "registry_pages": "66967-66983",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025]]
+        },
+        "published": {
+          "date-parts": [[2025]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2025:ACA",
+      "doi": "10.1137/23M1618193",
+      "registry_result": "retrieved",
+      "registry_title": "Algebraic Construction of Adaptive Coarse Spaces for Two-Level Schwarz Preconditioners",
+      "registry_volume": "47",
+      "registry_issue": "2",
+      "registry_pages": "A1170-A1197",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 4, 30]]
+        },
+        "published-online": {
+          "date-parts": [[2025, 4, 10]]
+        },
+        "published": {
+          "date-parts": [[2025, 4, 10]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Saha:2025:TMD",
+      "doi": "10.1016/j.ifacol.2025.03.008",
+      "registry_result": "retrieved",
+      "registry_title": "Towards Model Discovery Using Domain Decomposition and PINNs",
+      "registry_volume": "59",
+      "registry_issue": "1",
+      "registry_pages": "37-42",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025]]
+        },
+        "published": {
+          "date-parts": [[2025]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Giammatteo:2024:EAC",
+      "doi": "10.1093/imanum/drae076",
+      "registry_result": "retrieved",
+      "registry_title": "An extension of the approximate component mode synthesis method to the heterogeneous Helmholtz equation",
+      "registry_volume": "45",
+      "registry_issue": "5",
+      "registry_pages": "2844-2879",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2025, 7, 26]]
+        },
+        "published-online": {
+          "date-parts": [[2024, 10, 25]]
+        },
+        "published-other": {
+          "date-parts": [[2025, 9]]
+        },
+        "published": {
+          "date-parts": [[2024, 10, 25]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Dolean:2024:MDD",
+      "doi": "10.1016/j.cma.2024.117116",
+      "registry_result": "retrieved",
+      "registry_title": "Multilevel domain decomposition-based architectures for physics-informed neural networks",
+      "registry_volume": "429",
+      "registry_issue": null,
+      "registry_pages": "117116",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2024, 9]]
+        },
+        "published": {
+          "date-parts": [[2024, 9]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Grimm:2024:SHS",
+      "doi": "10.1007/978-3-031-50769-4_1",
+      "registry_result": "retrieved",
+      "registry_title": "A Short Note on Solving Partial Differential Equations Using Convolutional Neural Networks",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "3-14",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2024]]
+        },
+        "published-online": {
+          "date-parts": [[2024, 1, 23]]
+        },
+        "published": {
+          "date-parts": [[2024]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Dolean:2024:FBP",
+      "doi": "10.1007/978-3-031-50769-4_19",
+      "registry_result": "retrieved",
+      "registry_title": ["Finite Basis Physics-Informed Neural Networks as a Schwarz Domain Decomposition Method"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "165-172",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2024]]
+        },
+        "published-online": {
+          "date-parts": [[2024, 1, 23]]
+        },
+        "published": {
+          "date-parts": [[2024]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Balzani:2024:CFP",
+      "doi": "10.1002/gamm.202370002",
+      "registry_result": "retrieved",
+      "registry_title": "A computational framework for pharmaco\u2010mechanical interactions in arterial walls using parallel monolithic domain decomposition methods",
+      "registry_volume": "47",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2024, 3]]
+        },
+        "published-online": {
+          "date-parts": [[2024, 1, 8]]
+        },
+        "published": {
+          "date-parts": [[2024, 1, 8]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2023:CDS",
+      "doi": "10.23967/c.coupled.2023.008",
+      "registry_result": "retrieved",
+      "registry_title": "A Comparison Of Direct Solvers In FROSch Applied To Chemo-Mechanics",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": null,
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2023]]
+        },
+        "published": {
+          "date-parts": [[2023]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Ehlers:2023:MLP",
+      "doi": "10.1016/j.oceaneng.2023.116059",
+      "registry_result": "retrieved",
+      "registry_title": "Machine learning for phase-resolved reconstruction of nonlinear ocean wave surface elevations from sparse remote sensing data",
+      "registry_volume": "288",
+      "registry_issue": null,
+      "registry_pages": "116059",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 11]]
+        },
+        "published": {
+          "date-parts": [[2023, 11]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Yamazaki:2023:EST",
+      "doi": "10.1109/IPDPS54959.2023.00073",
+      "registry_result": "retrieved",
+      "registry_title": "An Experimental Study of Two-level Schwarz Domain-Decomposition Preconditioners on GPUs",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "680-689",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 5]]
+        },
+        "published": {
+          "date-parts": [[2023, 5]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Frei:2023:TPT",
+      "doi": "10.1016/j.jcp.2023.112347",
+      "registry_result": "retrieved",
+      "registry_title": ["Towards parallel time-stepping for the numerical simulation of atherosclerotic plaque growth"],
+      "registry_volume": "491",
+      "registry_issue": null,
+      "registry_pages": "112347",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 10]]
+        },
+        "published": {
+          "date-parts": [[2023, 10]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2023:MLE",
+      "doi": "10.1515/cmam-2022-0168",
+      "registry_result": "retrieved",
+      "registry_title": ["A Multilevel Extension of the GDSW Overlapping Schwarz Preconditioner in Two Dimensions"],
+      "registry_volume": "23",
+      "registry_issue": "4",
+      "registry_pages": "953-968",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 10, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 7, 12]]
+        },
+        "published": {
+          "date-parts": [[2023, 7, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Frei:2022:ECC",
+      "doi": "10.23967/eccomas.2022.015",
+      "registry_result": "retrieved",
+      "registry_title": "A mechanically consistent model for fluid-structure interactions with contact including seepage",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": null,
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2022]]
+        },
+        "published": {
+          "date-parts": [[2022]]
+        }
+      },
+      "title_similarity_before_correction": 0.357
+    },
+    {
+      "key": "Kemna:2023:FST",
+      "doi": "10.1002/pamm.202200241",
+      "registry_result": "retrieved",
+      "registry_title": "Reduced order fluid modeling with generative adversarial networks",
+      "registry_volume": "23",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 5]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 5, 31]]
+        },
+        "published": {
+          "date-parts": [[2023, 5]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Balzani:2023:CAW",
+      "doi": "10.1007/s00466-023-02321-y",
+      "registry_result": "retrieved",
+      "registry_title": "Comparison of arterial wall models in fluid\u2013structure interaction simulations",
+      "registry_volume": "72",
+      "registry_issue": "5",
+      "registry_pages": "949-965",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 11]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 5, 2]]
+        },
+        "published": {
+          "date-parts": [[2023, 5, 2]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Ramesh:2023:FST",
+      "doi": "10.1002/pamm.202200133",
+      "registry_result": "retrieved",
+      "registry_title": ["First steps towards modeling the interaction of cardiovascular agents and smooth muscle activation in arterial walls"],
+      "registry_volume": "22",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 3]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 3, 24]]
+        },
+        "published": {
+          "date-parts": [[2023, 3]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2023:TLE",
+      "doi": "10.1007/978-3-030-95025-5_54",
+      "registry_result": "retrieved",
+      "registry_title": "A Three-Level Extension for Fast and Robust Overlapping Schwarz (FROSch) Preconditioners with Reduced Dimensional Coarse Space",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "505-513",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2022]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 3, 16]]
+        },
+        "published": {
+          "date-parts": [[2022]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2023:PGL",
+      "doi": "10.1007/978-3-030-95025-5_32",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Predicting the Geometric Location of Critical Edges in Adaptive GDSW Overlapping Domain Decomposition Methods Using Deep Learning"
+      ],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "307-315",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2022]]
+        },
+        "published-online": {
+          "date-parts": [[2023, 3, 16]]
+        },
+        "published": {
+          "date-parts": [[2022]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2022:PST",
+      "doi": "10.1137/21M1431205",
+      "registry_result": "retrieved",
+      "registry_title": "Parallel Scalability of Three-Level FROSch Preconditioners to 220000 Cores using the Theta Supercomputer",
+      "registry_volume": "45",
+      "registry_issue": "3",
+      "registry_pages": "S173-S198",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2023, 6]]
+        },
+        "published-online": {
+          "date-parts": [[2022, 8, 23]]
+        },
+        "published": {
+          "date-parts": [[2022, 8, 23]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2022:AND",
+      "doi": "10.1137/21M1433605",
+      "registry_result": "HTTP Error 429: Too Many Requests",
+      "registry_title": null,
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": null,
+      "registry_dates": {},
+      "title_similarity_before_correction": null
+    },
+    {
+      "key": "Zinsser:2022:IDT",
+      "doi": "10.1557/s43580-022-00321-3",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Irradiation-dependent topology optimization of metallization grid patterns and variation of contact layer thickness used for latitude-based yield gain of thin-film solar modules"
+      ],
+      "registry_volume": "7",
+      "registry_issue": "30",
+      "registry_pages": "706-712",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2022, 8, 3]]
+        },
+        "published": {
+          "date-parts": [[2022, 8, 3]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2022:AGD",
+      "doi": "10.1137/20M1364540",
+      "registry_result": "retrieved",
+      "registry_title": ["Adaptive GDSW Coarse Spaces of Reduced Dimension for Overlapping Schwarz Methods"],
+      "registry_volume": "44",
+      "registry_issue": "3",
+      "registry_pages": "A1176-A1204",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2022, 6]]
+        },
+        "published-online": {
+          "date-parts": [[2022, 5, 9]]
+        },
+        "published": {
+          "date-parts": [[2022, 5, 9]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2022:FRO",
+      "doi": "10.1137/21M1395260",
+      "registry_result": "retrieved",
+      "registry_title": ["FROSch Preconditioners for Land Ice Simulations of Greenland and Antarctica"],
+      "registry_volume": "44",
+      "registry_issue": "2",
+      "registry_pages": "B339-B367",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2022, 4]]
+        },
+        "published-online": {
+          "date-parts": [[2022, 3, 24]]
+        },
+        "published": {
+          "date-parts": [[2022, 3, 24]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Eichinger:2022:SCN",
+      "doi": "10.1553/etna_vol56s235",
+      "registry_result": "retrieved",
+      "registry_title": "Surrogate convolutional neural network models for steady computational fluid dynamics simulations",
+      "registry_volume": "56",
+      "registry_issue": null,
+      "registry_pages": "235-255",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2022]]
+        },
+        "published": {
+          "date-parts": [[2022]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Frei:2021:THN",
+      "doi": "10.1002/pamm.202100055",
+      "registry_result": "retrieved",
+      "registry_title": ["On temporal homogenization in the numerical simulation of atherosclerotic plaque growth"],
+      "registry_volume": "21",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021, 12]]
+        },
+        "published-online": {
+          "date-parts": [[2021, 12, 14]]
+        },
+        "published": {
+          "date-parts": [[2021, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Grimm:2022:ETD",
+      "doi": "10.1553/etna_vol56s1",
+      "registry_result": "retrieved",
+      "registry_title": "Estimating the time-dependent contact rate of SIR and SEIR models in mathematical epidemiology using physics-informed neural networks",
+      "registry_volume": "56",
+      "registry_issue": null,
+      "registry_pages": "1-27",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2021]]
+        },
+        "published": {
+          "date-parts": [[2021]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2021:CML1",
+      "doi": "10.1137/20M1344913",
+      "registry_result": "retrieved",
+      "registry_title": "Combining Machine Learning and Adaptive Coarse Spaces---A Hybrid Approach for Robust FETI-DP Methods in Three Dimensions",
+      "registry_volume": "43",
+      "registry_issue": "5",
+      "registry_pages": "S816-S838",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2021, 9, 16]]
+        },
+        "published": {
+          "date-parts": [[2021, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Eichinger:2021:SFP",
+      "doi": "10.1007/978-3-030-55874-1_53",
+      "registry_result": "retrieved",
+      "registry_title": "Stationary Flow Predictions Using Convolutional Neural Networks",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "541-549",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 8, 22]]
+        },
+        "published": {
+          "date-parts": [[2020, 8, 22]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2021:FAT",
+      "doi": "10.1007/978-3-030-55874-1_52",
+      "registry_result": "retrieved",
+      "registry_title": "Fully Algebraic Two-Level Overlapping Schwarz Preconditioners for Elasticity Problems",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "531-539",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 8, 22]]
+        },
+        "published": {
+          "date-parts": [[2020, 8, 22]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2021:MLA",
+      "doi": "10.1007/978-3-030-55874-1_58",
+      "registry_result": "retrieved",
+      "registry_title": ["Machine Learning in Adaptive FETI-DP: Reducing the Effort in Sampling"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "593-603",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 8, 22]]
+        },
+        "published": {
+          "date-parts": [[2020, 8, 22]]
+        }
+      },
+      "title_similarity_before_correction": 0.824
+    },
+    {
+      "key": "Heinlein:2021:CML2",
+      "doi": "10.1002/gamm.202100001",
+      "registry_result": "retrieved",
+      "registry_title": "Combining machine learning and domain decomposition methods for the solution of partial differential equations\u2014A review",
+      "registry_volume": "44",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2021, 3]]
+        },
+        "published-online": {
+          "date-parts": [[2021, 3, 17]]
+        },
+        "published": {
+          "date-parts": [[2021, 3]]
+        }
+      },
+      "title_similarity_before_correction": 0.99
+    },
+    {
+      "key": "Heinlein:2020:FFE",
+      "doi": "10.1553/etna_vol53s562",
+      "registry_result": "retrieved",
+      "registry_title": "A frugal FETI-DP and BDDC coarse space for heterogeneous problems",
+      "registry_volume": "53",
+      "registry_issue": null,
+      "registry_pages": "562-591",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2020]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:CSN",
+      "doi": "10.1007/978-3-030-56750-7_30",
+      "registry_result": "retrieved",
+      "registry_title": "Coarse Spaces for Nonlinear Schwarz Methods on Unstructured Grids",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "268-276",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 10, 25]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:MLA",
+      "doi": "10.1007/978-3-030-56750-7_24",
+      "registry_result": "retrieved",
+      "registry_title": ["Machine Learning in Adaptive FETI-DP \u2013 A Comparison of Smart and Random Training Data"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "218-226",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 10, 25]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:LSA",
+      "doi": "10.1007/978-3-030-56750-7_18",
+      "registry_result": "retrieved",
+      "registry_title": "Local Spectra of Adaptive Domain Decomposition Methods",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "167-175",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 10, 25]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:FRO",
+      "doi": "10.1007/978-3-030-56750-7_19",
+      "registry_result": "retrieved",
+      "registry_title": "FROSch: A Fast And Robust Overlapping Schwarz Domain Decomposition Preconditioner Based on Xpetra in Trilinos",
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "176-184",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 10, 25]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:TLE",
+      "doi": "10.1007/978-3-030-56750-7_20",
+      "registry_result": "retrieved",
+      "registry_title": ["A Three-level Extension of the GDSW Overlapping Schwarz Preconditioner in Three Dimensions"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "185-192",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 10, 25]]
+        },
+        "published": {
+          "date-parts": [[2020]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:AHN",
+      "doi": "10.1137/19M1276972",
+      "registry_result": "retrieved",
+      "registry_title": ["Additive and Hybrid Nonlinear Two-Level Schwarz Methods and Energy Minimizing Coarse Spaces for Unstructured Grids"],
+      "registry_volume": "42",
+      "registry_issue": "4",
+      "registry_pages": "A2461-A2488",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2020, 8, 25]]
+        },
+        "published": {
+          "date-parts": [[2020, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2020:RDG",
+      "doi": "10.1002/nme.6258",
+      "registry_result": "retrieved",
+      "registry_title": "Reduced dimension GDSW coarse spaces for monolithic Schwarz domain decomposition methods for incompressible fluid flow problems",
+      "registry_volume": "121",
+      "registry_issue": "6",
+      "registry_pages": "1101-1119",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2020, 3, 30]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 11, 29]]
+        },
+        "published": {
+          "date-parts": [[2019, 11, 29]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:MLA",
+      "doi": "10.1137/18M1205364",
+      "registry_result": "retrieved",
+      "registry_title": "Machine Learning in Adaptive Domain Decomposition Methods---Predicting the Geometric Location of Constraints",
+      "registry_volume": "41",
+      "registry_issue": "6",
+      "registry_pages": "A3887-A3912",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 12, 12]]
+        },
+        "published": {
+          "date-parts": [[2019, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:TLE",
+      "doi": "10.1007/978-3-030-14244-5_10",
+      "registry_result": "HTTP Error 429: Too Many Requests",
+      "registry_title": null,
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": null,
+      "registry_dates": {},
+      "title_similarity_before_correction": null
+    },
+    {
+      "key": "Heinlein:2019:AGD1",
+      "doi": "10.1137/18M1220613",
+      "registry_result": "retrieved",
+      "registry_title": "Adaptive GDSW Coarse Spaces for Overlapping Schwarz Methods in Three Dimensions",
+      "registry_volume": "41",
+      "registry_issue": "5",
+      "registry_pages": "A3045-A3072",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 10, 3]]
+        },
+        "published": {
+          "date-parts": [[2019, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:MOS",
+      "doi": "10.1137/18M1184047",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Monolithic Overlapping Schwarz Domain Decomposition Methods with GDSW Coarse Spaces for Incompressible Fluid Flow Problems"
+      ],
+      "registry_volume": "41",
+      "registry_issue": "4",
+      "registry_pages": "C291-C316",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 7, 2]]
+        },
+        "published": {
+          "date-parts": [[2019, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:IPP",
+      "doi": "10.1007/978-3-319-93873-8_36",
+      "registry_result": "retrieved",
+      "registry_title": ["Improving the Parallel Performance of Overlapping Schwarz Methods by Using a Smaller Energy Minimizing Coarse Space"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "383-392",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2018]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 1, 5]]
+        },
+        "published": {
+          "date-parts": [[2018]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:AGD2",
+      "doi": "10.1007/978-3-319-93873-8_35",
+      "registry_result": "retrieved",
+      "registry_title": ["An Adaptive GDSW Coarse Space for Two-Level Overlapping Schwarz Methods in Two Dimensions"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "373-382",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2018]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 1, 5]]
+        },
+        "published": {
+          "date-parts": [[2018]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2019:AFR",
+      "doi": "10.1002/pamm.201900337",
+      "registry_result": "retrieved",
+      "registry_title": "Applying the FROSch Overlapping Schwarz Preconditioner to Dislocation Mechanics in Deal.II",
+      "registry_volume": "19",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 11]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 11, 18]]
+        },
+        "published": {
+          "date-parts": [[2019, 11]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Giese:2019:CMRa",
+      "doi": "10.1002/pamm.201900398",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Comparison of MRI measurements and CFD simulations of hemodynamics in intracranial aneurysms using a 3D printed model \u2010 A benchmark problem"
+      ],
+      "registry_volume": "19",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 11]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 11, 18]]
+        },
+        "published": {
+          "date-parts": [[2019, 11]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Giese:2019:CMRb",
+      "doi": "10.1002/pamm.201900401",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Comparison of MRI measurements and CFD simulations of hemodynamics in intracranial aneurysms using a 3D printed model \u2010 Influence of noisy MRI measurements"
+      ],
+      "registry_volume": "19",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2019, 11]]
+        },
+        "published-online": {
+          "date-parts": [[2019, 11, 18]]
+        },
+        "published": {
+          "date-parts": [[2019, 11]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2018:MCS",
+      "doi": "10.1553/etna_vol48s156",
+      "registry_result": "retrieved",
+      "registry_title": "Multiscale coarse spaces for overlapping Schwarz methods based on the ACMS space in 2D",
+      "registry_volume": "48",
+      "registry_issue": null,
+      "registry_pages": "156-182",
+      "registry_dates": {
+        "published-online": {
+          "date-parts": [[2018]]
+        },
+        "published": {
+          "date-parts": [[2018]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Fausten:2018:RFS",
+      "doi": "10.1002/pamm.201800312",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Remarks on Fluid\u2010Structure Interaction Simulations in Realistic Arterial Geometries with regard to the Transmural Stress Distribution"
+      ],
+      "registry_volume": "18",
+      "registry_issue": "1",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2018, 12]]
+        },
+        "published-online": {
+          "date-parts": [[2018, 12, 17]]
+        },
+        "published": {
+          "date-parts": [[2018, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2017:POS",
+      "doi": "10.1007/978-3-319-52389-7_36",
+      "registry_result": "retrieved",
+      "registry_title": ["Parallel Overlapping Schwarz with an Energy-Minimizing Coarse Space"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "353-360",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2017]]
+        },
+        "published-online": {
+          "date-parts": [[2017, 3, 18]]
+        },
+        "published": {
+          "date-parts": [[2017]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Fausten:2017:STM",
+      "doi": "10.1002/pamm.201710063",
+      "registry_result": "retrieved",
+      "registry_title": ["Steps Towards More Realistic FSI Simulations of Coronary Arteries"],
+      "registry_volume": "17",
+      "registry_issue": "1",
+      "registry_pages": "187-188",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2017, 12]]
+        },
+        "published-online": {
+          "date-parts": [[2018, 3, 15]]
+        },
+        "published": {
+          "date-parts": [[2017, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2016:PIT",
+      "doi": "10.1137/16M1062843",
+      "registry_result": "retrieved",
+      "registry_title": ["A Parallel Implementation of a Two-Level Overlapping Schwarz Method with Energy-Minimizing Coarse Space Based on Trilinos"],
+      "registry_volume": "38",
+      "registry_issue": "6",
+      "registry_pages": "C713-C747",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2016, 1]]
+        },
+        "published-online": {
+          "date-parts": [[2016, 12, 6]]
+        },
+        "published": {
+          "date-parts": [[2016, 1]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2016:PTO",
+      "doi": "10.1007/978-3-319-39929-4_50",
+      "registry_result": "retrieved",
+      "registry_title": ["Parallel Two-Level Overlapping Schwarz Methods in Fluid-Structure Interaction"],
+      "registry_volume": null,
+      "registry_issue": null,
+      "registry_pages": "521-530",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2016]]
+        },
+        "published-online": {
+          "date-parts": [[2016, 11, 11]]
+        },
+        "published": {
+          "date-parts": [[2016]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Balzani:2016:NMF",
+      "doi": "10.1002/cnm.2756",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "Numerical modeling of fluid\u2013structure interaction in arteries with anisotropic polyconvex hyperelastic and anisotropic viscoelastic material models at finite strains"
+      ],
+      "registry_volume": "32",
+      "registry_issue": "10",
+      "registry_pages": null,
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2016, 10]]
+        },
+        "published-online": {
+          "date-parts": [[2015, 12, 7]]
+        },
+        "published": {
+          "date-parts": [[2015, 12, 7]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Heinlein:2015:ACM",
+      "doi": "10.1016/j.cam.2015.02.053",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "The approximate component mode synthesis special finite element method in two dimensions: Parallel implementation and numerical results"
+      ],
+      "registry_volume": "289",
+      "registry_issue": null,
+      "registry_pages": "116-133",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2015, 12]]
+        },
+        "published": {
+          "date-parts": [[2015, 12]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    },
+    {
+      "key": "Deparis:2015:CPS",
+      "doi": "10.1002/pamm.201510037",
+      "registry_result": "retrieved",
+      "registry_title": [
+        "A Comparison of Preconditioners for the Steklov\u2013Poincar\u00e9 Formulation of the Fluid\u2010Structure Coupling in Hemodynamics"
+      ],
+      "registry_volume": "15",
+      "registry_issue": "1",
+      "registry_pages": "93-94",
+      "registry_dates": {
+        "published-print": {
+          "date-parts": [[2015, 10]]
+        },
+        "published-online": {
+          "date-parts": [[2015, 10, 21]]
+        },
+        "published": {
+          "date-parts": [[2015, 10]]
+        }
+      },
+      "title_similarity_before_correction": 1.0
+    }
+  ]
+}

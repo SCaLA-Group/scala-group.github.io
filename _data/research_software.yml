@@ -1,0 +1,34 @@
+- id: frosch
+  name: FROSch
+  image: /assets/img/software/frosch-logo.png
+  alt: FROSch logo with overlapping blue and red frogs.
+  description: Fast and Robust Overlapping Schwarz preconditioners for parallel simulations. FROSch provides domain decomposition solvers within Trilinos.
+  links:
+    - label: Project website
+      url: https://shylu-frosch.github.io/
+    - label: About Trilinos
+      url: /software/#trilinos
+- id: feddlib
+  name: FEDDLib
+  description: A parallel finite element and domain decomposition library based on Trilinos. It connects application models with scalable solvers and serves as a testbed for FROSch.
+  links:
+    - label: Project website
+      url: https://feddlib.github.io/
+    - label: Code
+      url: https://github.com/FEDDLib/FEDDLib
+- id: trilinos
+  name: Trilinos
+  image: /assets/img/software/trilinos-logo.png
+  alt: Trilinos navy symbol and wordmark.
+  description: An open-source framework for large-scale scientific and engineering computation. Its libraries bring together linear algebra, solvers and discretisation tools for high-performance computing.
+  links:
+    - label: Project website
+      url: https://trilinos.github.io/
+- id: ngsolve
+  name: NGSolve
+  image: /assets/img/software/ngsolve-logo.png
+  alt: NGSolve logo showing a coloured finite element mesh.
+  description: An open-source finite element package for multiphysics problems. Its Python interface supports the development of discretisations and solution algorithms.
+  links:
+    - label: Website and documentation
+      url: https://ngsolve.org/

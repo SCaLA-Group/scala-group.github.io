@@ -1,4 +1,7 @@
-{% if page.url != '/' %}
+{% assign has_parent = false %}
+{% if scala_section and page.url != scala_section.url %}{% assign has_parent = true %}{% endif %}
+{% if page.parent_url %}{% assign has_parent = true %}{% endif %}
+{% if page.url != '/' and has_parent %}
   <div class="scala-page-navigation">
     <nav class="scala-breadcrumb" aria-label="Breadcrumb">
       <ol>
@@ -18,11 +21,11 @@
           </li>
         {% endif %}
         <li aria-current="page">
-          <span>{{ page.title | escape }}</span>
+          <span>{{ scala_display_page_title | default: page.title | escape }}</span>
         </li>
       </ol>
     </nav>
-    {% unless page.layout == 'page' or page.layout == 'post' %}
+    {% unless page.layout == 'page' or page.layout == 'post' or page.layout == 'archive' %}
       {% include scala_section_navigation.liquid %}
     {% endunless %}
   </div>

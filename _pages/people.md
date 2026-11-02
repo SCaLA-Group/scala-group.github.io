@@ -1,7 +1,7 @@
 ---
 layout: page
 sitemap: false
-title: people
+title: People
 permalink: /people/
 nav: false
 redirect: /group/

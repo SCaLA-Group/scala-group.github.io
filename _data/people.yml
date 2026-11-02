@@ -113,11 +113,11 @@
   last_name: Eskiköy
   university: Delft University of Technology
   department: Delft Institute of Applied Mathematics
-  note: Co-supervisor Chris Klijn (TU Delft)
-  category: bachelor students
+  note: Co-supervisor Danny Lathouwers (TU Delft)
+  category: alumni
   name: Uzay Eskiköy
   initials: UE
-  role: Bachelor’s student
+  role: Bachelor’s thesis · completed
   id: uzay-eskikoy
   profile_url: /people/uzay-eskikoy/
 - first_name: Elena
@@ -387,10 +387,11 @@
 - first_name: Thijs
   last_name: Terwiel
   email: R.M.Terwiel@student.tudelft.nl
-  category: alumni
+  category: master students
+  note: Master’s thesis defense scheduled for 3 November 2026.
   name: Thijs Terwiel
   initials: TT
-  role: Master’s thesis · completed or finishing
+  role: Master’s thesis · defense scheduled 3 November 2026
   id: thijs-terwiel
   profile_url: /people/thijs-terwiel/
 - first_name: Elske
@@ -475,3 +476,13 @@
   role: Former member
   id: valdimar-thorsson
   profile_url: /people/valdimar-thorsson/
+- first_name: Nevan
+  last_name: van Laerhoven
+  university: Delft University of Technology
+  note: Co-supervisor Sasa Kenjeres (TU Delft)
+  category: bachelor students
+  name: Nevan van Laerhoven
+  initials: NL
+  role: Bachelor’s student
+  id: nevan-van-laerhoven
+  profile_url: /people/nevan-van-laerhoven/

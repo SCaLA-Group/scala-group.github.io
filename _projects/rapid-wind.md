@@ -9,12 +9,12 @@ category: research
 status: current
 status_checked_on: 2026-11-02
 status_source: https://www.tudelft.nl/en/stories/articles/in-depth-study-underpins-smart-offshore-windturbines
+project_context: Current project
+project_programme: NWO Open Technology Programme
 ---
-
-_Dutch Research Council (NWO) Open Technology Programme project._
 
 RAPID-Wind develops fast analysis and prediction tools for innovative monopile designs for offshore wind turbines in deep waters. Alexander Heinlein contributes to the scientific computing, high-performance computing, and scientific machine learning aspects of the project and supervises PhD and postdoctoral research within the consortium.
 
-**People:** Sahir Sujahudeen and Alexander Heinlein, in collaboration with Oriol Colomés and the project consortium.
+**People:** [Sahir Sujahudeen]({{ "/people/sahir-sujahudeen/" | relative_url }}) and [Alexander Heinlein]({{ "/people/alexander-heinlein/" | relative_url }}), in collaboration with Oriol Colomés and the project consortium.
 
 [Current project overview at TU Delft](https://www.tudelft.nl/en/stories/articles/in-depth-study-underpins-smart-offshore-windturbines) (July 2026).

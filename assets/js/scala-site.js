@@ -1,5 +1,55 @@
 // Site-specific controls; destination links retain the theme's normal behavior.
 document.addEventListener("DOMContentLoaded", () => {
+  const navbar = document.getElementById("navbar");
+  const submenu = document.querySelector(".scala-sticky-submenu");
+  if (navbar) {
+    const updateOffsets = () => {
+      document.documentElement.style.setProperty("--scala-nav-height", `${navbar.getBoundingClientRect().height}px`);
+      document.documentElement.style.setProperty("--scala-submenu-height", `${submenu?.getBoundingClientRect().height || 0}px`);
+    };
+    updateOffsets();
+    if (window.ResizeObserver) {
+      const resizeObserver = new ResizeObserver(updateOffsets);
+      resizeObserver.observe(navbar);
+      if (submenu) resizeObserver.observe(submenu);
+    } else {
+      window.addEventListener("resize", updateOffsets);
+    }
+    const groupNav = submenu?.querySelector(".scala-group-nav[data-page-sections]");
+    if (groupNav) {
+      const links = [...groupNav.querySelectorAll("a")];
+      const updateCategory = () => {
+        const offset = navbar.getBoundingClientRect().height + submenu.getBoundingClientRect().height + 20;
+        let current = links[0];
+        for (const link of links) {
+          const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
+          if (target && target.getBoundingClientRect().top <= offset) current = link;
+        }
+        for (const link of links) {
+          if (link === current) link.setAttribute("aria-current", "location");
+          else link.removeAttribute("aria-current");
+        }
+        if (current && current !== groupNav.scalaCurrentLink) {
+          groupNav.scalaCurrentLink = current;
+          groupNav.scrollLeft = current.offsetLeft - groupNav.offsetLeft - (groupNav.clientWidth - current.offsetWidth) / 2;
+        }
+      };
+      let scheduled = false;
+      window.addEventListener(
+        "scroll",
+        () => {
+          if (!scheduled)
+            requestAnimationFrame(() => {
+              updateCategory();
+              scheduled = false;
+            });
+          scheduled = true;
+        },
+        { passive: true }
+      );
+      updateCategory();
+    }
+  }
   document.querySelectorAll("img[data-portrait-initials]").forEach((image) => {
     const fallback = () => {
       const avatar = document.createElement("div");
@@ -12,7 +62,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (image.complete && !image.naturalWidth) fallback();
   });
   const article = document.querySelector(".post > article");
-  if (article && !article.querySelector(".publications, [data-page-sections]") && !document.querySelector(".scala-context-nav")) {
+  if (
+    article &&
+    !article.querySelector(".publications, [data-page-sections]") &&
+    !document.querySelector(".scala-context-nav, [data-page-sections]")
+  ) {
     const headings = [...article.querySelectorAll("h2")];
     if (headings.length >= 4) {
       const outline = document.createElement("details");
@@ -39,6 +93,33 @@ document.addEventListener("DOMContentLoaded", () => {
       outline.append(summary, nav);
       article.before(outline);
     }
+  }
+  const teachingCatalogue = document.querySelector(".scala-teaching-catalogue");
+  if (teachingCatalogue) {
+    const revealCatalogueTarget = () => {
+      if (!location.hash) return;
+      let target;
+      try {
+        target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+      } catch {
+        return;
+      }
+      if (!target || !teachingCatalogue.contains(target)) return;
+      let opened = false;
+      for (
+        let parent = target.closest("details[data-catalogue-disclosure]");
+        parent;
+        parent = parent.parentElement.closest("details[data-catalogue-disclosure]")
+      ) {
+        if (!parent.open) {
+          parent.open = true;
+          opened = true;
+        }
+      }
+      if (opened) requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
+    };
+    revealCatalogueTarget();
+    window.addEventListener("hashchange", revealCatalogueTarget);
   }
   document.querySelectorAll("[data-bib-panel] pre").forEach((pre) => {
     pre.tabIndex = 0;

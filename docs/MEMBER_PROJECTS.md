@@ -12,6 +12,6 @@ The six previously flagged descriptions have received a source-based editorial r
 
 ## Missing descriptions
 
-No member is missing a topic-level summary. Uzay Eskiköy’s available notes establish only Darcy-flow implementation, so that description is intentionally brief. Shivang Sachar’s description is limited to the broad project area and partner; confidential technical content has been omitted.
+No member is missing a topic-level summary. Uzay Eskiköy’s description follows the updated thesis record: sparse model discovery and inverse recovery for heterogeneous diffusion-type problems, including Darcy flow and neutron diffusion. Shivang Sachar’s description is limited to the broad project area and partner; confidential technical content has been omitted.
 
 If a description is later removed pending confirmation, leave its `summary` empty and record the gap here. The member page will retain its project section.

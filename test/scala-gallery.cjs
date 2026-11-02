@@ -23,7 +23,7 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
       assert.ok((await software.locator("img").getAttribute("src")).includes("/assets/img/software/"));
       const officialSites = ["https://shylu-frosch.github.io/", "https://feddlib.github.io/", "https://trilinos.github.io/", "https://ngsolve.org/"];
       assert.equal(await software.locator(".scala-gallery-image").getAttribute("href"), officialSites[index]);
-      assert.equal(await software.locator("figcaption > a").getAttribute("href"), `/al-folio/software/#${name.toLowerCase()}`);
+      assert.equal(await software.locator(".scala-gallery-action").getAttribute("href"), `/al-folio/software/#${name.toLowerCase()}`);
     }
     assert.equal(await gallery.locator("[data-gallery-pause-icon]").isVisible(), true);
     assert.equal(await gallery.locator("[data-gallery-play-icon]").isVisible(), false);
@@ -57,7 +57,7 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
       assert.ok(await image.getAttribute("alt"));
       const description = await slide.locator(".scala-gallery-description").innerText();
       assert.ok(description.split(/\s+/).length >= 15, "Every slide has a short descriptive paragraph");
-      const href = await slide.locator("figcaption > a").getAttribute("href");
+      const href = await slide.locator(".scala-gallery-action").getAttribute("href");
       const url = new URL(href, base);
       const response = await page.request.get(url.href);
       assert.equal(response.status(), 200, `Slide destination ${href}`);
@@ -67,6 +67,12 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
         for (const theme of ["light", "dark"]) {
           await page.evaluate((value) => (document.documentElement.dataset.theme = value), theme);
           assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
+        }
+        if (width === 1440) {
+          const action = await slide.locator(".scala-gallery-action").boundingBox();
+          const credit = await slide.locator(".scala-gallery-credit").boundingBox();
+          assert.ok(Math.abs(action.y - credit.y) < 8, "Action and credit share one desktop row");
+          assert.ok(credit.x > action.x + action.width, "Credit aligns to the right of the action");
         }
         if (width === 768) heights.push(Math.round((await gallery.boundingBox()).height));
       }

@@ -91,7 +91,7 @@ a.scala-button:hover {
   border: 1px solid var(--global-divider-color);
   border-top: 2px solid var(--scala-cyan);
   background: var(--global-card-bg-color);
-  padding: 1.4rem;
+  padding: 1.05rem;
   border-radius: 0.5rem;
   min-width: 0;
   overflow-wrap: anywhere;
@@ -105,8 +105,10 @@ a.scala-card:hover {
 }
 .scala-card h2,
 .scala-card h3 {
-  font-size: 1.25rem;
-  margin: 0.7rem 0;
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0.5rem 0;
 }
 .scala-card p:last-child {
   margin-bottom: 0;
@@ -221,7 +223,7 @@ html[data-theme="dark"] {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 1.25rem;
-  margin: 1.5rem 0 2.5rem;
+  margin: 0 0 2.5rem;
 }
 .scala-member-group > h2 {
   margin-top: 0;
@@ -290,7 +292,7 @@ html[data-theme="dark"] {
   }
 }
 :focus-visible {
-  outline: 3px solid var(--scala-cyan);
+  outline: 3px solid var(--global-theme-color);
   outline-offset: 3px;
 }
 
@@ -577,7 +579,8 @@ html[data-theme="dark"] .scala-home {
     img {
       display: block;
       width: 100%;
-      height: clamp(11rem, 22vw, 14rem);
+      // The compact metadata row leaves more image space at the same panel height.
+      height: clamp(11rem, 22vw, 14.4rem);
       object-fit: contain;
     }
   }
@@ -607,8 +610,21 @@ html[data-theme="dark"] .scala-home {
   font-size: 0.85rem;
   line-height: 1.5;
 }
+.scala-gallery-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  > .scala-gallery-action {
+    flex: 0 0 auto;
+  }
+}
 .scala-home-gallery .scala-gallery-credit {
-  margin: 0.4rem 0 0;
+  flex: 0 1 auto;
+  margin: 0 0 0 auto;
+  text-align: right;
+  font-size: 0.7rem;
   color: var(--home-muted);
   line-height: 1.4;
   a {
@@ -952,6 +968,7 @@ html[data-theme="dark"] .scala-home {
     margin: 0.6rem 0;
     font-size: 1.25rem;
     line-height: 1.4;
+    font-weight: 500;
   }
 }
 .scala-blog-card-body {
@@ -1073,7 +1090,7 @@ html[data-theme="dark"] .scala-home {
 
 /* Shared hierarchy and sibling navigation across pages and collections. */
 .scala-page-navigation {
-  margin: 0 0 1.5rem;
+  margin: 0 0 0.65rem;
   .scala-breadcrumb {
     margin-bottom: 0.65rem;
   }
@@ -1163,22 +1180,26 @@ html[data-theme="dark"] .scala-home {
       display: none;
     }
     &::before {
-      content: "›";
-      color: var(--global-theme-color);
-      font-size: 1.4rem;
-      line-height: 1;
-      transform: rotate(0deg);
+      content: "";
+      flex: 0 0 0.4rem;
+      width: 0.4rem;
+      height: 0.4rem;
+      border-right: 1.5px solid currentColor;
+      border-bottom: 1.5px solid currentColor;
+      transform: rotate(-45deg);
     }
     h2.bibliography {
       margin: 0;
-      font-size: 1.3rem;
+      font-size: 1.25rem;
+      font-weight: 500;
+      line-height: 1.4;
     }
     &:hover h2 {
       color: var(--global-theme-color);
     }
   }
   &[open] > summary::before {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
   }
   .scala-year-count {
     margin-left: auto;
@@ -1290,16 +1311,84 @@ html[data-theme="dark"] .post .scala-year-group .scala-year-count {
 .scala-page-navigation .scala-context-nav {
   margin-top: 0.75rem;
 }
-.scala-teaching-overview .scala-card h2 {
-  margin-top: 0;
-  font-size: 1.4rem;
+// Teaching overview: open sections and compact rows instead of equal-height cards.
+.scala-teaching-overview {
+  section + section {
+    margin-top: 2rem;
+  }
+  .scala-teaching-section-heading,
+  .scala-teaching-section-title {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+  }
+  .scala-teaching-section-heading {
+    justify-content: space-between;
+    padding-bottom: 0.55rem;
+    border-bottom: 2px solid var(--global-theme-color);
+    > a {
+      font-size: 0.85rem;
+    }
+  }
+  .scala-teaching-section-heading h2 {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .scala-teaching-year {
+    font-size: 0.9rem;
+  }
+  .scala-teaching-summary-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+    h3 {
+      margin: 0 0 0.3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.45;
+    }
+    h3 a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .scala-teaching-summary-meta {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  .scala-teaching-enquiry {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin-top: 1.5rem;
+    padding: 0.9rem 1rem;
+    border-radius: 0.3rem;
+    background: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
+    font-size: 0.9rem;
+    p {
+      margin: 0;
+    }
+  }
 }
-.scala-teaching-overview ul {
-  padding-left: 1.2rem;
-}
-.scala-teaching-overview li {
-  margin: 0.65rem 0;
-  line-height: 1.5;
+@media (max-width: 767px) {
+  .scala-teaching-overview .scala-teaching-summary-list {
+    grid-template-columns: 1fr;
+  }
 }
 .scala-topic-links {
   display: flex;
@@ -1312,12 +1401,6 @@ html[data-theme="dark"] .post .scala-year-group .scala-year-count {
 /* A shared reading rhythm, while grids and tables retain the full page width. */
 .post > .post-header {
   margin-bottom: 1.5rem;
-  .post-title {
-    font-size: clamp(2rem, 4vw, 2.65rem);
-    line-height: 1.15;
-    letter-spacing: -0.025em;
-    margin-bottom: 0.65rem;
-  }
   .post-description {
     max-width: 72ch;
     line-height: 1.6;
@@ -1335,6 +1418,7 @@ html[data-theme="dark"] .post .scala-year-group .scala-year-count {
   > h2,
   > section > h2,
   .scala-member-group > h2,
+  .scala-profile-section > h2,
   .scala-teaching-catalogue section > h2 {
     font-size: clamp(1.4rem, 2.5vw, 1.8rem);
     line-height: 1.3;
@@ -1344,7 +1428,14 @@ html[data-theme="dark"] .post .scala-year-group .scala-year-count {
 }
 .post-content > p,
 .post-content > ul,
-.post-content > ol {
+.post-content > ol,
+.post-content #markdown-content > p,
+.post-content #markdown-content > ul,
+.post-content #markdown-content > ol,
+.post-content #markdown-content > blockquote,
+.scala-profile-details > p,
+.scala-profile-section > p,
+.scala-member-project > p {
   max-width: 74ch;
   line-height: 1.7;
 }
@@ -1420,5 +1511,636 @@ html[data-theme="dark"] .post .scala-year-group .scala-year-count {
   }
   .scala-home-gallery {
     margin-top: 0;
+  }
+}
+
+/* All inner pages share the same title/control row and optional metadata. */
+#main-content.scala-inner-page {
+  margin-top: 1rem;
+}
+.post > .scala-page-header {
+  margin-bottom: 1.25rem;
+  .post-title {
+    margin: 0;
+    min-width: 0;
+    font-size: clamp(1.8rem, 3vw, 2.25rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+  .scala-section-nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    gap: 0.15rem 0.25rem;
+    a {
+      min-height: 36px;
+      padding: 0.3rem 0.55rem;
+    }
+  }
+  .scala-group-nav a {
+    border: 0;
+    border-radius: 0.25rem;
+  }
+}
+.scala-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem 1.5rem;
+}
+.scala-header-controls {
+  display: flex;
+  flex: 1 0 auto;
+  max-width: 100%;
+  justify-content: flex-end;
+  .scala-section-nav {
+    justify-content: flex-end;
+  }
+}
+.scala-header-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.85rem;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #626262;
+}
+html[data-theme="dark"] .scala-header-meta {
+  color: #b5b5b5;
+}
+.scala-member-group .scala-people {
+  margin-top: 0.75rem;
+}
+@media (max-width: 991px) {
+  .scala-header-controls {
+    flex-basis: 100%;
+    justify-content: flex-start;
+    .scala-section-nav {
+      justify-content: flex-start;
+    }
+  }
+}
+@media (pointer: coarse) {
+  .scala-page-header .scala-section-nav a {
+    min-height: 44px;
+  }
+}
+.scala-bib-search {
+  flex: 0 1 26rem;
+  width: 26rem;
+  min-width: min(100%, 15rem);
+  position: relative;
+  .bibsearch-form-input {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0.55rem 0.8rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    border-radius: 0.35rem;
+  }
+}
+.scala-search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.scala-bibliography-list > .publications {
+  margin-top: 0;
+  > .scala-year-group:first-child {
+    margin-top: 0;
+    border-top: 0;
+  }
+  .scala-year-group > summary {
+    min-height: 40px;
+    padding: 0.4rem 0;
+    h2.bibliography {
+      border: 0;
+      padding: 0;
+      text-align: left;
+      line-height: 1.3;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .scala-bib-search {
+    flex-basis: 100%;
+  }
+}
+@media (pointer: coarse) {
+  .scala-bib-search .bibsearch-form-input,
+  .scala-bibliography-list .scala-year-group > summary {
+    min-height: 44px;
+  }
+}
+/* Story content follows the same reading width and heading rhythm as pages. */
+.post-content #markdown-content {
+  > p,
+  > ul,
+  > ol {
+    max-width: 74ch;
+    line-height: 1.7;
+  }
+  > h2 {
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+  }
+}
+
+/* Teaching listings are summaries; full project information lives on detail pages. */
+.scala-teaching-catalogue {
+  .scala-grid {
+    gap: 0.75rem;
+    margin: 0.75rem 0 1.75rem;
+    align-items: start;
+  }
+  .scala-teaching-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  }
+  .scala-card {
+    padding: 0.85rem 1rem;
+    h3 {
+      font-size: 1.05rem;
+      line-height: 1.35;
+      margin: 0 0 0.4rem;
+    }
+    p {
+      font-size: 0.85rem;
+      line-height: 1.45;
+      margin: 0.25rem 0;
+    }
+    a {
+      margin-right: 0;
+    }
+    > a {
+      font-size: 0.85rem;
+      line-height: 1.45;
+    }
+    > a:last-child {
+      margin-top: 0.35rem;
+      padding-top: 0;
+    }
+    .scala-card-actions {
+      margin-top: 0.45rem;
+      margin-bottom: 0;
+    }
+  }
+  .scala-archive-card {
+    padding: 0.7rem 0.85rem;
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+    .scala-archive-meta {
+      margin-top: 0.2rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+/* Native disclosures keep teaching archives compact and usable without JavaScript. */
+.scala-teaching-catalogue {
+  .scala-catalogue-disclosure {
+    margin: 0.65rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+    > summary {
+      display: flex;
+      align-items: baseline;
+      gap: 0.65rem;
+      padding: 0.8rem 0;
+      cursor: pointer;
+      list-style: none;
+      &::-webkit-details-marker {
+        display: none;
+      }
+      &::before {
+        content: "";
+        flex: 0 0 0.4rem;
+        width: 0.4rem;
+        height: 0.4rem;
+        border-right: 1.5px solid currentColor;
+        border-bottom: 1.5px solid currentColor;
+        transform: rotate(-45deg);
+        align-self: center;
+      }
+      h2 {
+        display: flex;
+        align-items: baseline;
+        gap: 0.65rem;
+        flex: 1;
+        margin: 0;
+        font-size: 1.25rem;
+        line-height: 1.4;
+        font-weight: 500;
+      }
+      &:hover h2 {
+        color: var(--global-theme-color);
+      }
+      &:focus-visible {
+        outline: 2px solid var(--global-theme-color);
+        outline-offset: 3px;
+        border-radius: 0.2rem;
+      }
+    }
+    &[open] > summary::before {
+      transform: rotate(45deg);
+    }
+  }
+  .scala-catalogue-title {
+    flex: 1;
+  }
+  .scala-catalogue-count {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+  .scala-catalogue-availability {
+    margin: -0.25rem 0 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Secondary navigation stays below the primary menu, except on the homepage. */
+.scala-sticky-submenu {
+  position: sticky;
+  top: var(--scala-nav-height, 75px);
+  z-index: 1020;
+  border-bottom: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+}
+.scala-submenu-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.scala-sticky-submenu .scala-section-nav {
+  flex: 1;
+  min-width: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  overscroll-behavior-x: contain;
+  margin: 0;
+  padding: 0.15rem 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  gap: 0.15rem;
+  a {
+    flex: 0 0 auto;
+    min-height: 40px;
+    padding: 0.4rem 0.65rem;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 0.25rem;
+  }
+}
+#main-content.scala-home-main {
+  margin-top: 1.5rem;
+}
+#main-content,
+#main-content [id] {
+  scroll-margin-top: calc(var(--scala-nav-height, 75px) + var(--scala-submenu-height, 0px) + 16px);
+}
+@media (pointer: coarse) {
+  .scala-sticky-submenu .scala-section-nav a {
+    min-height: 44px;
+  }
+}
+
+.scala-sticky-submenu a:focus-visible {
+  outline-offset: -3px;
+}
+@media (min-width: 1100px) {
+  .scala-sticky-submenu .scala-section-nav > a:first-child {
+    margin-left: auto;
+  }
+}
+
+/* Opportunities: three clear routes and one shared contact point. */
+.scala-opportunities {
+  .scala-opportunities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem 2rem;
+    > section {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      border-top: 2px solid var(--global-theme-color);
+      padding-top: 0.9rem;
+    }
+  }
+  h2 {
+    margin: 0 0 0.65rem;
+    font-size: 1.25rem;
+    line-height: 1.35;
+    font-weight: 500;
+  }
+  p {
+    margin: 0 0 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+  .scala-opportunity-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1rem;
+    margin: auto 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+  }
+  .scala-opportunities-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 2rem;
+    margin-top: 2rem;
+    padding: 1.1rem 1.25rem;
+    border-radius: 0.35rem;
+    background: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
+    > div {
+      max-width: 65ch;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin-bottom: 0.4rem;
+    }
+    p {
+      margin-bottom: 0;
+    }
+    .scala-button {
+      flex: 0 0 auto;
+      font-size: 0.9rem;
+    }
+  }
+  .scala-opportunities-location {
+    font-size: 0.85rem;
+    margin: 0.8rem 0 0;
+  }
+}
+@media (max-width: 991px) {
+  .scala-opportunities .scala-opportunities-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .scala-opportunities .scala-opportunities-contact {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+/* Shared hierarchy and metadata for profiles and expandable archives. */
+.scala-member-project > h3 {
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0.5rem 0 0.75rem;
+}
+.scala-catalogue-count {
+  color: #626262;
+  font-weight: 400;
+}
+html[data-theme="dark"] .scala-catalogue-count {
+  color: #b5b5b5;
+}
+
+/* Research pages connect themes, funded projects and scientific software. */
+.scala-research-themes {
+  .scala-research-theme {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 1rem 2rem;
+    padding: 1.1rem 0;
+    border-top: 1px solid var(--global-divider-color);
+    h2 {
+      margin: 0 0 0.65rem;
+      font-size: 1.45rem;
+      font-weight: 500;
+      line-height: 1.35;
+    }
+    p {
+      margin: 0 0 0.7rem;
+      max-width: 74ch;
+    }
+    figure {
+      min-width: 0;
+      margin: 0;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: 145px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 0.25rem;
+    }
+    figcaption {
+      margin-top: 0.4rem;
+      font-size: 0.7rem;
+      line-height: 1.45;
+    }
+  }
+  .scala-topic-links {
+    margin: 0;
+    gap: 0.35rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+.scala-research-closing {
+  margin: 1rem 0 0;
+  font-size: 0.9rem;
+  max-width: 74ch;
+}
+.scala-research-intro {
+  margin-bottom: 1rem;
+  max-width: 74ch;
+}
+.scala-project-list {
+  .scala-current-projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: start;
+    margin: 0.8rem 0 2rem;
+  }
+  .scala-card > p {
+    font-size: 0.95rem;
+    margin: 0.4rem 0;
+  }
+  .scala-card .scala-research-project-meta {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+}
+.scala-research-section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  h2 {
+    margin: 0;
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    line-height: 1.3;
+    font-weight: 500;
+  }
+  > span {
+    flex: 0 0 auto;
+    font-size: 0.85rem;
+  }
+}
+.scala-previous-projects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2rem;
+  margin: 0.65rem 0 0;
+  padding: 0;
+  list-style: none;
+  > li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+.scala-software-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+}
+.scala-software-entry {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  p {
+    margin: 0 0 0.75rem;
+  }
+  .scala-topic-links {
+    margin: auto 0 0;
+    font-size: 0.85rem;
+    gap: 0.35rem 1rem;
+  }
+}
+.scala-software-header {
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.scala-software-identity {
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  max-width: 100%;
+  height: 76px;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border-radius: 0.25rem;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.scala-research-project-context {
+  margin-bottom: 1.25rem;
+}
+.scala-research-project-summary {
+  max-width: 74ch;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  margin: 0 0 0.65rem;
+}
+.scala-research-project-context .scala-research-project-meta {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  margin: 0;
+  font-size: 0.85rem;
+}
+.scala-project-status {
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  font-weight: 500;
+}
+.scala-project-return-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  margin-top: 1.5rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.85rem;
+}
+@media (max-width: 767px) {
+  .scala-research-themes .scala-research-theme,
+  .scala-project-list .scala-current-projects,
+  .scala-previous-projects,
+  .scala-software-grid {
+    grid-template-columns: 1fr;
+  }
+  .scala-research-themes .scala-research-theme figure {
+    width: 240px;
+    max-width: 100%;
+  }
+}
+
+/* Shared university and partner information for thesis lists and profiles. */
+.scala-thesis-context {
+  margin: 0.6rem 0;
+  line-height: 1.5;
+  > div {
+    margin-top: 0.15rem;
+  }
+  dt,
+  dd {
+    display: inline;
+    margin: 0;
+  }
+  dt {
+    font-weight: 500;
+  }
+  dd {
+    overflow-wrap: anywhere;
+  }
+  &--compact {
+    margin: 0.35rem 0;
+    font-size: 0.82rem;
+    line-height: 1.45;
   }
 }

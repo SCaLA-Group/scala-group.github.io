@@ -1,0 +1,19 @@
+{% assign context_project = include.project %}
+{% if context_project.institution or context_project.collaboration %}
+  <dl class="scala-thesis-context{% if include.compact %} scala-thesis-context--compact{% endif %}">
+    {% if context_project.institution %}
+      <div>
+        <dt>Main university:</dt>
+        <dd>{{ context_project.institution | escape }}</dd>
+      </div>
+    {% endif %}
+    {% if context_project.collaboration %}
+      <div>
+        <dt>
+          {% if context_project.collaboration_type == 'industry' %}Industry partner:{% else %}Collaboration:{% endif %}
+        </dt>
+        <dd>{{ context_project.collaboration | escape }}</dd>
+      </div>
+    {% endif %}
+  </dl>
+{% endif %}

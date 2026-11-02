@@ -1,0 +1,26 @@
+{% include scala_navigation_context.liquid %}
+{% capture header_controls %}
+  {% if page.bibliography_page and site.bib_search %}
+    <div class="scala-bib-search">
+      <label for="bibsearch" class="scala-search-label">Search {{ page.title | downcase }} by title, name, venue or year</label>
+      {% capture bibliography_search %}{% include bib_search.liquid %}{% endcapture %}
+      {{ bibliography_search | replace: 'Type to filter', 'Search by title, name, venue or year' }}
+    </div>
+  {% endif %}
+{% endcapture %}
+{% assign header_controls = header_controls | strip %}
+{% assign header_metadata = include.metadata %}
+{% if header_metadata == null and scala_category_url == '/teaching/courses/' %}
+  {% assign header_metadata = page.description %}
+{% endif %}
+<header class="post-header scala-page-header">
+  <div class="scala-header-row">
+    <h1 class="post-title">{{ include.title | default: scala_display_page_title | default: page.title }}</h1>
+    {% if header_controls != '' %}
+      <div class="scala-header-controls">{{ header_controls }}</div>
+    {% endif %}
+  </div>
+  {% if header_metadata %}
+    <div class="scala-header-meta">{{ header_metadata }}</div>
+  {% endif %}
+</header>

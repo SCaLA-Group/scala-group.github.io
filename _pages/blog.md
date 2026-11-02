@@ -1,6 +1,6 @@
 ---
 layout: page
-title: blog
+title: Blog
 permalink: /blog/
 description: Stories from workshops, conferences and our research community.
 nav: true
