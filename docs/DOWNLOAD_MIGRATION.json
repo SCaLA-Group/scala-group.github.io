@@ -1,0 +1,446 @@
+{
+  "migrated_on": "2026-11-01",
+  "files": [
+    {
+      "url": "https://searhein.github.io/assets/pdf/publications/2022/2022-heinlein-agd.pdf",
+      "path": "assets/pdf/publications/2022/2022-heinlein-agd.pdf",
+      "exists": true,
+      "bytes": 4505299,
+      "sha256": "98102895bb9808bfbbc6e8c99fb1fc0ef819d7922ac9b3bd11854347d9215f26"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2021/2021-heinlein-ddss-esf/2021-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2021/2021-heinlein-ddss-esf/2021-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 8389264,
+      "sha256": "402450c7c26cab619285eb26d35c5957d640bf689e58c88cabaee16ab3965562"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2021/2021-heinlein-tug-fro/2021-heinlein-frosch_land_ice_simulations.pdf",
+      "path": "assets/pdf/slides/2021/2021-heinlein-tug-fro/2021-heinlein-frosch_land_ice_simulations.pdf",
+      "exists": true,
+      "bytes": 16239134,
+      "sha256": "9fb2379dee2b47c0d4d32cde6c14094824c0fadf7ef89f2c597e6b3807f6daba"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2022/2022-heinlein-dd27-ras/2022-heinlein-schwarz.pdf",
+      "path": "assets/pdf/slides/2022/2022-heinlein-dd27-ras/2022-heinlein-schwarz.pdf",
+      "exists": true,
+      "bytes": 25038438,
+      "sha256": "ef982161267abf7b4060b783d39bbc72905204292843de991012950e638a8630"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2022/2022-heinlein-eccomas-psd/2022-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2022/2022-heinlein-eccomas-psd/2022-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 15290350,
+      "sha256": "cb71ae4187075a324238933c40e06ee111a8f1534c1f9d57d16a87f71e7bae9d"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2022/2022-heinlein-hlrs-nnp/2022-heinlein-pinns.pdf",
+      "path": "assets/pdf/slides/2022/2022-heinlein-hlrs-nnp/2022-heinlein-pinns.pdf",
+      "exists": true,
+      "bytes": 30796807,
+      "sha256": "6fb64bbc2ba06257afdae408b6e4e192251777d31254db15734150b9e9dc8c7f"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2022/2022-heinlein-icms-fas/2022-heinlein-adaptive.pdf",
+      "path": "assets/pdf/slides/2022/2022-heinlein-icms-fas/2022-heinlein-adaptive.pdf",
+      "exists": true,
+      "bytes": 24044974,
+      "sha256": "f9c4b00898e31c789b1e8ba975920c1845d397910d8c9e2b594fe05a0040ce86"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-cds-fro/2023-heinlein-trilinos_frosch.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-cds-fro/2023-heinlein-trilinos_frosch.pdf",
+      "exists": true,
+      "bytes": 41210803,
+      "sha256": "e4c4b94731853876e7fa9d605c0529b6f81b04dbb34808a75fac8361a59bd430"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-ctu-ddm/2023-heinlein-heterogeneous.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-ctu-ddm/2023-heinlein-heterogeneous.pdf",
+      "exists": true,
+      "bytes": 33602002,
+      "sha256": "a89b59d775e044abe480f7691afe0b2d401ec26adeacfd72a13df9bf0adbc407"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-dcse-fro/2023-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-dcse-fro/2023-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 20334653,
+      "sha256": "68ea140012ca009931a9272a547178fcd858487ce377d4a8008c45099e9eb609"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-ducoms-dpi/2023-heinlein-fbpinns-short.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-ducoms-dpi/2023-heinlein-fbpinns-short.pdf",
+      "exists": true,
+      "bytes": 9864907,
+      "sha256": "a9d69dd735c6f7ce2d83863825023765f5c41ff0299434269f9352165cb00707"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-eurotug-tt/2023-heinlein-trilinos.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-eurotug-tt/2023-heinlein-trilinos.pdf",
+      "exists": true,
+      "bytes": 4922482,
+      "sha256": "6068e80f721dddc5f618a3baa62689d9eca02a46a7a4be35a4bf1f3de610e12f"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-hlrs-nnp/2023-heinlein-sciml.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-hlrs-nnp/2023-heinlein-sciml.pdf",
+      "exists": true,
+      "bytes": 24754351,
+      "sha256": "b202de0d94c838b5c0815d9d99a07fd9bd71ef7c96961f3ec394c4b03b36e743"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-iciam-fro/2023-heinlein-frosch_nonlinear.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-iciam-fro/2023-heinlein-frosch_nonlinear.pdf",
+      "exists": true,
+      "bytes": 13029256,
+      "sha256": "3d973f9f4543b42424eaa0caea5c7ec9c6c4064d588e468b505a906f552af9c4"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-simtech-nnp/2023-heinlein-pinns.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-simtech-nnp/2023-heinlein-pinns.pdf",
+      "exists": true,
+      "bytes": 34075031,
+      "sha256": "36d5bce50c3b36a51fac4abf12c1ca8bb2d117e89b7cd0f53766b14edc7f8a3b"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-tug-fro/2023-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-tug-fro/2023-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 10765421,
+      "sha256": "15b240df64cc8ba678f3fc21467e6b63e789dd5cdd6b142239bf71adf142381e"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-tum-sciml/2023-heinlein-sciml.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-tum-sciml/2023-heinlein-sciml.pdf",
+      "exists": true,
+      "bytes": 26570659,
+      "sha256": "ab6a5ca512e6922a4184d77a6e5c88161817d1b51ca765da25700ebfd570f4d9"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2023/2023-heinlein-um-fbpinns/2023-heinlein-fbpinns.pdf",
+      "path": "assets/pdf/slides/2023/2023-heinlein-um-fbpinns/2023-heinlein-fbpinns.pdf",
+      "exists": true,
+      "bytes": 5789151,
+      "sha256": "79669abc5f99e4b2b2c5054a19394af6a0f911180ddf9409bd6cb5401f80792b"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-ancs-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-ancs-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 5679852,
+      "sha256": "9ff325a59b3625c07be8cbf6e10eac2a17eac2ee8fd410756f4ef1bae0e2e27c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-cas-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-cas-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 6675926,
+      "sha256": "2eb9a1edc36c6eb0a39898645d7ba5b23a8f9e0f980caedfa19bcc55c57a8977"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-casa-multilevel_dd/2024-heinlein-multilevel_dd.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-casa-multilevel_dd/2024-heinlein-multilevel_dd.pdf",
+      "exists": true,
+      "bytes": 14461293,
+      "sha256": "257b3efb238a607b7b564de49cf6c0bf737d14c58b40c4937c449dd93408b1bc"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-casml-surrogates/2024-heinlein-surrogates.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-casml-surrogates/2024-heinlein-surrogates.pdf",
+      "exists": true,
+      "bytes": 26922054,
+      "sha256": "ffcaf75692b4ee4bb02413eb26bd45bdf000ddb8e56544fa59034f2546ae3732"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-crunch-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-crunch-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 6673522,
+      "sha256": "a2182b7d8c86b41ce602987b34eb5d9cd6df65ecb288337aeed9010dd948e1a2"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-dd28-fbpinns/2024-heinlein-fbpinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-dd28-fbpinns/2024-heinlein-fbpinns.pdf",
+      "exists": true,
+      "bytes": 5903233,
+      "sha256": "641b2d20aa64d740ed5dd75b1cb20ddf5ed441b0434f76aaf5a2dba49432bae5"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-dd28-nonlinear_schwarz/2024-heinlein-nonlinear_schwarz.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-dd28-nonlinear_schwarz/2024-heinlein-nonlinear_schwarz.pdf",
+      "exists": true,
+      "bytes": 16450190,
+      "sha256": "1fbf1f7a5dabe91e11c850393983a590251f9d8065d0ff3ab11933a04d544fd1"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-dlnm-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-dlnm-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 5742904,
+      "sha256": "9317e2da8d4c22edd81d82a1d5f7c32b484102fd989bce525708fd16b1f9657d"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-eccomas2024-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-eccomas2024-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 21460739,
+      "sha256": "c2591102a3ce549a1fdec52dcca76d2fdcef94ed2d84f88c9a2bbe38b6c8fac0"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-geneva-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-geneva-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 5858739,
+      "sha256": "e9c61217aced06dac5bbfff400d2a14a6c40af4d43e41e830928e3fb99748537"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-hpcse2024-fro/2024-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-hpcse2024-fro/2024-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 11710104,
+      "sha256": "50ff80b28bf5479d55de2ed2dfba97eff3a84998610e079b1516e3d21db7c12c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-ighasc-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-ighasc-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 23065715,
+      "sha256": "2e7afbc9f005582520f17edcdb38f6630a981112f099190cdd377977f80a0b9e"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-irma2024-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-irma2024-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 11945605,
+      "sha256": "93ef7b050075b0b82e4a1b1b6e8041a62ef8455e2900d2726894895ad7a66292"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-iwr-multilevel_dd/2024-heinlein-multilevel_dd.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-iwr-multilevel_dd/2024-heinlein-multilevel_dd.pdf",
+      "exists": true,
+      "bytes": 40745788,
+      "sha256": "413b6716fc3a7219bcc39df19c6c0602897327a810e3b837270192fd288a444a"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-konstanz-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-konstanz-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 15128948,
+      "sha256": "6e61d8974e1df00e55d1cdff4db4491b9c232e70f4cc5ac6d44652fb3dd23cf2"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-nhr-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-nhr-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 25167068,
+      "sha256": "a79d93de6f792e5331ace68ce43afc310da3812e943af022a9af6b7f29a2c21f"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-p24-icl/2024-heinlein-dd-coarse_spaces.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-p24-icl/2024-heinlein-dd-coarse_spaces.pdf",
+      "exists": true,
+      "bytes": 15469887,
+      "sha256": "605dc612085fc32e6ef7794145a7a7d4e575a46bef970e5115c3df23e671102c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-sandia-fro/2024-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-sandia-fro/2024-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 12402411,
+      "sha256": "9192b5b30e079ab8b73b53672e51af79e0b4a58d278f18bdcb5fc6f67404f42d"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-siampp24-esp/2024-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-siampp24-esp/2024-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 8176149,
+      "sha256": "db7ac106931ca2a7d63ddb10804debb291177d2a62db5a18c8ab05b57936e747"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-siat-ddn/2024-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-siat-ddn/2024-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 11941974,
+      "sha256": "c605041bf7bfdb887215147a615a1f38f6458bd4524b0f96eefb59d6ed85f46d"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-um-fro/2024-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-um-fro/2024-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 11536525,
+      "sha256": "d4e98ebbb6a3e141620fe919a53567fd69c100167d072b2f8c0e798315880f6e"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2024/2024-heinlein-xut-ddp/2024-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2024/2024-heinlein-xut-ddp/2024-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 6637118,
+      "sha256": "9621ef0ff6b1b99d2b13430c1e585d13121d614692f7786edbb60f1a7cb85334"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-aicomas-ddr/2025-heinlein-dd-ranns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-aicomas-ddr/2025-heinlein-dd-ranns.pdf",
+      "exists": true,
+      "bytes": 2765412,
+      "sha256": "2764e6a4a7e753e86e0d42b4a4732ab61856785dc1f04bcdea3ec38c312ee72f"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-asml-ddm/2025-heinlein-ddm_sciml.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-asml-ddm/2025-heinlein-ddm_sciml.pdf",
+      "exists": true,
+      "bytes": 55398981,
+      "sha256": "5a7fe703e1aceafdeef4634f3b23000a389a5e5640ed0f5ca517e2bfbca64c55"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-dd29-afp/2025-heinlein-frosch.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-dd29-afp/2025-heinlein-frosch.pdf",
+      "exists": true,
+      "bytes": 5334533,
+      "sha256": "820d4ce0e407fb2aad7ae62d0c0fbad306b5e810efa5e23231f31c3d14b073ac"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-dd29-ddp/2025-heinlein-dd-pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-dd29-ddp/2025-heinlein-dd-pinns.pdf",
+      "exists": true,
+      "bytes": 2460896,
+      "sha256": "113ad97054038fa513cca5ffe4434a9b4af6cd99143355470e52b0a3c9721f28"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-ddag-nnl/2025-heinlein-pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-ddag-nnl/2025-heinlein-pinns.pdf",
+      "exists": true,
+      "bytes": 1502622,
+      "sha256": "0c8772a25b6848199e48fb09ac121dbec2c4362a83d319a5c9eaea618163510c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-enseeiht-ddn/2025-heinlein-dd-nns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-enseeiht-ddn/2025-heinlein-dd-nns.pdf",
+      "exists": true,
+      "bytes": 10020138,
+      "sha256": "44032a9802599805b052c17e829e971a79ced0cd23664b8e17cc35c682cc2b54"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-gamm-ddr/2025-heinlein-dd-ranns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-gamm-ddr/2025-heinlein-dd-ranns.pdf",
+      "exists": true,
+      "bytes": 3509247,
+      "sha256": "3862087758d688bc54c8858c353fc6f42e21dda96a3b6f2c3c6f27b145c9ff29"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-gbu-lnn/2025-heinlein-dd-nns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-gbu-lnn/2025-heinlein-dd-nns.pdf",
+      "exists": true,
+      "bytes": 3494115,
+      "sha256": "fa66e490acf61fc98d81472916447e8d41d76d0d3a9a7ecafda380f645313be6"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-gds-add/2025-heinlein-ddm-graphs.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-gds-add/2025-heinlein-ddm-graphs.pdf",
+      "exists": true,
+      "bytes": 13691799,
+      "sha256": "b8424435d033b5821da3b4f7d5f3d98791542a6fedb000ffe6af8477a4a394ce"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-iasw2025-aac/2025-heinlein-cardio.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-iasw2025-aac/2025-heinlein-cardio.pdf",
+      "exists": true,
+      "bytes": 10404671,
+      "sha256": "feb7b59897e0082b37c3f4cc844fad683326b94025f8913b5381161cca341315"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-img-pou/2025-heinlein-partition_of_unity.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-img-pou/2025-heinlein-partition_of_unity.pdf",
+      "exists": true,
+      "bytes": 19051778,
+      "sha256": "07bd16e89dff2bd77184e3c70d7cd64032cdcb796d5ec668f33872b0abee38f8"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-iscl-ddp/2025-heinlein-dd_pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-iscl-ddp/2025-heinlein-dd_pinns.pdf",
+      "exists": true,
+      "bytes": 8800060,
+      "sha256": "a394316ff95d900fc49a8e4ba9363af24cf9ce0f380720cb95b701650f42c78c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-issbc-don/2025-heinlein-deeponet.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-issbc-don/2025-heinlein-deeponet.pdf",
+      "exists": true,
+      "bytes": 1725094,
+      "sha256": "91f50874d7ed1e595819353f4dbc208e5477b1417f67baf857503d8521a80180"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-iwota2025-ddp/2025-heinlein-dd-pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-iwota2025-ddp/2025-heinlein-dd-pinns.pdf",
+      "exists": true,
+      "bytes": 2106181,
+      "sha256": "babc18015319c531f8fd63f5291f0b01c74204d86180f6ddfcf662234f574ed5"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-lacam-nnb/2025-heinlein-sciml.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-lacam-nnb/2025-heinlein-sciml.pdf",
+      "exists": true,
+      "bytes": 2634924,
+      "sha256": "208e2794d8ec3c0c56e8712cfcc5b4de08fabcb9335ba90fd21579969d4c5b8c"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-mor-tpm/2025-heinlein-surrogate_models.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-mor-tpm/2025-heinlein-surrogate_models.pdf",
+      "exists": true,
+      "bytes": 2576521,
+      "sha256": "20dee9f7f889a892f8447cabfc5f0f52b362ff8352c043be6ca46540d1d1860f"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-sciml-dda/2025-heinlein-adaptive_pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-sciml-dda/2025-heinlein-adaptive_pinns.pdf",
+      "exists": true,
+      "bytes": 10659709,
+      "sha256": "4c390fa053edf1b9e5d7180ab3a47dd283ae70974c09e861e84ac476ad4fd303"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-scs-ddn/2025-heinlein-dd-nns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-scs-ddn/2025-heinlein-dd-nns.pdf",
+      "exists": true,
+      "bytes": 2635194,
+      "sha256": "ea7821411bcf4b1ef3bc90c01ff54c344a9415f59d2c872bb4689b91a66db281"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-sdt-tpm/2025-heinlein-surrogate_models.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-sdt-tpm/2025-heinlein-surrogate_models.pdf",
+      "exists": true,
+      "bytes": 10810734,
+      "sha256": "817cf2abd5091a971ffaa88581beb577e0510d94758849a1287ab06a007566f6"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-siamcse-ddn/2025-heinlein-dd_nns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-siamcse-ddn/2025-heinlein-dd_nns.pdf",
+      "exists": true,
+      "bytes": 3761263,
+      "sha256": "ad3707f608c7f48c051d9ecd8cfbb22d2557a095d08fa22468f3cbe1576e45ad"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-stnn-ddp/2025-heinlein-dd-pinns.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-stnn-ddp/2025-heinlein-dd-pinns.pdf",
+      "exists": true,
+      "bytes": 2108376,
+      "sha256": "1a3b96aeb769cd546956cd1ee0ed8e0780aeace28d821e493c1c5d87e900ef64"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2025/2025-heinlein-vortech-sml/2025-heinlein-sciml.pdf",
+      "path": "assets/pdf/slides/2025/2025-heinlein-vortech-sml/2025-heinlein-sciml.pdf",
+      "exists": true,
+      "bytes": 3592495,
+      "sha256": "4e3ad553466702315714c8feabbb9d258e268b4e90fe9f6eac136e239a41053e"
+    },
+    {
+      "url": "https://searhein.github.io/assets/pdf/slides/2026/2026-heinlein-icrafmn-let/2026-heinlein-sciml.pdf",
+      "path": "assets/pdf/slides/2026/2026-heinlein-icrafmn-let/2026-heinlein-sciml.pdf",
+      "exists": true,
+      "bytes": 25917142,
+      "sha256": "66afffb30e4e6f3ad6a380c30b4f1c29ed79d08ffd455a7b9a295b97d4adc224"
+    }
+  ]
+}

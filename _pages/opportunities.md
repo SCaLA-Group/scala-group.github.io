@@ -9,7 +9,7 @@ description: Research positions, visits, internships, and collaboration.
 
 ## Research positions
 
-For PhD and postdoctoral opportunities, see [TU Delft vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft) and our [research opportunities](https://searhein.github.io/open_positions/).
+For advertised PhD and postdoctoral positions, see [TU Delft vacancies](https://www.tudelft.nl/en/about-tu-delft/working-at-tu-delft). For enquiries about research in SCaLA, [contact us](#contact).
 
 ## Student opportunities
 

@@ -1,0 +1,1649 @@
+---
+courses:
+  - id: 2011-2012-ws-intro-num
+    title: Mathematics for Students of Business Informatics
+    academic_year: 2011/2012
+    term: 2011/2012
+    institution: University of Duisburg-Essen
+    instructors:
+    order: 1
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2011_2012-ws/intro-num.markdown
+    source_status: archive
+    teaching_role: Exercise classes
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2012-2013-ws-info
+    title: Mathematics for Students of Business Informatics
+    academic_year: 2012/2013
+    term: WS 2012/2013
+    institution: University of Cologne
+    instructors:
+    order: 2
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2012_2013-ws/info.markdown
+    source_status: archive
+    teaching_role: Exercise classes
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2016-2017-ss-scientific-computing
+    title: Scientific Computing
+    academic_year: 2016/2017
+    term: SS 2017
+    institution: University of Cologne
+    instructors: Stefanie Friedhoff, Alexander Heinlein, Axel Klawonn, and Martin Lanser
+    order: 5
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2016_2017-ss/scientific-computing.markdown
+    source_status: archive
+    teaching_role: Selected lectures and exercise classes
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2016-2017-ws-modelling
+    title: Project-Oriented Lecture and Seminar on Modeling and Simulation of Application
+      Problems in Industry, Economy, and Science
+    academic_year: 2016/2017
+    term: WS 2016/2017
+    institution: University of Cologne
+    instructors: Alexander Heinlein
+    order: 4
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2016_2017-ws/modelling.markdown
+    source_status: archive
+  - id: 2017-2018-ss-fem
+    title: Numerical Software Development With Finite Elements
+    academic_year: 2017/2018
+    term: SS 2018
+    institution: University of Cologne
+    instructors: Alexander Heinlein and Martin Lanser
+    order: 7
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2017_2018-ss/fem.markdown
+    source_status: archive
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2017-2018-ws-modelling
+    title: Project-Oriented Lecture and Seminar on Modeling and Simulation of Application
+      Problems in Industry, Economy, and Science
+    academic_year: 2017/2018
+    term: WS 2017/2018
+    institution: University of Cologne
+    instructors: Alexander Heinlein
+    order: 6
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2017_2018-ws/modelling.markdown
+    source_status: archive
+  - id: 2018-2019-ws-modelling
+    title: Project-Oriented Lecture and Seminar on Modeling and Simulation of Application
+      Problems in Industry, Economy, and Science
+    academic_year: 2018/2019
+    term: WS 2018/2019
+    institution: University of Cologne
+    instructors: Alexander Heinlein and Martin Kühn
+    order: 8
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2018_2019-ws/modelling.markdown
+    source_status: archive
+  - id: 2019-2020-ss-scientific-machine-learning
+    title: Scientific Machine Learning
+    academic_year: 2019/2020
+    term: SS 2020
+    institution: University of Cologne
+    instructors: Alexander Heinlein, Axel Klawonn, and Janine Weber
+    order: 10
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2019_2020-ss/scientific-machine-learning.markdown
+    source_status: archive
+  - id: 2019-2020-ws-modelling
+    title: Project-Oriented Lecture and Seminar on Modeling and Simulation of Application
+      Problems in Industry, Economy, and Science
+    academic_year: 2019/2020
+    term: WS 2019/2020
+    institution: University of Cologne
+    instructors: Viktor Grimm and Alexander Heinlein
+    order: 9
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2019_2020-ws/modelling.markdown
+    source_status: archive
+  - id: 2020-2021-q3-q4-mathematical-data-science
+    course_code: WI4231
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2020_2021/EWI/MSc_AM_Master_AM_2020_en.pdf#page=31
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Mathematical Data Science (WI4231)
+    academic_year: 2020/2021
+    term: Q3 & Q4 2020/2021
+    institution: TU Delft
+    instructors: Robbert Fokkink, Alexander Heinlein, Dorota Kurowicka, and Nestor Parolya
+    order: 13
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2020_2021-q3_q4/mathematical-data-science.markdown
+    source_status: archive
+  - id: 2020-2021-q3-q4-special-topics-in-computational-science-and-engineering
+    course_code: WI4450
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2020_2021/EWI/MSc_AM_Master_AM_2020_en.pdf#page=32
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Special Topics in Computational Science and Engineering
+    academic_year: 2020/2021
+    term: Q3 & Q4 2020/2021
+    institution: TU Delft
+    instructors: Alexander Heinlein, Matthias Möller, and Deepesh Toshniwal
+    order: 14
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2020_2021-q3_q4/special-topics-in-computational-science-and-engineering.markdown
+    source_status: archive
+  - id: 2020-2021-q4-linear-algebra
+    course_code: WI1403LR
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2020_2021/LR/BSc_LR_LR_Bachelor_2020_en.pdf#page=27
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra (WI1403LR)
+    academic_year: 2020/2021
+    term: Q4 2020/2021
+    institution: TU Delft
+    instructors:
+    order: 15
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2020_2021-q4/linear-algebra.markdown
+    source_status: archive
+    teaching_role: Chat moderation
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2020-2021-ws-lecture-2020-2021-ws-scientific-computing
+    title: Scientific Computing
+    academic_year: 2020/2021
+    term: WS 2020/2021
+    institution: University of Stuttgart
+    instructors: Alexander Heinlein
+    order: 12
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2020_2021-ws/lecture-2020_2021-ws-scientific-computing.markdown
+    source_status: archive
+    url: "/teaching/courses/2020-2021-ws-lecture-2020-2021-ws-scientific-computing/"
+    teaching_role: Lectures and exercise class
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2021-2022-q1-linear-algebra-2
+    course_code: AM2010
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2021_2022/EWI/BSc_TW_Bachelor_TW_2021_en.pdf#page=20
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra 2 (AM2010)
+    academic_year: 2021/2022
+    term: Q1 & Q2 2021/2022
+    institution: TU Delft
+    instructors: Alexander Heinlein and Matthias Möller
+    order: 16
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2021_2022-q1/linear-algebra-2.markdown
+    source_status: archive
+    teaching_role: Instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2021-2022-q3-q4-computational-fluid-dynamics
+    course_code: WI4011-17
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2021_2022/EWI/MSc_AM_Master_AM_2021_en.pdf#page=24
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Computational Fluid Dynamics (WI4011-17)
+    academic_year: 2021/2022
+    term: Q3 & Q4 2021/2022
+    institution: TU Delft
+    instructors: Alexander Heinlein and Deepesh Toshniwal
+    order: 17
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2021_2022-q3_q4/computational-fluid-dynamics.markdown
+    source_status: archive
+    teaching_role: Instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2021-2022-q3-q4-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2021_2022/EWI/MSc_AM_Master_AM_2021_en.pdf#page=30
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2021/2022
+    term: Q3 & Q4 2021/2022
+    institution: TU Delft
+    instructors: Alexander Heinlein and Krzysztof Postek
+    order: 18
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2021_2022-q3_q4/linear-algebra-and-optimisation-for-machine-learning.markdown
+    source_status: archive
+    teaching_role: Instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2022-2023-q1-fundamentals-of-ai-recommender-systems
+    title: Fundamentals of AI - Ranking for Recommender Systems
+    academic_year: 2022/2023
+    term: Q1 2022/2023
+    institution: TU Delft
+    instructors: Alexander Heinlein and Martin van Gijzen
+    order: 17
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2022_2023-q1/fundamentals_of_ai-recommender_systems.markdown
+    source_status: archive
+    url: "/teaching/courses/2022-2023-q1-fundamentals-of-ai-recommender-systems/"
+    teaching_role: Lectures and exercise class
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2022-2023-q1-linear-algebra-2
+    course_code: AM2010
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2022_2023/EWI/BSc_TW_Bachelor_TW_2022_en.pdf#page=20
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra 2 (AM2010)
+    academic_year: 2022/2023
+    term: Q1 2022/2023
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 16
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2022_2023-q1/linear-algebra-2.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2022-2023-q1-q2-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2022_2023/EWI/MSc_AM_Master_AM_2022_en.pdf#page=30
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2022/2023
+    term: Q1 & Q2 2022/2023
+    institution: TU Delft
+    instructors: Alexander Heinlein and Krzysztof Postek
+    order: 18
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2022_2023-q1_q2/linear-algebra-and-optimisation-for-machine-learning.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2022-2023-q3-q4-computational-fluid-dynamics
+    course_code: WI4011-17
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2022_2023/EWI/MSc_AM_Master_AM_2022_en.pdf#page=24
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Computational Fluid Dynamics
+    academic_year: 2022/2023
+    term: Q3 & Q4 2022/2023
+    institution: TU Delft
+    instructors: Alexander Heinlein and Shobhit Jain
+    order: 18
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2022_2023-q3_q4/computational-fluid-dynamics.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2023-2024-q1-linear-algebra-2
+    course_code: AM2010
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2023_2024/EWI/BSc_TW_Bachelor_TW_2023_en.pdf#page=20
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra 2 (AM2010)
+    academic_year: 2023/2024
+    term: Q1 2023/2024
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 19
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2023_2024-q1/linear-algebra-2.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2023-2024-q1-q2-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2023_2024/EWI/MSc_AM_Master_AM_2023_en.pdf#page=13
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2023/2024
+    term: Q1 & Q2 2023/2024
+    institution: TU Delft
+    instructors: Alexander Heinlein and David de Laat
+    order: 20
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2023_2024-q1_q2/linear-algebra-and-optimisation-for-machine-learning.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2023-2024-q3-q4-computational-fluid-dynamics
+    course_code: WI4011-17
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2023_2024/EWI/MSc_AM_Master_AM_2023_en.pdf#page=25
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Computational Fluid Dynamics
+    academic_year: 2023/2024
+    term: Q3 & Q4 2023/2024
+    institution: TU Delft
+    instructors: Alexander Heinlein and Artur Palha
+    order: 21
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2023_2024-q3_q4/computational-fluid-dynamics.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-q1-linear-algebra-2
+    course_code: AM2010
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/BSc_TW_Bachelor_TW_2024_en.pdf#page=15
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra 2 (AM2010)
+    academic_year: 2024/2025
+    term: Q1 2024/2025
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 22
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2024_2025-q1/linear-algebra-2.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-q1-q2-advances-reservoir-simulation
+    course_code: AESM5330C
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/CITG/MSc_AES_AES_Master_2024_(New_Master_Programme)_en.pdf#page=54
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Advanced Reservoir Simulation
+    academic_year: 2024/2025
+    term: Q1 & Q2 2024/2025
+    institution: TU Delft
+    instructors: H. Hajibeygi, A. Heinlein, J.D. Jansen, M. Ramgraber, and D.V. Voskov
+    order: 24
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2024_2025-q1_q2/advances-reservoir-simulation.markdown
+    source_status: archive
+    teaching_role: Lectures on advanced numerical solvers
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-q1-q2-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/MSc_AM_Master_AM_2024_en.pdf#page=13
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2024/2025
+    term: Q1 & Q2 2024/2025
+    institution: TU Delft
+    instructors: Alexander Heinlein and David de Laat
+    order: 23
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2024_2025-q1_q2/linear-algebra-and-optimisation-for-machine-learning.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-q3-q4-computational-fluid-dynamics
+    course_code: WI4011-17
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/MSc_AM_Master_AM_2024_en.pdf#page=24
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Computational Fluid Dynamics
+    academic_year: 2024/2025
+    term: Q3 & Q4 2024/2025
+    institution: TU Delft
+    instructors: Alexander Heinlein and Artur Palha
+    order: 25
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2024_2025-q3_q4/computational-fluid-dynamics.markdown
+    source_status: archive
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-q3-q4-special-topics-in-computational-science-and-engineering
+    course_code: WI4450
+    studyguide_url: https://filelist.tudelft.nl/Websections/Studyguides/2024_2025/EWI/MSc_AM_Master_AM_2024_en.pdf#page=29
+    studyguide_label: Study Guide (PDF)
+    studyguide_checked: "2026-10-25"
+    title: Special Topics in Computational Science and Engineering
+    academic_year: 2024/2025
+    term: Q3 & Q4 2024/2025
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 26
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2024_2025-q3_q4/special-topics-in-computational-science-and-engineering.markdown
+    source_status: archive
+    teaching_role: Project-oriented lecture and seminar on scientific machine learning
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-q3-q4-computational-fluid-dynamics
+    course_code: WI4011-17
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/14615
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Computational Fluid Dynamics
+    academic_year: 2025/2026
+    term: Q3 & Q4 2025/2026
+    institution: TU Delft
+    instructors: Alexander Heinlein and Artur Palha
+    order: 28
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2025_2026-q3_q4/computational-fluid-dynamics.markdown
+    source_status: ongoing
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-q3-q4-scientific-machine-learning
+    course_code: WI4770TU
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/21901
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Scientific Machine Learning
+    academic_year: 2025/2026
+    term: Q3 & Q4 2025/2026
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 27
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2025_2026-q3_q4/scientific-machine-learning.markdown
+    source_status: ongoing
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2026-2027-q1-q2-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/33633
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2026/2027
+    term: Q1 & Q2 2026/2027
+    institution: TU Delft
+    instructors: Alexander Heinlein and David de Laat
+    order: 30
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2026_2027-q1_q2/linear-algebra-and-optimisation-for-machine-learning.markdown
+    source_status: planned
+    teaching_role: Responsible instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2026-2027-q3-q4-scientific-machine-learning
+    course_code: WI4770TU
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/33286
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Scientific Machine Learning
+    academic_year: 2026/2027
+    term: Q3 & Q4 2026/2027
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    order: 29
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/lectures/2026_2027-q3_q4/scientific-machine-learning.markdown
+    source_status: planned
+    teaching_role: Responsible instructor · planned offering
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2015-2016-ws-numii
+    title: Seminar on Numerical Mathematics II
+    academic_year: 2015/2016
+    term: WS 2015/2016
+    institution: University of Cologne
+    instructors: Alexander Heinlein and Axel Klawonn
+    order: 3
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/seminars/2015_2016-ws/numII.markdown
+    source_status: archive
+    teaching_role: Co-instructor
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2020-2021-ws-machine-learning
+    title: Seminar on Machine Learning
+    academic_year: 2020/2021
+    term: WS 2020/2021
+    institution: University of Stuttgart
+    instructors: Alexander Heinlein
+    order: 11
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/seminars/2020_2021-ws/machine-learning.markdown
+    source_status: archive
+    url: "/teaching/courses/2020-2021-ws-machine-learning/"
+  - id: 2026-2027-q1-q2-scientific-computing
+    course_code: WI4201
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/33630
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Scientific Computing (WI4201)
+    academic_year: 2026/2027
+    term: Q1 & Q2 2026/2027
+    institution: TU Delft
+    instructors: Alexander Heinlein and Vandana Dwarka
+    teaching_role: Responsible instructor
+    order: 60
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-enhance
+    title: "ENHANCE: Integrating Differential Equations-Based Models and Data-Driven
+      Neural Networks"
+    academic_year: 2025/2026
+    term: 29 June–10 July 2026 · online
+    institution: ENHANCE Alliance
+    instructors: Alexander Heinlein
+    teaching_role: "Instructor for Week 2: Machine Learning for ODE Models (6–10 July
+      2026)"
+    order: 55
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-linear-algebra-and-optimisation-for-machine-learning
+    course_code: WI4635
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/14607
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Linear Algebra and Optimisation for Machine Learning (WI4635)
+    academic_year: 2025/2026
+    term: 2025/2026
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Responsible instructor
+    order: 54
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2023-2024-fundamentals-of-ai-recommender-systems
+    title: Fundamentals of AI — Ranking for Recommender Systems
+    academic_year: 2023/2024
+    term: 2023/2024
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures and exercise class
+    order: 40
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-2025-fundamentals-of-ai-recommender-systems
+    title: Fundamentals of AI — Ranking for Recommender Systems
+    academic_year: 2024/2025
+    term: 2024/2025
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures and exercise class
+    order: 41
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-fundamentals-of-ai-recommender-systems
+    title: Fundamentals of AI — Ranking for Recommender Systems
+    academic_year: 2025/2026
+    term: 2025/2026
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures and exercise class
+    order: 42
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2025-2026-advanced-reservoir-simulation
+    course_code: AESM5330C
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/18760
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Advanced Reservoir Simulation
+    academic_year: 2025/2026
+    term: 2025/2026
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures on advanced numerical solvers
+    order: 45
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2026-2027-advanced-reservoir-simulation
+    course_code: AESM5330C
+    studyguide_url: https://studyguide.tudelft.nl/courses/study-guide/educations/25362
+    studyguide_label: Study Guide
+    studyguide_checked: "2026-10-25"
+    title: Advanced Reservoir Simulation
+    academic_year: 2026/2027
+    term: 2026/2027
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures on advanced numerical solvers
+    order: 46
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+  - id: 2024-eurotug
+    title: Introduction to Trilinos
+    academic_year: 2023/2024
+    term: 25 June 2024
+    institution: EuroTUG2024 · Helmut Schmidt University, Hamburg
+    instructors: Alexander Heinlein
+    teaching_role: Tutorial instructor, Parts I and II
+    order: 50
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+  - id: 2023-eurotug
+    title: Trilinos Tutorial
+    academic_year: 2022/2023
+    term: 28 June 2023
+    institution: EuroTUG2023 · TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Tutorial instructor
+    order: 49
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+  - id: 2023-dcse-summer-school
+    title: "DCSE Summer School: Numerical Linear Algebra on High Performance Computers"
+    academic_year: 2022/2023
+    term: 5–9 June 2023
+    institution: TU Delft
+    instructors: Alexander Heinlein
+    teaching_role: Lectures on advanced domain decomposition, parallel Schwarz preconditioning
+      and FROSch
+    order: 48
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+  - id: 2022-sciml-gpu-bootcamp
+    title: NVIDIA/HLRS SciML GPU Bootcamp
+    academic_year: 2022/2023
+    term: 24–25 October 2022 · online
+    institution: High-Performance Computing Center Stuttgart (HLRS)
+    instructors: Alexander Heinlein
+    teaching_role: Invited lecture on physically constrained neural networks, domain
+      decomposition-based training and model order reduction
+    order: 47
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+  - id: 2022-eccomas
+    title: ECCOMAS Congress 2022
+    academic_year: 2021/2022
+    term: 5–9 June 2022
+    institution: Oslo, Norway
+    instructors: Alexander Heinlein
+    teaching_role: Introductory lecture on parallel Schwarz preconditioning and FROSch
+    order: 46
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+  - id: 2021-domain-decomposition-school
+    title: Summer School on Advanced Domain Decomposition Methods
+    academic_year: 2021/2022
+    term: 24–26 November 2021
+    institution: Politecnico di Milano
+    instructors: Alexander Heinlein
+    teaching_role: Instructor for the FROSch exercise session (25 November 2021)
+    order: 45
+    cv_source: cv/sections/teaching_experience/2026-04-17.tex
+    kind: short-course
+projects:
+  - id: master-thesis-projects-10-rom-fluid-flow-transient
+    category: master-thesis-projects
+    title: Convolutional Neural Networks for Time-Dependent Fluid Flow
+    institution: TU Delft
+    status: archive
+    order: 10
+    url: "/teaching/projects/master-thesis-projects-10-rom-fluid-flow-transient/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/10-rom-fluid-flow-transient.markdown
+    student: Sylle Hoogeveen
+    member_id: sylle-hoogeveen
+    summary: The project investigates convolutional neural networks for modelling time-dependent
+      fluid flow.
+    supervisors: Alexander Heinlein
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein-cnn_transient_mor/2021-heinlein-cnn-transient-mor-project-description.pdf"
+      - label: Thesis
+        url: http://resolver.tudelft.nl/uuid:45bffaf0-5ae0-48a2-9fe7-5ebfe2594cb5
+  - id: master-thesis-projects-11-turbulence-ml-part2
+    category: master-thesis-projects
+    title: AI-driven turbulence modeling of two-phase flows in nuclear reactors
+    institution: TU Delft
+    status: archive
+    order: 11
+    url: "/teaching/projects/master-thesis-projects-11-turbulence-ml-part2/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/11-turbulence-ml-part2.markdown
+    student: Gonzalo Bonilla Moreno
+    member_id: gonzalo-bonilla-moreno
+    summary: The project explores machine-learning approaches to turbulence modelling
+      for two-phase flows in nuclear reactors.
+    collaboration: NRG
+    supervisors: Alexander Heinlein
+    co_supervisors: Edo Frederix (NRG), Deepesh Toshniwal (TU Delft, Numerical Analysis)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2022/2022-nrg_heinlein_toshniwal-ai_turbulence_modeling/2022-nrg_heinlein_toshniwal-ai-turbulence-modeling-project-description.pdf"
+      - label: Thesis
+        url: https://repository.tudelft.nl/record/uuid:013df562-f8a7-44e6-8009-9d711bcbbb41
+  - id: master-thesis-projects-12-ml-solver-parameters
+    category: master-thesis-projects
+    title: Predicting the Optimal Solver Settings with Machine Learning in COMSOL CFD
+      Module
+    institution: TU Delft
+    status: archive
+    order: 12
+    url: "/teaching/projects/master-thesis-projects-12-ml-solver-parameters/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/12-ml-solver-parameters.markdown
+    student: Anouk Zandbergen
+    member_id: anouk-zandbergen
+    summary: The project investigates machine-learning approaches to choosing numerical
+      solver settings in the COMSOL computational fluid dynamics module.
+    collaboration: COMSOL
+    supervisors: Alexander Heinlein
+    co_supervisors: Tycho van Noorden (COMSOL)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2022/2022-comsol_heinlein-ml-solver_parameters/2022-comsol_heinlein-ml-solver-parameters-project-description.pdf"
+      - label: Thesis
+        url: http://resolver.tudelft.nl/uuid:b3343bea-1270-4280-8192-7f08d162fbb0
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2022/2022-comsol_heinlein-ml-solver_parameters/2022-comsol_heinlein-ml-solver-parameters-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2022/2022-comsol_heinlein-ml-solver_parameters/2022-comsol_heinlein-ml-solver-parameters-interim-presentation.pdf"
+  - id: master-thesis-projects-13-nonlinear-solver-ml
+    category: master-thesis-projects
+    title: Improving Nonlinear Solver Convergence Using Machine Learning
+    institution: TU Delft
+    status: open
+    order: 13
+    url: "/teaching/projects/master-thesis-projects-13-nonlinear-solver-ml/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/13-nonlinear-solver-ml.markdown
+    collaboration: COMSOL
+    supervisors: Alexander Heinlein
+    co_supervisors: Tycho van Noorden (COMSOL)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2022/2022-heinlein_van_noorden-nonlinear_convergence_ml/2022-heinlein_van_noorden-nonlinear-convergence-ml-project-description.pdf"
+  - id: master-thesis-projects-14-ddm-ml
+    category: master-thesis-projects
+    title: Domain Decomposition for Machine Learning Based Medical Imaging
+    institution: TU Delft
+    status: archive
+    order: 14
+    url: "/teaching/projects/master-thesis-projects-14-ddm-ml/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/14-ddm-ml.markdown
+    student: Corné Verburg
+    member_id: corne-verburg
+    summary: The thesis investigated domain decomposition for machine-learning-based
+      medical imaging.
+    collaboration: Sandia National Laboratories
+    supervisors: Alexander Heinlein
+    co_supervisors: Eric Cyr (Sandia National Laboratories, USA)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2022/2022-heinlein_cyr-dd_ml/2022-heinlein_cyr-dd-ml-project-description.pdf"
+      - label: Thesis
+        url: https://repository.tudelft.nl/islandora/object/uuid%3A17281ec4-7b2a-4362-b4bc-ec2516e3b01a
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2022/2022-heinlein_cyr-dd_ml/2022-heinlein_cyr-dd-ml-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2022/2022-heinlein_cyr-dd_ml/2022-heinlein_cyr-dd-ml-interim-presentation.pdf"
+  - id: master-thesis-projects-15-machine-learning-for-monopile-hydrodynamics-part2
+    category: master-thesis-projects
+    title: Surrogate models for the characterization of hydrodynamic loads on perforated
+      monopiles
+    institution: TU Delft
+    status: archive
+    order: 15
+    url: "/teaching/projects/master-thesis-projects-15-machine-learning-for-monopile-hydrodynamics-part2/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/15-machine-learning-for-monopile-hydrodynamics-part2.markdown
+    student: Ruben Dekeyser
+    collaboration: Offshore and Dredging Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering)
+    links:
+      - label: Thesis
+        url: https://repository.tudelft.nl/islandora/object/uuid:bfec0be5-11c9-4570-9c93-66952fadd0a0
+  - id: master-thesis-projects-17-traffic-modelling-ml
+    category: master-thesis-projects
+    title: Estimating congestion and traffic patterns when planning road work
+    institution: TU Delft
+    status: archive
+    order: 17
+    url: "/teaching/projects/master-thesis-projects-17-traffic-modelling-ml/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/17-traffic-modelling-ml.markdown
+    student: Vosse Meijssen
+    member_id: vosse-meijssen
+    summary: The project explores machine-learning approaches to estimating traffic
+      patterns and congestion during road works.
+    collaboration: CGI
+    supervisors: Alexander Heinlein
+    co_supervisors: Leonoor Portengen, Henk van Haaster (CGI)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-project-description.pdf"
+      - label: Thesis
+        url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-final-thesis.pdf"
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-interim-presentation.pdf"
+  - id: master-thesis-projects-19-ml-post-storm-profile-predictions-part1
+    category: master-thesis-projects
+    title: Machine learning for post-storm profile predictions
+    institution: TU Delft
+    status: archive
+    order: 19
+    url: "/teaching/projects/master-thesis-projects-19-ml-post-storm-profile-predictions-part1/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/19-ml-post-storm-profile-predictions-part1.markdown
+    student: Koen van Asselt
+    collaboration: Deltares
+    supervisors: Alexander Heinlein
+    co_supervisors: José Antonio Álvarez Antolínez, Ad Reniers (TU Delft, Hydraulic
+      Engineering), Panos Athanasiou, and Robert McCall (Deltares)
+  - id: master-thesis-projects-20-pinns-longtime-behavior
+    category: master-thesis-projects
+    title: Separating longtime behavior and learning of mechanisms
+    institution: TU Braunschweig
+    status: archive
+    order: 20
+    url: "/teaching/projects/master-thesis-projects-20-pinns-longtime-behavior/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/20-pinns-longtime-behavior.markdown
+    student: Tirtho Sarathi Saha
+    collaboration: TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Cordula Reisch (TU Braunschweig)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2023/2023-heinlein_reisch-pinns-longtime_behavior/2023-heinlein_reisch-pinns-longtime-behavior-project-description.pdf"
+  - id: master-thesis-projects-22-outlier-removal-ml
+    category: master-thesis-projects
+    title: Creating a machine learning based outlier removal algorithm that incorporates
+      a priori knowledge of the physics
+    institution: TU Delft
+    status: archive
+    order: 22
+    url: "/teaching/projects/master-thesis-projects-22-outlier-removal-ml/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/22-outlier-removal-ml.markdown
+    student: Thomas Kamminga
+    member_id: thomas-kamminga
+    summary: The project investigates machine-learning methods for removing outliers
+      while incorporating prior knowledge of the underlying physics.
+    collaboration: ASML
+    supervisors: Alexander Heinlein
+    co_supervisors: Lucas Bekker (ASML)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2024/2024-bekker_heinlein-outlier_removal_ml/2024-bekker_heinlein-outlier-removal-ml-project-description.pdf"
+  - id: master-thesis-projects-23-data-driven-metrology
+    category: master-thesis-projects
+    title: Adapting Contrastive Learning Methods for Few-Shot Imputation in High-Dimensional
+      Data
+    institution: TU Delft
+    status: archive
+    order: 23
+    url: "/teaching/projects/master-thesis-projects-23-data-driven-metrology/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/23-data-driven-metrology.markdown
+    student: Michael Aldorf
+    member_id: michael-aldorf
+    summary: The project studies contrastive learning for filling in missing values
+      in high-dimensional metrology data, with a focus on learning from few examples.
+    collaboration: ASML
+    supervisors: Alexander Heinlein
+    co_supervisors: Sjoerd Wiarda (ASML)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2024/2024-heinlein_wiarda-data-driven-metrology/2024-heinlein_wiarda-data-driven-metrology-project-description.pdf"
+  - id: master-thesis-projects-25-nn-convergence-acceleration
+    category: master-thesis-projects
+    title: Machine Learning-Accelerated Solvers for Computational Fluid Dynamics Simulations
+    institution: TU Delft
+    status: ongoing
+    order: 25
+    url: "/teaching/projects/master-thesis-projects-25-nn-convergence-acceleration/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/25-nn-convergence-acceleration.markdown
+    student: Ezra Cerpac
+    member_id: ezra-cerpac
+    summary: The project investigates how machine learning can accelerate numerical
+      solvers for computational fluid dynamics simulations.
+    collaboration: TU Berlin
+    supervisors: Alexander Heinlein
+    co_supervisors: Merten Stender (TU Berlin)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2024/2024-heinlein_stender-nn-convergence_acceleration/2024-heinlein_stender-nn-convergence-acceleration-project-description.pdf"
+  - id: master-thesis-projects-28-machine-learning-for-monopile-hydrodynamics-part3
+    category: master-thesis-projects
+    title: Machine-Learning Surrogate Models for CFD - Predicting Turbulence in the
+      Wake of Perforated Monopiles
+    institution: TU Delft
+    status: archive
+    order: 28
+    url: "/teaching/projects/master-thesis-projects-28-machine-learning-for-monopile-hydrodynamics-part3/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/28-machine-learning-for-monopile-hydrodynamics-part3.markdown
+    student: Felix Daxecker
+    collaboration: Offshore and Dredging Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering), Jan Modderman (TU
+      Delft, Offshore Engineering)
+  - id: master-thesis-projects-29-gnn-surrogate-models
+    category: master-thesis-projects
+    title: A Study on the Stability Limits of Graph Neural Network Surrogates for Advection-Diffusion
+      Problems
+    institution: TU Delft
+    status: archive
+    order: 29
+    url: "/teaching/projects/master-thesis-projects-29-gnn-surrogate-models/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/29-gnn-surrogate-models.markdown
+    student: Mitchell Maassen van den Brink
+    member_id: mitchell-maassen-van-den-brink
+    summary: The project examines the stability limits of graph-neural-network surrogates
+      for advection–diffusion problems.
+    collaboration: Flow Physics and Technology, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Richard Dwight (TU Delft, Flow Physics and Technology)
+  - id: master-thesis-projects-3-rom-fluid-flow-gans
+    category: master-thesis-projects
+    title: Reduced Order Models for Fluid Flow With Generative Adversarial Networks
+      (GANs)
+    institution: TU Delft
+    status: archive
+    order: 3
+    url: "/teaching/projects/master-thesis-projects-3-rom-fluid-flow-gans/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/3-rom-fluid-flow-gans.markdown
+    student: Mirko Kemna
+    member_id: mirko-kemna
+    summary: The project explores generative adversarial networks for reduced-order
+      modelling of fluid flow.
+    supervisors: Alexander Heinlein
+    co_supervisors: Kees Vuik (TU Delft, Numerical Analysis)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein-gan_pdes/2021-heinlein-gan-pdes-project-description.pdf"
+      - label: Thesis
+        url: http://resolver.tudelft.nl/uuid:25663ba2-3cdb-4581-be68-d4fd0a7a4dca
+  - id: master-thesis-projects-30-hints
+    category: master-thesis-projects
+    title: Blending Neural Operators and Relaxation Methods in PDE Numerical Solvers
+    institution: TU Delft
+    status: archive
+    order: 30
+    url: "/teaching/projects/master-thesis-projects-30-hints/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/30-hints.markdown
+    student: Yuhan Wu
+    member_id: yuhan-wu
+    summary: The project investigates hybrid numerical solvers that combine neural operators
+      with relaxation methods for partial differential equations.
+    collaboration: CASA, TU/e
+    supervisors: Alexander Heinlein
+    co_supervisors: Victorita Dolean (TU/e, CASA)
+  - id: master-thesis-projects-31-dd-gnns-training
+    category: master-thesis-projects
+    title: Improving Graph Neural Network Training Using Domain Decomposition
+    institution: Università della Svizzera italiana
+    status: ongoing
+    order: 31
+    url: "/teaching/projects/master-thesis-projects-31-dd-gnns-training/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/31-dd-gnns-training.markdown
+    student: Laurynas Varnas
+    collaboration: University of Toulouse, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Alena Kopaničáková (University of Toulouse)
+  - id: master-thesis-projects-32-ddm-heterogeneous-problems-krylov
+    category: master-thesis-projects
+    title: Investigation of the Convergence of Domain Decomposition Preconditioners
+      for Heterogeneous Problems
+    institution: TU Delft
+    status: archive
+    order: 32
+    url: "/teaching/projects/master-thesis-projects-32-ddm-heterogeneous-problems-krylov/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/32-ddm-heterogeneous-problems-krylov.markdown
+    student: Philip Soliman
+    member_id: philip-soliman
+    summary: The project studies the convergence of domain-decomposition preconditioners
+      for heterogeneous problems.
+    supervisors: Alexander Heinlein
+    co_supervisors: Filipe Antônio Cumaru Silva Alves (TU Delft, DIAM)
+  - id: master-thesis-projects-33-pinns-inverse-problems-sensor-data
+    category: master-thesis-projects
+    title: Operator Learning for Loss Parameter Estimation in Dredging Operations
+    institution: TU Delft
+    status: archive
+    order: 33
+    url: "/teaching/projects/master-thesis-projects-33-pinns-inverse-problems-sensor-data/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/33-pinns-inverse-problems-sensor-data.markdown
+    student: Marius Kielhöfer
+    member_id: marius-kielhofer
+    summary: The project investigates operator-learning methods for estimating loss
+      parameters in dredging operations.
+    collaboration: Boskalis
+    supervisors: Alexander Heinlein
+    co_supervisors: Oscar van der Ven (Boskalis)
+  - id: master-thesis-projects-34-dd-nns-complex-shaped-domains
+    category: master-thesis-projects
+    title: Domain decomposition-based neural networks for complex shaped domains
+    institution: TU Delft
+    status: archive
+    order: 34
+    url: "/teaching/projects/master-thesis-projects-34-dd-nns-complex-shaped-domains/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/34-dd-nns-complex-shaped-domains.markdown
+    student: Wanxin Chen
+    member_id: wanxin-chen
+    summary: The project studies domain-decomposition approaches to neural-network models
+      on complex-shaped computational domains.
+    collaboration: Pacific Northwest National Laboratory
+    supervisors: Alexander Heinlein
+    co_supervisors: Amanda Howard (Pacific Northwest National Laboratory)
+  - id: master-thesis-projects-35-ml-post-storm-profile-predictions-part2
+    category: master-thesis-projects
+    title: Machine learning for post-storm profile predictions
+    institution: TU Delft
+    status: archive
+    order: 35
+    url: "/teaching/projects/master-thesis-projects-35-ml-post-storm-profile-predictions-part2/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/35-ml-post-storm-profile-predictions-part2.markdown
+    student: Derby Oudenes
+    collaboration: Deltares
+    supervisors: Alexander Heinlein
+    co_supervisors: José Antonio Álvarez Antolínez (TU Delft, Hydraulic Engineering),
+      Renske Gelderloos (TU Delft, Environmental Fluid Mechanics), Panos Athanasiou,
+      Kees Nederhoff (Deltares)
+  - id: master-thesis-projects-36-deeponet-convergence
+    category: master-thesis-projects
+    title: Mode-Decomposition in DeepONets — Generalization and Coupling Analysis
+    institution: TU Delft
+    status: archive
+    order: 36
+    url: "/teaching/projects/master-thesis-projects-36-deeponet-convergence/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/36-deeponet-convergence.markdown
+    student: Johannes Taraz
+    member_id: johannes-taraz
+    summary: The project investigates mode decomposition in DeepONets, focusing on generalisation
+      and coupling between learned components.
+    supervisors: Alexander Heinlein
+  - id: master-thesis-projects-37-gnn-abm-pandemic
+    category: master-thesis-projects
+    title: Graph Neural Network Surrogates to Replace Agent-Based Models for Pandemic
+      Response
+    institution: TU Delft
+    status: open
+    order: 37
+    url: "/teaching/projects/master-thesis-projects-37-gnn-abm-pandemic/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/37-gnn-abm-pandemic.markdown
+    collaboration: German Aerospace Center & University of Bonn
+    supervisors: Alexander Heinlein
+    co_supervisors: Martin Kühn (German Aerospace Center & University of Bonn)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-heinlein_kuehn-gnn-abm-pandemic/2025-heinlein_kuehn-gnn-abm-pandemic-project-description.pdf"
+  - id: master-thesis-projects-38-spectral-neural-operators
+    category: master-thesis-projects
+    title: Operator Learning Using Wavelet Representations
+    institution: TU Delft
+    status: archive
+    order: 38
+    url: "/teaching/projects/master-thesis-projects-38-spectral-neural-operators/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/38-spectral-neural-operators.markdown
+    student: Hangyu Xia
+    member_id: hangyu-xia
+    summary: The project studies operator learning using wavelet representations.
+    supervisors: Alexander Heinlein
+  - id: master-thesis-projects-39-multi-issue-negotiation
+    category: master-thesis-projects
+    title: Eliminating Interdependencies between Issues for Multi-issue Negotiation
+    institution: TU Delft
+    status: archive
+    order: 39
+    url: "/teaching/projects/master-thesis-projects-39-multi-issue-negotiation/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/39-multi-issue-negotiation.markdown
+    student: Valdimar Þórsson
+    member_id: valdimar-thorsson
+    summary: The project studies methods for eliminating dependencies between issues
+      in multi-issue negotiation.
+    supervisors: Alexander Heinlein
+    co_supervisors: Catholijn M. Jonker
+  - id: master-thesis-projects-39-predicting-patient-discharge-machine-learning
+    category: master-thesis-projects
+    title: Predicting Patient Discharge Dates Using Machine Learning
+    institution: TU Delft
+    status: open
+    order: 39
+    url: "/teaching/projects/master-thesis-projects-39-predicting-patient-discharge-machine-learning/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/39-predicting-patient-discharge-machine-learning.markdown
+    collaboration: Reinier de Graaf hospital
+    supervisors: Alexander Heinlein
+    co_supervisors: Cindy Pistorius (TU Delft, Optimization)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-heinlein_pistorius-predicting-patient-discharge-machine-learning/2025-heinlein_pistorius-predicting-patient-discharge-machine-learning-project-description.pdf"
+  - id: master-thesis-projects-4-block-preconditioners-very-large-floating-structures
+    category: master-thesis-projects
+    title: Block Preconditioners for Monolithic Solvers of Very Large Floating Structures
+    institution: TU Delft
+    status: archive
+    order: 4
+    url: "/teaching/projects/master-thesis-projects-4-block-preconditioners-very-large-floating-structures/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/4-block-preconditioners-very-large-floating-structures.markdown
+    student: Shreyas Prashanth
+    member_id: shreyas-prashanth
+    summary: The project investigates block preconditioners for monolithic numerical
+      solvers used in simulations of very large floating structures.
+    collaboration: Mocean
+    supervisors: Alexander Heinlein
+    co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein_colomes-block_preconditioners_floating_structures/2021-heinlein_colomes-block-preconditioners-floating-structures-project-description.pdf"
+  - id: master-thesis-projects-40-pinns-inverse-problems-framework
+    category: master-thesis-projects
+    title: Bayesian Inverse Generative Neural Operator — Latent-Space Posterior Formulation
+      for PDE-Constrained Inverse Problems
+    institution: TU Delft
+    status: archive
+    order: 40
+    url: "/teaching/projects/master-thesis-projects-40-pinns-inverse-problems-framework/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/40-pinns-inverse-problems-framework.markdown
+    student: Henry Page
+    member_id: henry-page
+    summary: The project studies a latent-space Bayesian formulation of generative neural
+      operators for PDE-constrained inverse problems.
+    supervisors: Alexander Heinlein
+    co_supervisors: Jing Sun (TU Delft, Intelligent Systems)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-heinlein_sun-pinns-inverse_problems/2025-heinlein_sun-pinns-inverse-problems-project-description.pdf"
+  - id: master-thesis-projects-42-reduced-order-network-models-for-optimization
+    category: master-thesis-projects
+    title: Reduced Order Modeling for District Heating Network State Estimation
+    institution: TU Delft
+    status: archive
+    order: 42
+    url: "/teaching/projects/master-thesis-projects-42-reduced-order-network-models-for-optimization/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/42-reduced-order-network-models-for-optimization.md
+    student: Zomer van Noord
+    member_id: zomer-van-noord
+    summary: The project investigates reduced-order models for estimating the state
+      of district-heating networks.
+    supervisors: Alexander Heinlein
+    co_supervisors: Mirko Kemna (Gradyent)
+  - id: master-thesis-projects-43-domain-decomposition-frosch
+    category: master-thesis-projects
+    title: Domain decomposition Preconditioning with FROSch
+    institution: TU Delft
+    status: archive
+    order: 43
+    url: "/teaching/projects/master-thesis-projects-43-domain-decomposition-frosch/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/43-domain-decomposition-frosch.md
+    student: Thijs Terwiel
+    member_id: thijs-terwiel
+    summary: The project studies domain-decomposition preconditioning with FROSch, the
+      Fast and Robust Overlapping Schwarz framework in Trilinos.
+    supervisors: Alexander Heinlein
+    co_supervisors: Filipe Antônio Cumaru Silva Alves (TU Delft, DIAM)
+  - id: master-thesis-projects-45-collection-bosch
+    category: master-thesis-projects
+    title: Several open projects
+    institution: TU Delft
+    status: open
+    order: 45
+    url: "/teaching/projects/master-thesis-projects-45-collection-bosch/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/45-collection-bosch.md
+    collaboration: Bosch
+    supervisors: Alexander Heinlein
+    co_supervisors: Uwe Iben (Bosch)
+  - id: master-thesis-projects-46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation
+    category: master-thesis-projects
+    title: Discrete PINNs for hysteresis-aware prediction
+    institution: TU Delft
+    status: archive
+    order: 46
+    url: "/teaching/projects/master-thesis-projects-46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation.md
+    student: Tyren Koning
+    member_id: tyren-koning
+    summary: The project investigates neural-network surrogate models for solving nonlinear
+      wafer-deformation problems in collaboration with ASML.
+    collaboration: ASML
+    supervisors: Alexander Heinlein
+    co_supervisors: Ozan Celik (ASML)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-heinlein_celik-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation/2025-heinlein_celik-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation-project-description.pdf"
+  - id: master-thesis-projects-47-training-generalization-overparameterized-neural-networks
+    category: master-thesis-projects
+    title: Training Dynamics of Overparameterized Neural Networks
+    institution: TU Delft
+    status: archive
+    order: 47
+    url: "/teaching/projects/master-thesis-projects-47-training-generalization-overparameterized-neural-networks/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/47-training-generalization-overparameterized-neural-networks.md
+    student: shreyas kalvankar
+    member_id: shreyas-kalvankar
+    summary: The project studies the training dynamics of overparameterized neural networks.
+    supervisors: Alexander Heinlein
+    co_supervisors: Francesca Bartolucci and David Tax
+  - id: master-thesis-projects-48-frosch-race
+    category: master-thesis-projects
+    title: Efficient Inexact Subdomain Solvers for Domain Decomposition Methods with
+      RACE
+    institution: TU Delft
+    status: open
+    order: 48
+    url: "/teaching/projects/master-thesis-projects-48-frosch-race/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/48-frosch-race.md
+    collaboration: Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)
+    supervisors: Alexander Heinlein
+    co_supervisors: Filipe Cumaru (TU Delft), Dane Lacey, and Gerhard Wellein (FAU)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-cumaru_heinlein_lacey_wellein-frosch-race/2025-cumaru_heinlein_lacey_wellein-frosch-race-project-description.pdf"
+  - id: master-thesis-projects-49-conditional-generative-modeling-cardiac-anatomy
+    category: master-thesis-projects
+    title: Conditional generative modeling of cardiac anatomy with flow-based architectures
+    institution: TU Delft
+    status: open
+    order: 49
+    url: "/teaching/projects/master-thesis-projects-49-conditional-generative-modeling-cardiac-anatomy/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/49-conditional-generative-modeling-cardiac-anatomy.md
+    collaboration: Biomechanical Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Konstantinos Kevopoulos, Mathias Peirlinck
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-kevopoulos_heinlein_peirlinck-conditional-generative-modeling-cardiac-anatomy/2025-kevopoulos_heinlein_peirlinck-conditional-generative-modeling-cardiac-anatomy-project-description.pdf"
+  - id: master-thesis-projects-5-neural-networks-burn-injuries
+    category: master-thesis-projects
+    title: The Application of Neural Networks to Predict Skin Evolution After Burn Trauma
+    institution: TU Delft
+    status: archive
+    order: 5
+    url: "/teaching/projects/master-thesis-projects-5-neural-networks-burn-injuries/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/5-neural_networks_burn_injuries.markdown
+    student: Selma Husanović
+    member_id: selma-husanovic
+    summary: The project explores neural-network models for predicting the evolution
+      of skin after burn trauma.
+    collaboration: University of Hasselt
+    supervisors: Alexander Heinlein
+    co_supervisors: Fred Vermolen (University of Hasselt)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein_vermolen-neural_networks_burn_injuries/2021-heinlein_vermolen-neural-networks-burn-injuries-project-description.pdf"
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein_vermolen-neural_networks_burn_injuries/2021-heinlein_vermolen-neural-networks-burn-injuries-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein_vermolen-neural_networks_burn_injuries/2021-heinlein_vermolen-neural-networks-burn-injuries-interim-presentation.pdf"
+  - id: master-thesis-projects-50-sindy-cardiac-anatomy
+    category: master-thesis-projects
+    title: Sparse identification of shape variation dynamics in cardiac anatomy, and
+      generative modeling based on sparse regression
+    institution: TU Delft
+    status: open
+    order: 50
+    url: "/teaching/projects/master-thesis-projects-50-sindy-cardiac-anatomy/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/50-sindy-cardiac-anatomy.md
+    collaboration: Biomechanical Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Konstantinos Kevopoulos, Mathias Peirlinck
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-kevopoulos_heinlein_peirlinck-sindy-cardiac-anatomy/2025-kevopoulos_heinlein_peirlinck-sindy-cardiac-anatomy-project-description.pdf"
+  - id: master-thesis-projects-51-gnns-learning-preconditioners
+    category: master-thesis-projects
+    title: Learning Preconditioners Using Neural Networks
+    institution: TU Delft
+    status: open
+    order: 51
+    url: "/teaching/projects/master-thesis-projects-51-gnns-learning-preconditioners/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/51-gnns-learning-preconditioners.md
+    collaboration: Lawrence Livermore National Laboratory (LLNL)
+    supervisors: Alexander Heinlein
+    co_supervisors: Rui Peng Li (LLNL)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2025/2025-heinlein_li-gnns-learning-preconditioners/2025-heinlein_li-gnns-learning-preconditioners-project-description.pdf"
+  - id: master-thesis-projects-53-near-ground-turbulence-ml
+    category: master-thesis-projects
+    title: Physics-Guided Machine Learning for Optical Turbulence Characterization
+    institution: TU Delft
+    status: archive
+    order: 53
+    url: "/teaching/projects/master-thesis-projects-53-near-ground-turbulence-ml/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/53-near-ground-turbulence-ml.md
+    student: Martyna Maziukiewicz
+    member_id: martyna-maziukiewicz
+    summary: The project studies physics-guided machine learning for characterising
+      optical turbulence.
+    collaboration: TNO
+    supervisors: Alexander Heinlein
+    co_supervisors: Aad Vijn, Lex van Eijk, Ariadna Huerta Viso (TNO)
+  - id: master-thesis-projects-54-ice-sheet-surrogate-modeling-copy
+    category: master-thesis-projects
+    title: Physics Informed Neural Networks for Infrared Atomic Force Microscopy
+    institution: TU Delft
+    status: archive
+    order: 54
+    url: "/teaching/projects/master-thesis-projects-54-ice-sheet-surrogate-modeling-copy/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/54-ice-sheet-surrogate-modeling%20copy.md
+    student: Aidan Engelhard
+    member_id: aidan-engelhard
+    summary: The project investigates physics-informed neural networks for infrared
+      atomic force microscopy, combining physical modelling with machine learning.
+    collaboration: TNO
+    supervisors: Alexander Heinlein
+    co_supervisors: Maarten van Es (TNO)
+  - id: master-thesis-projects-55-pinn-inverse-transport-flow
+    category: master-thesis-projects
+    title: Physics‑Informed LIF Inversion for Full‑Field Temperature and Scalar Transport
+      in Convective Jet Flows
+    institution: TU Delft
+    status: open
+    order: 55
+    url: "/teaching/projects/master-thesis-projects-55-pinn-inverse-transport-flow/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/55-pinn-inverse-transport-flow.md
+    collaboration: Deltares
+    supervisors: Alexander Heinlein
+    co_supervisors: Mike van Meerkerk
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2026/2026-heinlein-van_meerkerk-pinns-inverse_problems/2026-heinlein_van_meerkerk-pinns-inverse-problems-project-description.pdf"
+  - id: master-thesis-projects-56-fem-multiphase-flow
+    category: master-thesis-projects
+    title: Finite Element Simulation of Multiphase Flow in Porous Media
+    institution: TU Delft
+    status: open
+    order: 56
+    url: "/teaching/projects/master-thesis-projects-56-fem-multiphase-flow/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/56-fem-multiphase-flow.md
+    collaboration: Materials- Mechanics- Management & Design, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Martin Lesueur
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2026/2026-heinlein-lesueur-fem-multiphase-flow/2026-heinlein_lesueur-fem-multiphase-flow-project-description.pdf"
+  - id: master-thesis-projects-57-physics-informed-ml-optical-system-calibration
+    category: master-thesis-projects
+    title: Physics-Informed Machine Learning for Optical System Calibration
+    institution: TU Delft
+    status: open
+    order: 57
+    url: "/teaching/projects/master-thesis-projects-57-physics-informed-ml-optical-system-calibration/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/57-physics-informed-ml-optical-system-calibration.md
+    collaboration: Sioux Technologies
+    supervisors: Alexander Heinlein
+    links:
+      - label: Project description
+        url: https://vacancy.sioux.eu/vacancies/vacancy_master_internships_mathware_209348_31.html
+  - id: master-thesis-projects-58-waterlily-multigpu-poisson
+    category: master-thesis-projects
+    title: Efficient Poisson Solver for Multi-GPU WaterLily.jl Simulations
+    institution: TU Delft
+    status: open
+    order: 58
+    url: "/teaching/projects/master-thesis-projects-58-waterlily-multigpu-poisson/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/58-waterlily-multigpu-poisson.md
+    collaboration: ME, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Bernat Font, Marin Lauber
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2026/2026-font_lauber_heinlein-waterlily-multigpu-poisson/2026-font_lauber_heinlein-waterlily-multigpu-poisson-project-description.pdf"
+  - id: master-thesis-projects-59-machine-learning-wafer-alignment
+    category: master-thesis-projects
+    title: Exploring new machine learning for wafer alignment
+    institution: TU Delft
+    status: ongoing
+    order: 59
+    url: "/teaching/projects/master-thesis-projects-59-machine-learning-wafer-alignment/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/59-machine-learning-wafer-alignment.md
+    student: Elena Gijon Ruiz
+    member_id: elena-gijon-ruiz
+    summary: The project explores machine-learning methods for wafer alignment in collaboration
+      with ASML.
+    collaboration: ASML
+    supervisors: Alexander Heinlein
+    links:
+      - label: Project description
+        url: https://mare.ewi.tudelft.nl/project/3769
+  - id: master-thesis-projects-6-machine-learning-for-monopile-hydrodynamics-part1
+    category: master-thesis-projects
+    title: Surrogate models for the characterization of hydrodynamic loads on perforated
+      monopiles
+    institution: TU Delft
+    status: archive
+    order: 6
+    url: "/teaching/projects/master-thesis-projects-6-machine-learning-for-monopile-hydrodynamics-part1/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/6-machine-learning-for-monopile-hydrodynamics-part1.markdown
+    student: Quinten Star
+    collaboration: Offshore and Dredging Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-colomes_heinlein-machine_learning_for_monopile_hydrodynamics/2021-colomes_heinlein-machine-learning-for-monopile-hydrodynamics-project-description.pdf"
+      - label: Thesis
+        url: https://repository.tudelft.nl/islandora/object/uuid%3A2874787e-27ac-4c2e-a1d4-d1ddedf3f87f?collection=education
+  - id: master-thesis-projects-60-foundation-model-proxies-porous-media
+    category: master-thesis-projects
+    title: Pre-trained Foundation Models as Fast Proxies for Flow and Transport in Porous
+      Media
+    institution: TU Delft
+    status: open
+    order: 60
+    url: "/teaching/projects/master-thesis-projects-60-foundation-model-proxies-porous-media/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/60-foundation-model-proxies-porous-media.md
+    collaboration: Geoscience and Engineering, TU Delft
+    supervisors: Alexander Heinlein
+    co_supervisors: Denis Voskov (TU Delft, Geoscience and Engineering)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2026/2026-voskov_heinlein-foundation-model-proxies-porous-media/2026-voskov_heinlein-foundation-model-proxies-porous-media-project-description.pdf"
+  - id: master-thesis-projects-61-data-driven-dredging-production-optimization
+    category: master-thesis-projects
+    title: Developing Data-Driven Models for Real-Time Dredging Production Optimization
+    institution: TU Delft
+    status: open
+    order: 61
+    url: "/teaching/projects/master-thesis-projects-61-data-driven-dredging-production-optimization/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/61-data-driven-dredging-production-optimization.md
+    collaboration: Boskalis
+    supervisors: Alexander Heinlein
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2026/2026-heinlein-boskalis-dredging-production-optimization/2026-heinlein_boskalis-dredging-production-optimization-project-description.pdf"
+  - id: master-thesis-projects-8-ddm-helmholtz-part1
+    category: master-thesis-projects
+    title: Domain Decomposition Techniques for the Helmholtz Equation
+    institution: TU Delft
+    status: archive
+    order: 8
+    url: "/teaching/projects/master-thesis-projects-8-ddm-helmholtz-part1/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/8-ddm-helmholtz-part1.markdown
+    student: Erik Sieburgh
+    member_id: erik-sieburgh
+    summary: The project investigates domain-decomposition methods for the Helmholtz
+      equation.
+    supervisors: Alexander Heinlein
+    co_supervisors: Vandana Dwarka (TU Delft, Numerical Analysis)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-dwarka_heinlein-ddm_helmholtz/2021-dwarka_heinlein-ddm-helmholtz-project-description.pdf"
+      - label: Thesis
+        url: http://resolver.tudelft.nl/uuid:32f4b716-6f83-4a95-b8b5-c3d35a32349f
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2021/2021-dwarka_heinlein-ddm_helmholtz/2021-dwarka_heinlein-ddm-helmholtz-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2021/2021-dwarka_heinlein-ddm_helmholtz/2021-dwarka_heinlein-ddm-helmholtz-interim-presentation.pdf"
+  - id: master-thesis-projects-9-ml-sea-ice
+    category: master-thesis-projects
+    title: Enhancing Sea Ice Dynamics in the Climate System by Machine Learning
+    institution: TU Delft
+    status: archive
+    order: 9
+    url: "/teaching/projects/master-thesis-projects-9-ml-sea-ice/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/9-ml-sea-ice.markdown
+    student: Brendan Analikwu
+    member_id: brendan-analikwu
+    summary: The project investigates machine-learning methods for representing sea-ice
+      dynamics in climate models.
+    collaboration: Otto-von-Guericke University, Max-Planck-Institute of Meteorology
+    supervisors: Alexander Heinlein
+    co_supervisors: Carolin Mehlmann (Otto-von-Guericke University, Max-Planck-Institute
+      of Meteorology)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2022/2022-heinlein_mehlmann-ml-sea_ice/2022-heinlein_mehlmann-ml-sea-ice-project-description.pdf"
+      - label: Presentation
+        url: https://repository.tudelft.nl/record/uuid:566f2247-3827-4b0c-aed5-bd54ee0259f2
+  - id: master-thesis-projects-9-turbulence-ml-part1
+    category: master-thesis-projects
+    title: Machine Learning for Turbulent Flows
+    institution: TU Delft
+    status: archive
+    order: 9
+    url: "/teaching/projects/master-thesis-projects-9-turbulence-ml-part1/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/9-turbulence-ml-part1.markdown
+    student: Elske van Leeuwen
+    member_id: elske-van-leeuwen
+    summary: The project explores machine-learning approaches for turbulent flows.
+    collaboration: Sioux Technologies
+    supervisors: Alexander Heinlein
+    co_supervisors: Werner Lazeroms (Sioux)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-sioux_heinlein-turbulence_ml/2021-sioux_heinlein-turbulence-ml-project-description.pdf"
+      - label: Thesis
+        url: https://repository.tudelft.nl/islandora/object/uuid%3A52480fee-a585-4bbe-8785-319b94367ca0
+      - label: Interim thesis
+        url: "/assets/pdf/thesis_projects/2021/2021-sioux_heinlein-turbulence_ml/2021-sioux_heinlein-turbulence-ml-interim-thesis.pdf"
+      - label: Interim presentation
+        url: "/assets/pdf/thesis_projects/2021/2021-sioux_heinlein-turbulence_ml/2021-sioux_heinlein-turbulence-ml-interim-presentation.pdf"
+  - id: bachelor-thesis-projects-1-dimension-reduction-autoencoder
+    category: bachelor-thesis-projects
+    title: Dimensionsreduktion mit Autoencodern basierend auf Convolutional Neuronal
+      Networks und Principal Component Analysis
+    institution: University of Stuttgart
+    status: archive
+    order: 1
+    url: "/teaching/projects/bachelor-thesis-projects-1-dimension-reduction-autoencoder/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/1-dimension-reduction-autoencoder.markdown
+    student: Daniel Sperber
+    supervisors: Alexander Heinlein
+  - id: bachelor-thesis-projects-2-nn-error-estimator
+    category: bachelor-thesis-projects
+    title: Error Estimates for Finite Element Simulations Using Neural Networks
+    institution: TU Delft
+    status: archive
+    order: 2
+    url: "/teaching/projects/bachelor-thesis-projects-2-nn-error-estimator/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/2-nn-error-estimator.markdown
+    student: Avi Halevy
+    supervisors: Alexander Heinlein
+    co_supervisors: Deepesh Toshniwal (TU Delft, Numerical Analysis)
+    links:
+      - label: Thesis
+        url: http://resolver.tudelft.nl/uuid:31084250-25ee-4901-a3f0-258a6436be29
+  - id: bachelor-thesis-projects-3-dl-nonlinear-dynamics
+    category: bachelor-thesis-projects
+    title: Deep Learning the Nonlinear Dynamics of Mechanical Systems
+    institution: TU Delft
+    status: archive
+    order: 3
+    url: "/teaching/projects/bachelor-thesis-projects-3-dl-nonlinear-dynamics/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/3-dl-nonlinear-dynamics.markdown
+    student: Bram Wigmans
+    supervisors: Alexander Heinlein
+    co_supervisors: Shobhit Jain (TU Delft, Numerical Analysis)
+  - id: bachelor-thesis-projects-4-photonic-crystal-fiber
+    category: bachelor-thesis-projects
+    title: Analytical approach to hollow core Photonic Crystal Fiber for gas sensing
+    institution: TU Delft
+    status: archive
+    order: 4
+    url: "/teaching/projects/bachelor-thesis-projects-4-photonic-crystal-fiber/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/4-photonic-crystal-fiber.markdown
+    student: Lisanne Abutan
+    supervisors: Alexander Heinlein
+    co_supervisors: Aurèle Adam (TU Delft, Imaging Physics)
+  - id: bachelor-thesis-projects-5-kokkos-one-level-schwarz
+    category: bachelor-thesis-projects
+    title: Parallel Schwarz Domain Decomposition Methods with Kokkos
+    institution: TU Delft
+    status: archive
+    order: 5
+    url: "/teaching/projects/bachelor-thesis-projects-5-kokkos-one-level-schwarz/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/5-kokkos-one-level-schwarz.markdown
+    student: Karel Gimbergh
+    member_id: karel-gimbergh
+    summary: The project studies parallel implementations of Schwarz domain-decomposition
+      methods using Kokkos.
+    supervisors: Alexander Heinlein
+    links:
+      - label: Thesis
+        url: https://repository.tudelft.nl/record/uuid:e20ef34f-bfb5-4f76-8ac6-14be1ce80e62
+  - id: bachelor-thesis-projects-6-preconditioned-krylov-methods-shared-memory-parallelism
+    category: bachelor-thesis-projects
+    title: Preconditioned Krylov Solvers under Shared-Memory Parallelism - Evaluating
+      Convergence, Scalability, and Parallel Overhead
+    institution: TU Delft
+    status: archive
+    order: 6
+    url: "/teaching/projects/bachelor-thesis-projects-6-preconditioned-krylov-methods-shared-memory-parallelism/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/6-preconditioned-krylov-methods-shared-memory-parallelism.markdown
+    student: Hugo Reijersen van Buuren
+    member_id: hugo-reijersen-van-buuren
+    summary: The project evaluates convergence, scalability, and parallel overhead in
+      preconditioned Krylov solvers under shared-memory parallelism.
+    supervisors: Alexander Heinlein
+    links:
+      - label: Thesis
+        url: https://repository.tudelft.nl/record/uuid:12973191-eb89-4075-ad78-ce1286ee5aad
+  - id: internships-1-reusability-preconditioners
+    category: internships
+    title: Reusability of preconditioners
+    institution: TU Delft
+    status: open
+    order: 1
+    url: "/teaching/projects/internships-1-reusability-preconditioners/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/internships/1-reusability-preconditioners.markdown
+    collaboration: Ignition Computing
+    supervisors: Alexander Heinlein
+    co_supervisors: Victorita Dolean (TU Eindhoven)
+    links:
+      - label: Project description
+        url: "/assets/pdf/internships/2025/2025-ignition_dolean_heinlein-reusability_preconditioners/project_description.pdf"
+  - id: internships-3-physics-informed-ml-optical-system-calibration
+    category: internships
+    title: Physics-Informed Machine Learning for Optical System Calibration
+    institution: TU Delft
+    status: open
+    order: 3
+    url: "/teaching/projects/internships-3-physics-informed-ml-optical-system-calibration/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/internships/3-physics-informed-ml-optical-system-calibration.md
+    collaboration: Sioux Technologies
+    supervisors: Alexander Heinlein
+    links:
+      - label: Project description
+        url: https://vacancy.sioux.eu/vacancies/vacancy_master_internships_mathware_209348_31.html
+  - id: honours-projects-1-neural-networks-error-estimation
+    category: honours-projects
+    title: Error Estimates for Finite Element Simulations Using Neural Networks
+    institution: TU Delft
+    status: ongoing
+    order: 1
+    url: "/teaching/projects/honours-projects-1-neural-networks-error-estimation/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/honors/1-neural-networks-error-estimation.markdown
+    student: Yijun Wu
+    supervisors: Alexander Heinlein
+    co_supervisors: Deepesh Toshniwal (TU Delft, Numerical Analysis)
+    links:
+      - label: Project description
+        url: "/assets/pdf/thesis_projects/2021/2021-heinlein_toshniwal-neural_networks_error_estimation/2021-heinlein_toshniwal-neural-networks-error-estimation-project-description.pdf"
+  - id: honours-projects-2-pacmann
+    category: honours-projects
+    title: PACMANN -- Point Adaptive Collocation Method for Artificial Neural Networks
+    institution: TU Delft
+    status: archive
+    order: 2
+    url: "/teaching/projects/honours-projects-2-pacmann/"
+    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/honors/2-pacmann.markdown
+    student: Coen Visser
+    member_id: coen-visser
+    summary: The project studies adaptive selection of collocation points for neural-network
+      approximations of differential equations through PACMANN, the Point Adaptive Collocation
+      Method for Artificial Neural Networks.
+    supervisors: Alexander Heinlein
+    co_supervisors: Bianca Giovanardi (TU Delft, Aerospace Engineering)
+  - id: member-thai-ha-bui
+    category: master-thesis-projects
+    title: Influence estimation in reinforcement learning
+    institution: Delft University of Technology
+    status: ongoing
+    order: 100
+    url: "/teaching/projects/member-thai-ha-bui/"
+    member_id: thai-ha-bui
+    student: Thai Ha Bui
+    summary: The thesis studies how training samples influence reinforcement-learning
+      models. It investigates influence estimators based on proximal Bregman response
+      functions and compares different choices of preconditioning.
+    source_note: Source-checked topic summary; see _data/member_projects.yml for the
+      review source. The title is descriptive.
+    review_needed: false
+    reviewed_on: "2026-11-01"
+  - id: member-ruben-dortland
+    category: master-thesis-projects
+    title: Data and model architecture for energy-load forecasting
+    institution: Delft University of Technology
+    status: archive
+    order: 100
+    url: "/teaching/projects/member-ruben-dortland/"
+    member_id: ruben-dortland
+    student: Ruben Dortland
+    summary: The thesis studies how input data and model architecture interact in short-term
+      probabilistic net-load forecasting. It compares linear models, multilayer perceptrons
+      and Mamba models, with attention to weather and calendar covariates, uncertainty
+      and generalisation.
+    source_note: Source-checked topic summary; see _data/member_projects.yml for the
+      review source. The title is descriptive.
+    review_needed: false
+    reviewed_on: "2026-11-01"
+  - id: member-uzay-eskikoy
+    category: bachelor-thesis-projects
+    title: Numerical simulation of Darcy flow
+    institution: Delft University of Technology
+    status: ongoing
+    order: 100
+    url: "/teaching/projects/member-uzay-eskikoy/"
+    member_id: uzay-eskikoy
+    student: Uzay Eskiköy
+    summary: The project concerns the numerical implementation of Darcy flow, a model
+      for flow through porous media.
+    source_note: Source-checked topic summary; see _data/member_projects.yml for the
+      review source. The title is descriptive.
+    review_needed: false
+    reviewed_on: "2026-11-01"
+  - id: member-sieds-lykles
+    category: master-thesis-projects
+    title: Neural Hamiltonian Monte Carlo Surrogates for Molecular Sampling
+    institution: Delft University of Technology
+    status: archive
+    order: 100
+    url: "/teaching/projects/member-sieds-lykles/"
+    member_id: sieds-lykles
+    student: Sieds Lykles
+    summary: The thesis studies learned models for sampling molecular configurations.
+      It examines sampling corrections, replica exchange, and the ability of trained
+      models to generalise across state-space regions and molecular systems.
+    co_supervisors: Othonas A. Moultos
+    source_note: Final thesis title page, October 2026.
+  - id: member-mirte-van-loenen
+    category: master-thesis-projects
+    title: Parameter Optimization for Quantum Annealing
+    institution: Delft University of Technology
+    status: archive
+    order: 100
+    url: "/teaching/projects/member-mirte-van-loenen/"
+    member_id: mirte-van-loenen
+    student: Mirte van Loenen
+    summary: The thesis experimentally studies how the Lagrangian multiplier, annealing
+      schedule, and embedding affect the performance of standard and reverse quantum
+      annealing.
+    source_url: https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab
+    links:
+      - label: Thesis
+        url: https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab
+    supervisors: Matthias Möller

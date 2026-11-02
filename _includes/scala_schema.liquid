@@ -1,0 +1,36 @@
+{% comment %}The upstream schema models an individual; this website represents a research group.{% endcomment %}
+{% assign schema_member = site.data.people | where: 'id', page.member_id | first %}
+{% assign schema_profile = site.data.member_profiles[page.member_id] %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if schema_member %}ProfilePage{% else %}WebPage{% endif %}",
+    "name": {{ page.title | default: site.title | jsonify }},
+    "description": {{ page.description | default: site.description | strip | jsonify }},
+    "url": {{ page.url | absolute_url | jsonify }},
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": {{ site.title | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }}
+    },
+    {% if schema_member %}
+    "mainEntity": {
+      "@type": "Person",
+      "name": {{ schema_member.name | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }}{% if schema_profile.links.size > 0 %},
+      "sameAs": [{% for link in schema_profile.links %}{{ link.url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}{% if schema_member.university %},
+      "affiliation": {"@type": "CollegeOrUniversity", "name": {{ schema_member.university | jsonify }}}{% endif %}
+    },
+    {% endif %}
+    "publisher": {
+      "@type": "ResearchOrganization",
+      "name": "SCaLA — Scalable Scientific and Learning Algorithms",
+      "url": {{ '/' | absolute_url | jsonify }},
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Delft University of Technology",
+        "url": "https://www.tudelft.nl/"
+      }
+    }
+  }
+</script>

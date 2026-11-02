@@ -1,0 +1,130 @@
+{% if include.category == 'courses' %}
+  {% assign regular_courses = site.data.teaching.courses | where_exp: 'course', "course.kind != 'short-course'" %}
+  {% assign academic_years = regular_courses | group_by: 'academic_year' | sort: 'name' | reverse %}
+  {% for academic_year in academic_years %}
+    <section aria-labelledby="courses-{{ academic_year.name | slugify }}">
+      <h2 id="courses-{{ academic_year.name | slugify }}">{{ academic_year.name }}</h2>
+      <div class="scala-grid scala-teaching-grid">
+        {% assign courses = academic_year.items | sort: 'order' | reverse %}
+        {% for course in courses %}
+          <article class="scala-card" id="course-{{ course.id | slugify }}">
+            <h3>
+              {% if course.url %}
+                <a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a>
+              {% elsif course.studyguide_url %}
+                <a href="{{ course.studyguide_url }}">{{ course.title | escape }}</a>
+              {% else %}
+                {{ course.title | escape }}
+              {% endif %}
+            </h3>
+            <p>{{ course.institution | escape }} · {{ course.term | escape }}</p>
+            {% if course.instructors %}
+              <p class="scala-detail"><strong>Instructors:</strong> {{ course.instructors | escape }}</p>
+            {% endif %}
+            {% if course.teaching_role %}
+              <p class="scala-detail">{{ course.teaching_role | escape }}</p>
+            {% endif %}
+            {% if course.studyguide_url %}
+              <a href="{{ course.studyguide_url }}" title="{{ course.course_code }} · {{ course.academic_year }}">{{ course.studyguide_label }}</a>
+            {% endif %}
+            {% if course.url %}
+              <a href="{{ course.url | relative_url }}">Course material</a>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+  {% assign short_courses = site.data.teaching.courses | where: 'kind', 'short-course' | sort: 'order' | reverse %}
+  {% if short_courses.size > 0 %}
+    <section aria-labelledby="short-courses-and-tutorials">
+      <h2 id="short-courses-and-tutorials">Short courses and tutorials</h2>
+      <div class="scala-grid scala-archive-grid">
+        {% for course in short_courses %}
+          <article class="scala-card scala-archive-card" id="course-{{ course.id | slugify }}">
+            <h3>{{ course.title | escape }}</h3>
+            <p>{{ course.institution | escape }} · {{ course.term | escape }}</p>
+            <p class="scala-detail">{{ course.teaching_role | escape }}</p>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+{% else %}
+  {% assign projects = site.data.teaching.projects | where: 'category', include.category | sort: 'order' | reverse %}
+  {% assign statuses = 'open|ongoing|archive' | split: '|' %}
+  {% for status in statuses %}
+    {% assign entries = projects | where: 'status', status %}
+    {% if entries.size > 0 %}
+      <section aria-labelledby="teaching-{{ status }}">
+        <h2 id="teaching-{{ status }}">
+          {% case status %}
+            {% when 'open' -%}
+              Open projects
+            {% when 'ongoing' -%}
+              Ongoing projects
+            {% when 'archive' -%}
+              Completed and finishing projects
+          {% endcase %}
+        </h2>
+        <div class="scala-grid {% if status == 'archive' %}scala-archive-grid{% else %}scala-teaching-grid{% endif %}">
+          {% for project in entries %}
+            {% if status == 'archive' %}
+              <article class="scala-card scala-archive-card">
+                <h3>
+                  <a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+                </h3>
+                {% assign member = site.data.people | where: 'id', project.member_id | first %}
+                {% assign description = project.links | where: 'label', 'Project description' | first %}
+                {% if project.student or description %}
+                  <p class="scala-archive-meta">
+                    {% if project.student %}
+                      {% if member -%}
+                        <a href="{{ member.profile_url | relative_url }}">{{ project.student | escape }}</a>
+                      {%- else -%}
+                        {{- project.student | escape -}}
+                      {%- endif %}
+                    {% endif %}
+                    {% if description %}
+                      {% if project.student %} · {% endif -%}
+                      <a href="{{ description.url | relative_url }}">Project PDF</a>
+                    {% endif %}
+                  </p>
+                {% endif %}
+              </article>
+            {% else %}
+              <article class="scala-card">
+                <h3>
+                  <a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a>
+                </h3>
+                <p>{{ project.institution | escape }}</p>
+                {% if project.collaboration %}
+                  <p class="scala-detail"><strong>Collaboration:</strong> {{ project.collaboration | escape }}</p>
+                {% endif %}
+                {% if project.co_supervisors %}
+                  <p class="scala-detail"><strong>Co-supervision:</strong> {{ project.co_supervisors | escape }}</p>
+                {% endif %}
+                {% if project.student %}
+                  <p class="scala-detail">
+                    <strong>Student:</strong>
+                    {% assign member = site.data.people | where: 'id', project.member_id | first %}
+                    {% if member %}
+                      <a href="{{ member.profile_url | relative_url }}">{{ project.student | escape }}</a>
+                    {% else %}
+                      {{ project.student | escape }}
+                    {% endif %}
+                  </p>
+                {% endif %}
+                <a href="{{ project.url | relative_url }}">Project details</a>
+                {% assign description = project.links | where: 'label', 'Project description' | first %}
+                {% if description %}
+                  <a href="{{ description.url | relative_url }}">Project description</a>
+                {% endif %}
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% endif %}

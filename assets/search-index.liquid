@@ -1,0 +1,34 @@
+---
+permalink: /assets/search-index.json
+layout: null
+sitemap: false
+---
+[
+{% for p in site.pages %}
+  {% unless p.nav or p.redirect or p.url == '/' or p.url == '/404.html' or p.url contains '/teaching/courses/' %}
+    {% if p.title and p.layout %}
+      {% assign person = site.data.people | where: 'id', p.member_id | first %}
+      {% assign topic = site.data.member_projects[p.member_id] %}
+      {% assign profile = site.data.member_profiles[p.member_id] %}
+      {% assign linked_topic = site.data.teaching.projects | where: 'id', topic.teaching_project_id | first %}
+      {% assign project = site.data.teaching.projects | where: 'id', p.teaching_project_id | first %}
+      {% capture details %}{{ p.description }} {{ person.role }} {{ topic.title | default: linked_topic.title }} {{ topic.summary | default: linked_topic.summary }} {{ project.summary }} {{ project.student }} {{ profile.biography | join: ' ' }} {{ profile.research_interests | join: ' ' }}{% endcapture %}
+      { "id": {{ p.url | prepend: 'page-' | jsonify }}, "title": {{ p.title | escape | jsonify }}, "description":
+      {{ details | strip_html | normalize_whitespace | jsonify }}, "section":
+      {% if p.member_id %}"People"{% elsif p.url contains '/teaching/' %}"Teaching"{% else %}"Pages"{% endif %}, "url":
+      {{ p.url | relative_url | jsonify }} },
+    {% endif %}
+  {% endunless %}
+{% endfor %}
+{% for course in site.data.teaching.courses %}
+  {% capture course_title %}{{ course.title }} · {{ course.term }}{% endcapture %}
+  {% capture course_description %}{{ course.institution }} {{ course.instructors }}{% endcapture %}
+  {% capture course_url %}{% if course.url %}{{ course.url | relative_url }}{% else %}{{ '/teaching/courses/' | relative_url }}#course-{{ course.id | slugify }}{% endif %}{% endcapture %}
+  { "id": {{ course.id | prepend: 'course-' | jsonify }}, "title": {{ course_title | escape | jsonify }}, "description":
+  {{ course_description | normalize_whitespace | jsonify }}, "section": "Courses", "url": {{ course_url | strip | jsonify }} },
+{% endfor %}
+{% for post in site.posts %}
+  { "id": {{ post.url | prepend: 'post-' | jsonify }}, "title": {{ post.title | jsonify }}, "description": {{ post.description | jsonify }},
+  "section": "Blog", "url": {{ post.url | relative_url | jsonify }} },
+{% endfor %}
+null ]

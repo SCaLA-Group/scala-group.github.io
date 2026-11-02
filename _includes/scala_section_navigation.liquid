@@ -1,0 +1,17 @@
+{% include scala_navigation_context.liquid %}
+{% if scala_section.items.size > 0 %}
+  <nav class="scala-section-nav scala-context-nav" aria-label="{{ scala_section.label }} navigation">
+    {% for nav_item in scala_section.items %}
+      {% assign nav_active = false %}
+      {% if page.url == nav_item.url or scala_category_url == nav_item.url %}{% assign nav_active = true %}{% endif %}
+      <a
+        href="{{ nav_item.url | relative_url }}"
+        {% if nav_active %}
+          aria-current="{% if page.url == nav_item.url %}page{% else %}location{% endif %}"
+        {% endif %}
+      >
+        {{- nav_item.label -}}
+      </a>
+    {% endfor %}
+  </nav>
+{% endif %}

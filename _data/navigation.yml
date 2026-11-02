@@ -1,0 +1,37 @@
+research:
+  label: Research
+  url: /research/
+  items:
+    - label: Overview
+      url: /research/
+    - label: Projects
+      url: /projects/
+    - label: Software
+      url: /software/
+teaching:
+  label: Teaching
+  url: /teaching/
+  items:
+    - label: Overview
+      url: /teaching/
+    - label: Courses
+      url: /teaching/courses/
+    - label: Master’s theses
+      url: /teaching/master-thesis-projects/
+    - label: Bachelor’s theses
+      url: /teaching/bachelor-thesis-projects/
+    - label: Internships
+      url: /teaching/internships/
+    - label: Honours
+      url: /teaching/honours-projects/
+group:
+  label: Group
+  url: /group/
+blog:
+  label: Blog
+  url: /blog/
+  items:
+    - label: Blog
+      url: /blog/
+    - label: News
+      url: /news/

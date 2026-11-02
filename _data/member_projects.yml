@@ -1,0 +1,491 @@
+---
+michael-aldorf:
+  teaching_project_id: master-thesis-projects-23-data-driven-metrology
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/23-data-driven-metrology.markdown
+  collaboration: ASML
+  co_supervisors: Sjoerd Wiarda (ASML)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2024/2024-heinlein_wiarda-data-driven-metrology/2024-heinlein_wiarda-data-driven-metrology-project-description.pdf"
+  link_label: Thesis project
+brendan-analikwu:
+  teaching_project_id: master-thesis-projects-9-ml-sea-ice
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/9-ml-sea-ice.markdown
+  collaboration: Otto-von-Guericke University, Max-Planck-Institute of Meteorology
+  co_supervisors: Carolin Mehlmann (Otto-von-Guericke University, Max-Planck-Institute
+    of Meteorology)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2022/2022-heinlein_mehlmann-ml-sea_ice/2022-heinlein_mehlmann-ml-sea-ice-project-description.pdf"
+  link_label: Thesis project
+gonzalo-bonilla-moreno:
+  teaching_project_id: master-thesis-projects-11-turbulence-ml-part2
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/11-turbulence-ml-part2.markdown
+  collaboration: NRG
+  co_supervisors: Edo Frederix (NRG), Deepesh Toshniwal (TU Delft, Numerical Analysis)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2022/2022-nrg_heinlein_toshniwal-ai_turbulence_modeling/2022-nrg_heinlein_toshniwal-ai-turbulence-modeling-project-description.pdf"
+    - label: Thesis
+      url: https://repository.tudelft.nl/record/uuid:013df562-f8a7-44e6-8009-9d711bcbbb41
+  link_label: Thesis project
+giacomo-bottacini:
+  kind: Visiting research project
+  title: Bayesian inversion and generative modelling
+  summary: Giacomo’s research includes Bayesian inverse problems and generative modelling
+    with normalizing flows and variational autoencoders. His work with Andrea Manzoni
+    and Matteo Torzoni includes neural Markov chain Monte Carlo methods for Bayesian
+    inversion.
+  title_is_descriptive: true
+  source_url: https://mox.polimi.it/people/people-details/?id_staff=100124
+  links:
+    - label: Related research
+      url: https://arxiv.org/abs/2602.19597
+  link_label: Research project
+thai-ha-bui:
+  teaching_project_id: member-thai-ha-bui
+  kind: Master’s thesis project
+  title_is_descriptive: true
+  review_needed: false
+  source_note: Reviewed against supervision notes; topic only, without numerical results
+    or assessment.
+  link_label: Thesis project
+  reviewed_on: "2026-11-01"
+  review_source: 2026-09-28-meeting-with-thai-ha-bui-and-terry-zhang.md
+ezra-cerpac:
+  teaching_project_id: master-thesis-projects-25-nn-convergence-acceleration
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/25-nn-convergence-acceleration.markdown
+  collaboration: TU Berlin
+  co_supervisors: Merten Stender (TU Berlin)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2024/2024-heinlein_stender-nn-convergence_acceleration/2024-heinlein_stender-nn-convergence-acceleration-project-description.pdf"
+  link_label: Thesis project
+wanxin-chen:
+  teaching_project_id: master-thesis-projects-34-dd-nns-complex-shaped-domains
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/34-dd-nns-complex-shaped-domains.markdown
+  collaboration: Pacific Northwest National Laboratory
+  co_supervisors: Amanda Howard (Pacific Northwest National Laboratory)
+  link_label: Thesis project
+filipe-antonio-cumaru-silva-alves:
+  kind: PhD research project
+  title: Algebraic multiscale coarse spaces for Schwarz preconditioners
+  summary: The research develops algebraic multiscale coarse spaces for two-level
+    overlapping Schwarz preconditioners. It investigates robust and efficient solvers
+    for heterogeneous problems and connections between multiscale constructions and
+    domain decomposition.
+  title_is_descriptive: true
+  co_supervisors: Hadi Hajibeygi
+  source_url: https://arxiv.org/abs/2610.16359
+  links:
+    - label: Related preprint
+      url: https://arxiv.org/abs/2610.16359
+  link_label: Research project
+arturo-de-marinis:
+  kind: Postdoctoral research project
+  title: AI-guided biofabrication in FAB4FUTURE
+  summary: The postdoctoral project is part of FAB4FUTURE, which develops a biofabrication
+    toolbox for sustainable living materials in life sciences. It connects scientific
+    computing and machine learning with the consortium’s AI-guided biofabrication
+    work.
+  title_is_descriptive: true
+  source_note: Based on the existing FAB4FUTURE project page; the member card retains
+    the November 2026 start date.
+  links:
+    - label: FAB4FUTURE
+      url: "/projects/fab4future/"
+  link_label: Research project
+ruben-dortland:
+  teaching_project_id: member-ruben-dortland
+  kind: Master’s thesis project
+  title_is_descriptive: true
+  review_needed: false
+  source_note: Reviewed against the later supervision note; topic only, without results
+    or defence planning.
+  link_label: Thesis project
+  reviewed_on: "2026-11-01"
+  review_source: 2026-10-22-meeting-with-ruben-dortland-and-sander-schrijver.md
+aidan-engelhard:
+  teaching_project_id: master-thesis-projects-54-ice-sheet-surrogate-modeling-copy
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/54-ice-sheet-surrogate-modeling%20copy.md
+  collaboration: TNO
+  co_supervisors: Maarten van Es (TNO)
+  link_label: Thesis project
+uzay-eskikoy:
+  teaching_project_id: member-uzay-eskikoy
+  kind: Bachelor’s thesis project
+  title_is_descriptive: true
+  review_needed: false
+  source_note: Only Darcy-flow implementation is established. The heading is descriptive,
+    not a registered thesis title.
+  link_label: Thesis project
+  reviewed_on: "2026-11-01"
+  review_source: 2026-03-10-meeting-with-uzay-eskikoy.md
+elena-gijon-ruiz:
+  teaching_project_id: master-thesis-projects-59-machine-learning-wafer-alignment
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/59-machine-learning-wafer-alignment.md
+  collaboration: ASML
+  links:
+    - label: Project description
+      url: https://mare.ewi.tudelft.nl/project/3769
+  link_label: Thesis project
+karel-gimbergh:
+  teaching_project_id: bachelor-thesis-projects-5-kokkos-one-level-schwarz
+  kind: Bachelor’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/5-kokkos-one-level-schwarz.markdown
+  links:
+    - label: Thesis
+      url: https://repository.tudelft.nl/record/uuid:e20ef34f-bfb5-4f76-8ac6-14be1ce80e62
+  link_label: Thesis project
+alexander-heinlein:
+  kind: Research projects
+  title: Scalable numerical methods and scientific machine learning
+  summary: Alexander’s research connects domain decomposition, multiscale methods,
+    and parallel scientific computing with scientific machine learning. His projects
+    include numerical solvers, multiphysics applications, and research software such
+    as FROSch and Trilinos.
+  title_is_descriptive: true
+  links:
+    - label: Research themes
+      url: "/research/"
+    - label: Collaborative projects
+      url: "/projects/"
+    - label: Research software
+      url: "/software/"
+  link_label: Research projects
+sylle-hoogeveen:
+  teaching_project_id: master-thesis-projects-10-rom-fluid-flow-transient
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/10-rom-fluid-flow-transient.markdown
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-heinlein-cnn_transient_mor/2021-heinlein-cnn-transient-mor-project-description.pdf"
+    - label: Thesis
+      url: http://resolver.tudelft.nl/uuid:45bffaf0-5ae0-48a2-9fe7-5ebfe2594cb5
+  link_label: Thesis project
+selma-husanovic:
+  teaching_project_id: master-thesis-projects-5-neural-networks-burn-injuries
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/5-neural_networks_burn_injuries.markdown
+  collaboration: University of Hasselt
+  co_supervisors: Fred Vermolen (University of Hasselt)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-heinlein_vermolen-neural_networks_burn_injuries/2021-heinlein_vermolen-neural-networks-burn-injuries-project-description.pdf"
+  link_label: Thesis project
+shreyas-kalvankar:
+  teaching_project_id: master-thesis-projects-47-training-generalization-overparameterized-neural-networks
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/47-training-generalization-overparameterized-neural-networks.md
+  co_supervisors: Francesca Bartolucci and David Tax
+  link_label: Thesis project
+thomas-kamminga:
+  teaching_project_id: master-thesis-projects-22-outlier-removal-ml
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/22-outlier-removal-ml.markdown
+  collaboration: ASML
+  co_supervisors: Lucas Bekker (ASML)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2024/2024-bekker_heinlein-outlier_removal_ml/2024-bekker_heinlein-outlier-removal-ml-project-description.pdf"
+  link_label: Thesis project
+mirko-kemna:
+  teaching_project_id: master-thesis-projects-3-rom-fluid-flow-gans
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/3-rom-fluid-flow-gans.markdown
+  co_supervisors: Kees Vuik (TU Delft, Numerical Analysis)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-heinlein-gan_pdes/2021-heinlein-gan-pdes-project-description.pdf"
+    - label: Thesis
+      url: http://resolver.tudelft.nl/uuid:25663ba2-3cdb-4581-be68-d4fd0a7a4dca
+  link_label: Thesis project
+konstantinos-kevopoulos:
+  kind: PhD research project
+  title: Generative models of cardiac anatomy
+  summary: The research develops generative models of cardiac anatomy for virtual
+    cohorts. It studies how conditional normalizing flows can represent anatomical
+    variability associated with characteristics such as age, sex, and body mass index.
+  title_is_descriptive: true
+  co_supervisors: Mathias Peirlinck
+  source_url: https://arxiv.org/abs/2608.09460
+  links:
+    - label: Related preprint
+      url: https://arxiv.org/abs/2608.09460
+  link_label: Research project
+marius-kielhofer:
+  teaching_project_id: master-thesis-projects-33-pinns-inverse-problems-sensor-data
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/33-pinns-inverse-problems-sensor-data.markdown
+  collaboration: Boskalis
+  co_supervisors: Oscar van der Ven (Boskalis)
+  link_label: Thesis project
+tyren-koning:
+  teaching_project_id: master-thesis-projects-46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/46-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation.md
+  collaboration: ASML
+  co_supervisors: Ozan Celik (ASML)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2025/2025-heinlein_celik-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation/2025-heinlein_celik-neural-networks-based-surrogate-solving-nonlinear-wafer-deformation-project-description.pdf"
+  link_label: Thesis project
+sieds-lykles:
+  teaching_project_id: member-sieds-lykles
+  kind: Master’s thesis project
+  co_supervisors: Othonas A. Moultos
+  source_note: Final thesis title page, October 2026.
+  link_label: Thesis project
+mitchell-maassen-van-den-brink:
+  teaching_project_id: master-thesis-projects-29-gnn-surrogate-models
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/29-gnn-surrogate-models.markdown
+  collaboration: Flow Physics and Technology, TU Delft
+  co_supervisors: Richard Dwight (TU Delft, Flow Physics and Technology)
+  link_label: Thesis project
+martyna-maziukiewicz:
+  teaching_project_id: master-thesis-projects-53-near-ground-turbulence-ml
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/53-near-ground-turbulence-ml.md
+  collaboration: TNO
+  co_supervisors: Aad Vijn, Lex van Eijk, Ariadna Huerta Viso (TNO)
+  link_label: Thesis project
+tomas-medricky:
+  kind: PhD research project
+  title: Domain decomposition for heterogeneous materials
+  summary: The research concerns domain-decomposition solvers for heterogeneous problems.
+    Related work investigates FETI-based methods for topology optimisation and coarse
+    spaces for highly heterogeneous systems.
+  title_is_descriptive: true
+  co_supervisors: Martin Doškář (CTU)
+  source_url: https://openmechanics.fsv.cvut.cz/people/Tomas-Medricky
+  links:
+    - label: Related publication
+      url: https://doi.org/10.14311/app.2022.34.0043
+  link_label: Research project
+vosse-meijssen:
+  teaching_project_id: master-thesis-projects-17-traffic-modelling-ml
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/17-traffic-modelling-ml.markdown
+  collaboration: CGI
+  co_supervisors: Leonoor Portengen, Henk van Haaster (CGI)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-project-description.pdf"
+    - label: Thesis
+      url: "/assets/pdf/thesis_projects/2023/2023-portengen_heinlein-traffic_modelling-ml/2023-portengen_heinlein-traffic-modelling-ml-final-thesis.pdf"
+  link_label: Thesis project
+yuhuang-meng:
+  kind: PhD research project
+  title: Machine learning-enhanced numerical solvers
+  summary: The research investigates numerical solvers that combine classical iterative
+    methods with machine learning for systems of linear and nonlinear equations.
+  title_is_descriptive: true
+  co_supervisors: Jing Zhao
+  source_url: https://arxiv.org/abs/2610.07211
+  links:
+    - label: Related preprint
+      url: https://arxiv.org/abs/2610.07211
+  link_label: Research project
+henry-page:
+  teaching_project_id: master-thesis-projects-40-pinns-inverse-problems-framework
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/40-pinns-inverse-problems-framework.markdown
+  co_supervisors: Jing Sun (TU Delft, Intelligent Systems)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2025/2025-heinlein_sun-pinns-inverse_problems/2025-heinlein_sun-pinns-inverse-problems-project-description.pdf"
+  link_label: Thesis project
+shreyas-prashanth:
+  teaching_project_id: master-thesis-projects-4-block-preconditioners-very-large-floating-structures
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/4-block-preconditioners-very-large-floating-structures.markdown
+  collaboration: Mocean
+  co_supervisors: Oriol Colomés (TU Delft, Offshore Engineering)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-heinlein_colomes-block_preconditioners_floating_structures/2021-heinlein_colomes-block-preconditioners-floating-structures-project-description.pdf"
+  link_label: Thesis project
+hugo-reijersen-van-buuren:
+  teaching_project_id: bachelor-thesis-projects-6-preconditioned-krylov-methods-shared-memory-parallelism
+  kind: Bachelor’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/bsc-theses/6-preconditioned-krylov-methods-shared-memory-parallelism.markdown
+  links:
+    - label: Thesis
+      url: https://repository.tudelft.nl/record/uuid:12973191-eb89-4075-ad78-ce1286ee5aad
+  link_label: Thesis project
+shivang-sachar:
+  kind: PhD research project
+  title: Numerical methods for power-system simulation
+  summary: The PhD project concerns numerical methods for power-system simulation
+    in collaboration with DIgSILENT GmbH.
+  title_is_descriptive: true
+  collaboration: DIgSILENT GmbH
+  co_supervisors: Kees Vuik
+  review_needed: false
+  source_note: Reviewed against the public group announcement; confidential technical
+    notes were not used.
+  link_label: Research project
+  reviewed_on: "2026-11-01"
+  review_source: https://searhein.github.io/
+amirreza-pouyan-sadat-madani:
+  kind: PhD research project
+  title: Geometry-aware surrogate modelling for offshore wind
+  summary: Part of RAPID-Wind, this PhD project develops geometry-aware surrogate
+    models for fluid–structure problems in perforated monopile design. The research
+    connects high-fidelity numerical simulation, scientific machine learning and efficient
+    evaluation of changing geometries.
+  title_is_descriptive: true
+  co_supervisors: Oriol Colomés
+  review_needed: false
+  source_note: Reviewed high-level research scope against the later note; no preliminary
+    results, agreement details or internal plans included.
+  links:
+    - label: RAPID-Wind
+      url: "/projects/rapid-wind/"
+  link_label: Research project
+  reviewed_on: "2026-11-01"
+  review_source: 2026-10-27-rapid-wind-pre-phd-agreement-meeting.md
+erik-sieburgh:
+  teaching_project_id: master-thesis-projects-8-ddm-helmholtz-part1
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/8-ddm-helmholtz-part1.markdown
+  co_supervisors: Vandana Dwarka (TU Delft, Numerical Analysis)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-dwarka_heinlein-ddm_helmholtz/2021-dwarka_heinlein-ddm-helmholtz-project-description.pdf"
+    - label: Thesis
+      url: http://resolver.tudelft.nl/uuid:32f4b716-6f83-4a95-b8b5-c3d35a32349f
+  link_label: Thesis project
+ksenia-slepova:
+  kind: PhD research project
+  title: Numerical methods for image processing
+  summary: The research develops numerical methods for image processing, including
+    PDE-based models for denoising and segmentation. It studies how stages of the
+    image-processing pipeline can be combined and computed efficiently.
+  title_is_descriptive: true
+  co_supervisors: Martin van Gijzen
+  review_needed: false
+  source_url: https://repository.tudelft.nl/record/uuid:e3739010-8a65-4cd9-a082-f13dc44a584c
+  source_note: Reviewed against the published PDE-based image-processing paper; broad
+    project scope only.
+  links:
+    - label: Related publication
+      url: https://doi.org/10.1007/978-3-032-22221-3_57
+  link_label: Research project
+  reviewed_on: "2026-11-01"
+  review_source: https://doi.org/10.1007/978-3-032-22221-3_57
+philip-soliman:
+  teaching_project_id: master-thesis-projects-32-ddm-heterogeneous-problems-krylov
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/32-ddm-heterogeneous-problems-krylov.markdown
+  co_supervisors: Filipe Antônio Cumaru Silva Alves (TU Delft, DIAM)
+  link_label: Thesis project
+sahir-sujahudeen:
+  kind: PhD research project
+  title: Adaptive finite-element methods for offshore wind
+  summary: The PhD project develops variational multiscale frameworks with unfitted,
+    adaptive finite elements and a posteriori error estimation. It is part of RAPID-Wind
+    and addresses flow and multiphysics problems involving offshore wind turbines.
+  title_is_descriptive: true
+  co_supervisors: Oriol Colomés
+  source_url: https://www.linkedin.com/posts/msahirs_so-somewhat-thematically-for-myself-about-activity-7502454611002253314-LjyD
+  links:
+    - label: RAPID-Wind
+      url: "/projects/rapid-wind/"
+  link_label: Research project
+johannes-taraz:
+  teaching_project_id: master-thesis-projects-36-deeponet-convergence
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/36-deeponet-convergence.markdown
+  link_label: Thesis project
+thijs-terwiel:
+  teaching_project_id: master-thesis-projects-43-domain-decomposition-frosch
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/43-domain-decomposition-frosch.md
+  co_supervisors: Filipe Antônio Cumaru Silva Alves (TU Delft, DIAM)
+  link_label: Thesis project
+elske-van-leeuwen:
+  teaching_project_id: master-thesis-projects-9-turbulence-ml-part1
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/9-turbulence-ml-part1.markdown
+  collaboration: Sioux Technologies
+  co_supervisors: Werner Lazeroms (Sioux)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2021/2021-sioux_heinlein-turbulence_ml/2021-sioux_heinlein-turbulence-ml-project-description.pdf"
+    - label: Thesis
+      url: https://repository.tudelft.nl/islandora/object/uuid%3A52480fee-a585-4bbe-8785-319b94367ca0
+  link_label: Thesis project
+mirte-van-loenen:
+  teaching_project_id: member-mirte-van-loenen
+  kind: Master’s thesis project
+  source_url: https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab
+  links:
+    - label: Thesis
+      url: https://repository.tudelft.nl/file/File_57eb9b87-8a07-4c1d-8774-38dcdf1f26ab
+  link_label: Thesis project
+zomer-van-noord:
+  teaching_project_id: master-thesis-projects-42-reduced-order-network-models-for-optimization
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/42-reduced-order-network-models-for-optimization.md
+  co_supervisors: Mirko Kemna (Gradyent)
+  link_label: Thesis project
+corne-verburg:
+  kind: PhD research project
+  title: Scientific machine learning for crop-growth dynamics
+  summary: The research uses sparse identification of nonlinear dynamics to learn
+    interpretable crop-growth models from data. It studies how environmental variables
+    and genotype-specific coefficients can be represented in systems of ordinary differential
+    equations.
+  title_is_descriptive: true
+  co_supervisors: Neil Budko
+  source_note: Based on Verburg:2026:PIS in the site bibliography. The earlier master’s
+    project is retained in the source records.
+  links:
+    - label: Related publications
+      url: "/publications/"
+  link_label: Research project
+coen-visser:
+  teaching_project_id: honours-projects-2-pacmann
+  kind: Honours project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/honors/2-pacmann.markdown
+  co_supervisors: Bianca Giovanardi (TU Delft, Aerospace Engineering)
+  link_label: Honours project
+yuhan-wu:
+  teaching_project_id: master-thesis-projects-30-hints
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/30-hints.markdown
+  collaboration: CASA, TU/e
+  co_supervisors: Victorita Dolean (TU/e, CASA)
+  link_label: Thesis project
+hangyu-xia:
+  teaching_project_id: master-thesis-projects-38-spectral-neural-operators
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/38-spectral-neural-operators.markdown
+  link_label: Thesis project
+anouk-zandbergen:
+  teaching_project_id: master-thesis-projects-12-ml-solver-parameters
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/12-ml-solver-parameters.markdown
+  collaboration: COMSOL
+  co_supervisors: Tycho van Noorden (COMSOL)
+  links:
+    - label: Project description
+      url: "/assets/pdf/thesis_projects/2022/2022-comsol_heinlein-ml-solver_parameters/2022-comsol_heinlein-ml-solver-parameters-project-description.pdf"
+    - label: Thesis
+      url: http://resolver.tudelft.nl/uuid:b3343bea-1270-4280-8192-7f08d162fbb0
+  link_label: Thesis project
+valdimar-thorsson:
+  teaching_project_id: master-thesis-projects-39-multi-issue-negotiation
+  kind: Master’s thesis project
+  source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/39-multi-issue-negotiation.markdown
+  co_supervisors: Catholijn M. Jonker
+  link_label: Thesis project

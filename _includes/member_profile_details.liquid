@@ -1,0 +1,101 @@
+<div class="scala-profile-details">
+  {% assign profile = site.data.member_profiles[page.member_id] %}
+  {% if include.part == 'intro' %}
+    {% for paragraph in profile.biography %}
+      <p>{{ paragraph | escape }}</p>
+    {% endfor %}
+    {% if profile.research_interests.size > 0 %}
+      <section class="scala-profile-section" aria-labelledby="research-interests">
+        <h2 id="research-interests">Research interests</h2>
+        <ul>
+          {% for interest in profile.research_interests %}
+            <li>{{ interest | escape }}</li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% else %}
+    {% if profile.appointments.size > 0 %}
+      <section class="scala-profile-section" aria-labelledby="academic-background">
+        <h2 id="academic-background">Academic appointments</h2>
+        <div class="scala-profile-table" role="region" aria-label="Academic appointments table" tabindex="0">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Period</th>
+                <th scope="col">Position</th>
+                <th scope="col">Institution</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in profile.appointments %}
+                <tr>
+                  <td>{{ item.period | escape }}</td>
+                  <td>{{ item.position | escape }}</td>
+                  <td>{{ item.institution | escape }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {% endif %}
+    {% if profile.education.size > 0 %}
+      <section class="scala-profile-section" aria-labelledby="education">
+        <h2 id="education">Education and qualifications</h2>
+        <ul class="scala-profile-timeline">
+          {% for item in profile.education %}
+            <li>
+              <span class="scala-detail">{{ item.period | escape }}</span><strong>{{ item.title | escape }}</strong> ·
+              {{ item.institution | escape -}}
+              {%- if item.description %}
+                <p>{{ item.description | escape }}</p>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+    {% if profile.service.size > 0 %}
+      <section class="scala-profile-section" aria-labelledby="academic-service">
+        <h2 id="academic-service">Academic service and community</h2>
+        <ul>
+          {% for item in profile.service %}
+            <li>
+              {% if item.url -%}
+                <a href="{{ item.url | relative_url }}">{{ item.label | escape }}</a>
+              {%- else -%}
+                {{- item.label | escape -}}
+              {%- endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+    {% if profile.show_research_highlights or profile.publication_keys.size > 0 %}
+      <section class="scala-profile-section" aria-labelledby="selected-publications">
+        <h2 id="selected-publications">Selected publications</h2>
+        <ul>
+          {% if profile.show_research_highlights %}
+            {% for item in site.data.homepage.publications %}
+              <li>
+                <a href="{{ '/publications/' | relative_url }}#{{ item.key }}">{{ item.title | escape }}</a>
+                <span class="scala-detail">({{ item.year }})</span>
+              </li>
+            {% endfor %}
+          {% endif %}
+          {% for key in profile.publication_keys %}
+            {% assign item = site.data.profile_publications[key] %}
+            {% if item %}
+              <li>
+                <a href="{{ '/publications/' | relative_url }}#{{ key }}">{{ item.title | escape }}</a>
+                <span class="scala-detail">({{ item.year }})</span>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <p><a href="{{ '/publications/' | relative_url }}">Group publications</a></p>
+      </section>
+    {% endif %}
+  {% endif %}
+</div>

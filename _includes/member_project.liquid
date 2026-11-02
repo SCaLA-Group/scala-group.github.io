@@ -1,0 +1,30 @@
+{% assign member_project = site.data.member_projects[page.member_id] %}
+{% assign teaching_project = site.data.teaching.projects | where: 'id', member_project.teaching_project_id | first %}
+{% assign project_title = member_project.title | default: teaching_project.title %}
+{% assign project_summary = member_project.summary | default: teaching_project.summary %}
+<section id="project" class="scala-member-project">
+  <h2>{{ member_project.kind | default: 'Project' | escape }}</h2>
+  {% if project_title %}
+    <h3>{{ project_title | escape }}</h3>
+  {% endif %}
+  {% if project_summary %}
+    <p>{{ project_summary | escape }}</p>
+  {% else %}
+    <p>Project description to be added.</p>
+  {% endif %}
+  {% if member_project.collaboration %}
+    <p><strong>Collaboration:</strong> {{ member_project.collaboration | escape }}</p>
+  {% endif %}
+  {% if member_project.co_supervisors %}
+    <p><strong>Co-supervision:</strong> {{ member_project.co_supervisors | escape }}</p>
+  {% endif %}
+  {% if member_project.links.size > 0 %}
+    <ul>
+      {% for link in member_project.links %}
+        <li>
+          <a href="{{ link.url | relative_url }}">{{ link.label | escape }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</section>

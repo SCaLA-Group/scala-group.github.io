@@ -1,0 +1,53 @@
+{% assign member = site.data.people | where: 'id', page.member_id | first %}
+{% assign profile = site.data.member_profiles[page.member_id] %}
+{% assign profile_urls = profile.links | map: 'url' %}
+<section class="scala-profile-hero" aria-label="Member profile">
+  {% if member.photo %}
+    <img
+      class="scala-portrait scala-portrait-profile"
+      data-portrait-initials="{{ member.initials | escape }}"
+      src="{{ member.photo | relative_url }}"
+      alt="{{ member.name | escape }}"
+      width="160"
+      height="200"
+    >
+  {% else %}
+    <div class="scala-avatar scala-avatar-profile" aria-hidden="true">{{ member.initials }}</div>
+  {% endif %}
+  <div class="scala-profile-introduction">
+    {% if member.department or member.university %}
+      <p class="scala-profile-affiliation">
+        {% if member.department -%}
+          {{- member.department | escape -}}
+          <br>
+        {% endif -%}
+        {{- member.university | escape }}
+      </p>
+    {% endif %}
+    {% if member.note %}
+      <p>{{ member.note | escape }}</p>
+    {% endif %}
+    {% if member.email or profile.links.size > 0 or member.website %}
+      <nav class="scala-profile-links" aria-label="Contact and academic profiles">
+        {% if member.email -%}
+          <a href="mailto:{{ member.email }}">Email</a>
+        {%- endif %}
+        {% for link in profile.links -%}
+          <a href="{{ link.url }}">{{ link.label | escape }}</a>
+        {%- endfor %}
+        {% if member.website and profile.hide_website != true %}
+          {% unless profile_urls contains member.website -%}
+            <a href="{{ member.website }}">External profile</a>
+          {%- endunless %}
+        {% endif %}
+      </nav>
+    {% endif %}
+    {% if profile.resources.size > 0 %}
+      <nav class="scala-profile-resources" aria-label="On this website">
+        {% for link in profile.resources %}
+          <a href="{% if link.url contains '#' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label | escape }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </div>
+</section>

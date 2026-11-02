@@ -1,0 +1,31 @@
+# Photo provenance inventory. Migrated into blog/gallery at the owner's request; no public reuse licence is claimed.
+- title: COMinDS 2024 · Scientific machine learning in Delft
+  image: https://searhein.github.io/assets/img/2024-cominds/group-photo.jpg
+  width: 1181
+  height: 786
+  alt: Participants at the COMinDS 2024 workshop gathered in the Collegezaal in Delft.
+  url: https://searhein.github.io/blog/2024/cominds-workshop-2024/
+  link_label: Read the workshop story
+  source: https://searhein.github.io/blog/2024/cominds-workshop-2024/
+  photographer: null
+  reuse_status: owner_requested_photographer_unconfirmed
+- title: COMinDS 2024 · Ideas in discussion
+  image: https://searhein.github.io/assets/img/2024-cominds/poster-session-1.jpg
+  width: 1181
+  height: 786
+  alt: Workshop participants discussing a scientific poster at COMinDS 2024 in Delft.
+  url: https://searhein.github.io/blog/2024/cominds-workshop-2024/
+  link_label: Read the workshop story
+  source: https://searhein.github.io/blog/2024/cominds-workshop-2024/
+  photographer: null
+  reuse_status: owner_requested_photographer_unconfirmed
+- title: EuroTUG 2023 · Bringing the solver community together
+  image: https://searhein.github.io/assets/img/2023-eurotug/group-photo.JPEG
+  width: 1716
+  height: 1094
+  alt: EuroTUG 2023 participants gathered outside on the TU Delft campus.
+  url: https://searhein.github.io/blog/2023/eurotug2023/
+  link_label: Read the meeting story
+  source: https://searhein.github.io/blog/2023/eurotug2023/
+  photographer: null
+  reuse_status: owner_requested_photographer_unconfirmed

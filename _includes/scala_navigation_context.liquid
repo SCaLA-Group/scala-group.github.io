@@ -1,0 +1,24 @@
+{% assign scala_section_id = null %}
+{% assign scala_category_url = null %}
+{% assign scala_category_label = null %}
+{% if page.member_id or page.url == '/group/' %}
+  {% assign scala_section_id = 'group' %}
+{% elsif page.url contains '/teaching/' %}
+  {% assign scala_section_id = 'teaching' %}
+  {% if page.teaching_project_id %}
+    {% assign nav_project = site.data.teaching.projects | where: 'id', page.teaching_project_id | first %}
+    {% assign scala_category_url = '/teaching/' | append: nav_project.category | append: '/' %}
+  {% elsif page.url != '/teaching/courses/' and page.url contains '/teaching/courses/' %}
+    {% assign scala_category_url = '/teaching/courses/' %}
+  {% endif %}
+{% elsif page.collection == 'projects' or page.url == '/research/' or page.url == '/projects/' or page.url == '/software/' %}
+  {% assign scala_section_id = 'research' %}
+  {% if page.collection == 'projects' %}{% assign scala_category_url = '/projects/' %}{% endif %}
+{% elsif page.layout == 'post' or page.collection == 'news' or page.url contains '/blog/' or page.url == '/news/' %}
+  {% assign scala_section_id = 'blog' %}
+  {% if page.collection == 'news' %}{% assign scala_category_url = '/news/' %}{% endif %}
+{% endif %}
+{% assign scala_section = site.data.navigation[scala_section_id] %}
+{% for nav_item in scala_section.items %}
+  {% if nav_item.url == scala_category_url %}{% assign scala_category_label = nav_item.label %}{% endif %}
+{% endfor %}

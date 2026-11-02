@@ -1,0 +1,14 @@
+{% assign publication_keywords = entry.keywords | downcase | remove: ' ' | split: ',' %}
+{% assign publication_status = null %}
+{% if publication_keywords contains 'published' %}
+  {% assign publication_status = 'published' %}
+{% elsif publication_keywords contains 'accepted' %}
+  {% assign publication_status = 'accepted' %}
+{% elsif publication_keywords contains 'submitted' %}
+  {% assign publication_status = 'submitted' %}
+{% endif %}
+{% if publication_status %}
+  <div class="scala-publication-status scala-publication-status--{{ publication_status }}">
+    {{ publication_status | capitalize }}
+  </div>
+{% endif %}

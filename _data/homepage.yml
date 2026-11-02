@@ -1,18 +1,23 @@
 ---
 publications:
-  - key: Cumaru:2026:AMF
-    title: An algebraic multiscale framework for two-level overlapping Schwarz preconditioners
-    authors: Cumaru, Filipe et al.
+  - status: accepted
+    key: Meng:2026:OML
+    title: An overview of machine learning-enhanced iterative methods for systems of
+      linear and nonlinear equations
+    authors: Meng, Yuhuang et al.
     year: "2026"
     month: Oct
-  - key: Soliman:2026:SCG
-    title: Sharpened PCG Iteration Bound for High-Contrast Heterogeneous Scalar Elliptic
-      PDEs
-    authors: Soliman, Philip et al.
+  - status: accepted
+    key: Howard:2025:FBK
+    title: "Finite basis Kolmogorov-Arnold networks: domain decomposition for data-driven
+      and physics-informed problems"
+    authors: Howard, Amanda A. et al.
     year: "2026"
     month: Oct
 talks:
-  - key: Heinlein:2026:BIRS:ALN
+  - venue: BIRS workshop
+    date_label: 10 Nov 2026
+    key: Heinlein:2026:BIRS:ALN
     title: Adaptivity and Localization in Neural Network-Based Discretizations of Space-Time
       PDEs
     authors: Heinlein, Alexander
@@ -20,7 +25,9 @@ talks:
     month: ""
     detail: "Invited talk. BIRS workshop 26w5643, Space-Time Approaches to PDE Solvers:
       Unlocking the Power of Co-Design, November 10, lecture 2.4"
-  - key: Heinlein:2026:ICRAFMN:LET
+  - venue: ICRAFMN
+    date_label: 29 Sep–1 Oct 2026
+    key: Heinlein:2026:ICRAFMN:LET
     title: Localization and Efficient Training of Scientific Machine Learning Models
     authors: Heinlein, Alexander
     year: "2026"

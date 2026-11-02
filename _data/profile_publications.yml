@@ -1,0 +1,19 @@
+# Labels for selected profile publications, copied from papers.bib.
+Cumaru:2026:AMF:
+  title: "An algebraic multiscale framework for two-level overlapping Schwarz preconditioners"
+  year: "2026"
+Verburg:2025:DDU:
+  title: "DDU-Net: A Domain Decomposition-Based CNN for High-Resolution Image Segmentation on Multiple GPUs"
+  year: "2025"
+Verburg:2026:PIS:
+  title: "Physiology-Informed Sparse Identification of Dynamic Crop Models"
+  year: "2026"
+Visser:2026:PAC:
+  title: "PACMANN: Point adaptive collocation method for artificial neural networks"
+  year: "2026"
+Meng:2026:OML:
+  title: "An overview of machine learning-enhanced iterative methods for systems of linear and nonlinear equations"
+  year: "2026"
+Kevopoulos:2026:FCC:
+  title: "Flow-based conditional cardiac anatomy generation for virtual cohorts"
+  year: "2026"

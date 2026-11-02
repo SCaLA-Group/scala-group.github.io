@@ -5,27 +5,16 @@ description: Bachelor’s student
 permalink: /people/uzay-eskikoy/
 nav: false
 member_id: uzay-eskikoy
+parent_title: Group
+parent_url: /group/
 ---
 
-{% assign member = site.data.people | where: 'id', page.member_id | first %}
+{% include member_profile_header.liquid %}
 
-{% if member.photo %}
-<img class="scala-portrait scala-portrait-profile" src="{{ member.photo }}" alt="{{ member.name }}" width="200" height="200">
-{% else %}
-<div class="scala-avatar scala-avatar-profile" aria-hidden="true">{{ member.initials }}</div>
-{% endif %}
+{% include member_profile_details.liquid part='intro' %}
 
-<p class="scala-role">{{ member.role }}</p>
+{% include member_project.liquid %}
 
-{% if member.department %}**{{ member.department }}**  
-{% endif %}
-{% if member.university %}{{ member.university }}{% endif %}
-
-{% if member.note %}{{ member.note }}{% endif %}
-
-## Contact and links
-
-{% if member.email %}[Email](mailto:{{ member.email }}){% endif %}
-{% if member.website %}[External profile]({{ member.website }}){% endif %}
+{% include member_profile_details.liquid part='background' %}
 
 [Back to the SCaLA group]({{ '/group/' | relative_url }})

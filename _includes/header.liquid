@@ -1,8 +1,14 @@
+<a class="scala-skip-link" href="#main-content">Skip to main content</a>
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-light scala-navbar {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+    aria-label="Main navigation"
+  >
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if page.permalink != '/' or page.homepage %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           <img class="scala-site-logo" src="{{ '/assets/img/scala-logo.svg' | relative_url }}" alt="SCaLA" width="150" height="44">
         </a>
@@ -25,7 +31,7 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+      <div class="navbar-collapse navbar-collapse-main" id="navbarNav">
         <ul class="navbar-nav navbar-menu-list flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
@@ -33,7 +39,13 @@
 
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-            <a class="nav-link" href="{{ '/' | relative_url }}">
+            <a
+              class="nav-link"
+              href="{{ '/' | relative_url }}"
+              {% if page.permalink == '/' %}
+                aria-current="page"
+              {% endif %}
+            >
               {{- about_title }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
@@ -84,7 +96,7 @@
                 </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
-                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
+                <li class="nav-item {% if page.url == p.url or scala_section.url == p.url %}active{% endif %}">
                   {%- if p.permalink contains '://' -%}
                     {%- assign url = p.permalink -%}
                   {%- elsif p.permalink contains '/blog/' -%}
@@ -92,9 +104,17 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a
+                    class="nav-link"
+                    href="{{ url | relative_url }}"
+                    {% if page.url == p.url %}
+                      aria-current="page"
+                    {% elsif scala_section.url == p.url %}
+                      aria-current="location"
+                    {% endif %}
+                  >
                     {{- p.title }}
-                    {% if page.url contains p.url %}
+                    {% if page.url == p.url or scala_section.url == p.url %}
                       <span class="sr-only">(current)</span>
                     {% endif %}
                   </a>

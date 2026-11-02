@@ -1,0 +1,29 @@
+{% if page.url != '/' %}
+  <div class="scala-page-navigation">
+    <nav class="scala-breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {% if scala_section and page.url != scala_section.url %}
+          <li>
+            <a href="{{ scala_section.url | relative_url }}">{{ scala_section.label }}</a>
+          </li>
+        {% endif %}
+        {% if scala_category_label and scala_category_url != page.url %}
+          <li>
+            <a href="{{ scala_category_url | relative_url }}">{{ scala_category_label }}</a>
+          </li>
+        {% elsif page.parent_url and scala_section == null %}
+          <li>
+            <a href="{{ page.parent_url | relative_url }}">{{ page.parent_title | escape }}</a>
+          </li>
+        {% endif %}
+        <li aria-current="page">
+          <span>{{ page.title | escape }}</span>
+        </li>
+      </ol>
+    </nav>
+    {% unless page.layout == 'page' or page.layout == 'post' %}
+      {% include scala_section_navigation.liquid %}
+    {% endunless %}
+  </div>
+{% endif %}

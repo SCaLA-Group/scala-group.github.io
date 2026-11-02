@@ -6,20 +6,38 @@ description: Open-source software and computational tools.
 nav: false
 ---
 
-Research software connects our numerical methods with computational practice. Members contribute to and work with established open-source communities; the projects below have their own maintainers and contributors.
+<div class="scala-topic-grid">
 
-## FROSch
+<section class="scala-topic" markdown="1">
+
+## FROSch {#frosch}
 
 A framework for Fast and Robust Overlapping Schwarz preconditioners in Trilinos. [Project website](https://shylu-frosch.github.io/)
 
-## FEDDLib
+</section>
+
+<section class="scala-topic" markdown="1">
+
+## FEDDLib {#feddlib}
 
 A parallel finite element and domain decomposition library based on Trilinos, designed as a testbed for FROSch. [Code and organisation](https://github.com/FEDDLib/)
 
-## Trilinos
+</section>
+
+<section class="scala-topic" markdown="1">
+
+## Trilinos {#trilinos}
 
 An open-source framework for large-scale scientific and engineering computations on high-performance computing architectures. [Project website](https://trilinos.github.io/)
 
-## DuMux and LifeV
+</section>
 
-Software for porous-media flow and transport, and for the numerical solution of partial differential equations. [DuMux](https://dumux.org/) · [LifeV](https://bitbucket.org/lifev-dev/lifev-dev/wiki/Home)
+<section class="scala-topic" markdown="1">
+
+## NGSolve {#ngsolve}
+
+An open-source finite element package for multiphysics problems, with a flexible Python interface for developing discretisations and solution algorithms. [Project website and documentation](https://ngsolve.org/)
+
+</section>
+
+</div>

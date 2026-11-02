@@ -1,0 +1,267 @@
+---
+alexander-heinlein:
+  hide_website: true
+  checked: "2026-10-25"
+  sources:
+    - https://searhein.github.io/
+    - https://searhein.github.io/cv/
+    - cv/sections/academic_experience/2025-05-21.tex
+    - cv/sections/education/2025-05-21.tex
+    - cv/sections/experience/2026-03-31.tex
+    - https://www.tudelft.nl/ellis-delft-unit/people
+    - https://ems-tag-sciml.github.io/
+  links:
+    - label: ORCID
+      url: https://orcid.org/0000-0003-1578-8104
+    - label: Google Scholar
+      url: https://scholar.google.com/citations?user=Pb5ZhSIAAAAJ
+    - label: ResearchGate
+      url: https://www.researchgate.net/profile/Alexander_Heinlein/
+    - label: GitHub
+      url: https://github.com/searhein
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/alexander-heinlein-9b569380
+    - label: TU Delft profile
+      url: https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/applied-mathematics/people/dr-a-alexander-heinlein
+  biography:
+    - Alexander Heinlein is an assistant professor in the Numerical Analysis group of
+      the Delft Institute of Applied Mathematics (DIAM), Faculty of Electrical Engineering,
+      Mathematics & Computer Science, at TU Delft. He leads SCaLA—Scalable Scientific
+      and Learning Algorithms.
+    - His research focuses on numerical methods for partial differential equations and
+      scientific computing, in particular domain decomposition and multiscale methods.
+      His work combines mathematical foundations, scalable algorithms, implementation
+      on current CPU and GPU architectures, and applications to complex scientific problems.
+      He also works on scientific machine learning, connecting scientific computing
+      with machine learning.
+  research_interests:
+    - Domain decomposition, preconditioning, and scalable linear and nonlinear solvers
+    - Multiscale discretisations for heterogeneous problems
+    - High-performance computing on CPU and GPU architectures
+    - Scientific machine learning
+    - Multiphysics problems and fluid–structure interaction
+  resources:
+    - label: Publications
+      url: "/publications/"
+    - label: Talks
+      url: "/talks/"
+    - label: Teaching
+      url: "/teaching/"
+    - label: Research projects
+      url: "/projects/"
+    - label: Academic background
+      url: "#academic-background"
+  appointments:
+    - period: 2021–present
+      position: Assistant Professor for Numerical Analysis
+      institution: TU Delft
+    - period: 2020–2021
+      position: Acting Professor for Numerical Mathematics for High Performance Computing
+      institution: University of Stuttgart
+    - period: 2018–2021
+      position: Managing Coordinator, Center for Data and Simulation Science
+      institution: University of Cologne
+    - period: 2016–2021
+      position: Postdoctoral researcher
+      institution: University of Cologne
+    - period: 2012–2016
+      position: Research and teaching assistant
+      institution: University of Cologne
+    - period: 2011–2012
+      position: Research and teaching assistant
+      institution: University of Duisburg-Essen
+  education:
+    - period: "2016"
+      title: Dr. rer. nat. in Mathematics
+      institution: University of Cologne
+      description: "Thesis: Parallel Overlapping Schwarz Preconditioners and Multiscale
+        Discretizations with Applications to Fluid-Structure Interaction and Highly
+        Heterogeneous Problems."
+    - period: "2011"
+      title: Dipl.-Math.
+      institution: University of Duisburg-Essen
+      description: "Thesis: Spezielle Finite-Elemente-Methoden für stark heterogene
+        Probleme."
+    - period: "2024"
+      title: University Teaching Qualification
+      institution: TU Delft
+  service:
+    - label: Board member, ELLIS Unit Delft
+      url: https://www.tudelft.nl/ellis-delft-unit/people
+    - label: Member, EMS Topical Activity Group Scientific Machine Learning
+      url: https://ems-tag-sciml.github.io/
+    - label: Organiser, COMinDS Workshop 2024
+      url: "/blog/2024/cominds-workshop-2024/"
+    - label: Co-organiser, EuroTUG 2023
+      url: "/blog/2023/eurotug2023/"
+  show_research_highlights: true
+filipe-antonio-cumaru-silva-alves:
+  publication_names:
+    - Filipe Cumaru
+    - Filipe A. C. S. Alves
+  checked: "2026-10-25"
+  sources:
+    - https://filipe-cumaru.github.io/
+  links:
+    - label: Personal website
+      url: https://filipe-cumaru.github.io/
+    - label: ORCID
+      url: https://orcid.org/0009-0003-9516-4226
+    - label: GitHub
+      url: https://github.com/Filipe-Cumaru
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/filipe-ant%C3%B4nio-cumaru-silva-alves-7a19b319a
+  biography:
+    - Filipe works on numerical methods for partial differential equations, especially
+      domain decomposition and multiscale methods for flow in porous media. His interests
+      include large-scale simulations with heterogeneous materials and complex geometries.
+  research_interests:
+    - Domain decomposition and multiscale methods
+    - Flow in porous media
+    - High-performance scientific computing
+  publication_keys:
+    - Cumaru:2026:AMF
+corne-verburg:
+  checked: "2026-10-25"
+  sources:
+    - https://api.crossref.org/works/10.1109/ACCESS.2025.3561033
+    - https://arxiv.org/abs/2407.21266
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0001-6343-6990
+    - label: GitHub
+      url: https://github.com/corne00
+  publication_keys:
+    - Verburg:2025:DDU
+    - Verburg:2026:PIS
+coen-visser:
+  checked: "2026-10-25"
+  sources:
+    - https://api.crossref.org/works/10.1016/j.cma.2025.118723
+    - https://arxiv.org/abs/2411.19632
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0008-2160-1362
+    - label: GitHub
+      url: https://github.com/CoenVisser
+  publication_keys:
+    - Visser:2026:PAC
+yuhuang-meng:
+  checked: "2026-11-01"
+  sources:
+    - https://www.researchgate.net/profile/Yuhuang-Meng-2
+    - https://nl.linkedin.com/in/yuhuang-meng-938b002a4
+    - https://pub.orcid.org/v3.0/0009-0001-9436-5398/person
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0001-9436-5398
+    - label: ResearchGate
+      url: https://www.researchgate.net/profile/Yuhuang-Meng-2
+    - label: LinkedIn
+      url: https://nl.linkedin.com/in/yuhuang-meng-938b002a4
+  publication_keys:
+    - Meng:2026:OML
+konstantinos-kevopoulos:
+  checked: "2026-10-25"
+  sources:
+    - https://searhein.github.io/
+  links:
+    - label: TU Delft research profile
+      url: https://research.tudelft.nl/en/persons/k-kevopoulos/
+  publication_keys:
+    - Kevopoulos:2026:FCC
+amirreza-pouyan-sadat-madani:
+  checked: "2026-10-25"
+  sources:
+    - _data/people.yml
+  links:
+    - label: Google Scholar
+      url: https://scholar.google.com/citations?user=CaodVroAAAAJ&hl=en
+giacomo-bottacini:
+  sources:
+    - https://mox.polimi.it/people/people-details/?id_staff=100124
+    - https://arxiv.org/abs/2602.19597
+  links:
+    - label: MOX profile
+      url: https://mox.polimi.it/people/people-details/?id_staff=100124
+  biography:
+    - Giacomo is a visiting PhD researcher from Politecnico di Milano. His research
+      connects computational learning with numerical methods, including Bayesian inversion
+      using normalizing flows and variational autoencoders.
+  research_interests:
+    - Bayesian inverse problems
+    - Normalizing flows and generative models
+    - Computational learning
+  checked: "2026-11-01"
+tomas-medricky:
+  sources:
+    - https://openmechanics.fsv.cvut.cz/people/Tomas-Medricky
+    - https://pub.orcid.org/v3.0/0000-0002-5834-3626/person
+  links:
+    - label: CTU profile
+      url: https://openmechanics.fsv.cvut.cz/people/Tomas-Medricky
+    - label: ORCID
+      url: https://orcid.org/0000-0002-5834-3626
+    - label: ResearchGate
+      url: https://www.researchgate.net/profile/Tomas-Medricky-2
+  biography:
+    - Tomáš works on numerical methods for mechanics. His published research includes
+      FETI-based domain decomposition methods for topology optimisation.
+  research_interests:
+    - Domain decomposition and FETI methods
+    - Topology optimisation
+    - Computational mechanics
+  checked: "2026-11-01"
+arturo-de-marinis:
+  sources:
+    - https://pub.orcid.org/v3.0/0009-0004-4250-1054/person
+    - https://arxiv.org/abs/2503.15696
+    - https://arxiv.org/abs/2501.10740
+    - https://doi.org/10.1090/mcom/4059
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0004-4250-1054
+  biography:
+    - Arturo’s published work studies neural ordinary differential equations, including
+      their approximation properties, stability and contractivity. His SCaLA research
+      project is part of FAB4FUTURE.
+  research_interests:
+    - Neural ordinary differential equations
+    - Stability and contractivity
+    - Numerical methods for scientific machine learning
+  checked: "2026-11-01"
+ksenia-slepova:
+  sources:
+    - https://doi.org/10.1007/978-3-032-22221-3_57
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0009-8843-202X
+  biography:
+    - Ksenia studies numerical methods for image processing. Her published research
+      combines image formation, nonlinear-diffusion filtering and segmentation in a
+      multistage PDE-based approach.
+  research_interests:
+    - PDE-based image processing
+    - Denoising and segmentation
+    - Numerical methods for imaging
+  checked: "2026-11-01"
+sahir-sujahudeen:
+  sources:
+    - https://pub.orcid.org/v3.0/0009-0001-6429-1797/person
+    - https://nl.linkedin.com/in/msahirs
+    - _data/member_projects.yml
+  links:
+    - label: ORCID
+      url: https://orcid.org/0009-0001-6429-1797
+    - label: TU Delft research profile
+      url: https://research.tudelft.nl/en/persons/f195f5d2-38f3-4377-9512-e1343d1dff6a
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/msahirs
+  checked: "2026-11-01"
+thai-ha-bui:
+  sources:
+    - https://cz.linkedin.com/in/thai-ha-bui
+  links:
+    - label: LinkedIn
+      url: https://www.linkedin.com/in/thai-ha-bui
+  checked: "2026-11-01"

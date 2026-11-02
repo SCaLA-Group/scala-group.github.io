@@ -109,9 +109,9 @@ max_width: 1100px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/scala-share.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -136,7 +136,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: SCaLA # blog_name will be displayed in your blog page
-blog_description: News from the SCaLA group
+blog_description: Stories from the SCaLA research community
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -219,14 +219,41 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
+  - assets/img/research/fbkan-architecture.png
+  - test/
+  - "IMG_5609 2.jpg"
+  - _config.production.yml
+  - assets/img/book_covers/
+  - assets/img/rhino.png
+  - assets/img/8.jpg
+  - assets/img/prof_pic_color.png
+  - assets/img/9.jpg
+  - assets/img/star-history-light.svg
+  - assets/img/star-history-dark.svg
+  - assets/img/12.jpg
+  - assets/img/publication_preview/
+  - assets/img/template_error.png
+  - assets/img/11.jpg
+  - assets/img/10.jpg
+  - assets/img/4.jpg
+  - assets/img/5.jpg
+  - assets/img/7.jpg
+  - assets/img/6.jpg
+  - assets/img/2.jpg
+  - assets/img/3.jpg
+  - assets/img/prof_pic.jpg
+  - assets/img/1.jpg
+  - assets/html/
+  - assets/jupyter/
+  - assets/plotly/
+  - assets/video/
+  - assets/audio/
   - _pages/about_einstein.md
   - _pages/repositories.md
   - _pages/plugins.md
   - _pages/dropdown.md
   - _pages/cv.md
   - _pages/books.md
-  - _pages/blog.md
-  - _posts/
   - _books/
   - _teachings/
   - .al-folio-overrides.yml
@@ -304,6 +331,11 @@ plugins:
 
 # Sitemap settings
 defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      published: false # Opt in with published: true; starter demo posts stay hidden.
   - scope:
       path: "assets"
     values:
@@ -384,8 +416,8 @@ scholar:
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
 enable_publication_badges:
-  altmetric: true # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
-  dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
+  altmetric: false # Altmetric badge (Customization options: https://badge-docs.altmetric.com/index.html)
+  dimensions: false # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
@@ -445,13 +477,13 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
     - 1400
   input_directories:
-    - assets/img/
+    - assets/img/people/
   input_formats:
     - ".jpg"
     - ".jpeg"
@@ -476,13 +508,13 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
-enable_medium_zoom: true # enables image zoom feature (as on medium.com)
+enable_medium_zoom: false # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 

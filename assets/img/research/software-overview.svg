@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440">
+  <title>Software for scientific computing</title>
+  <desc>FROSch: Schwarz preconditioners. FEDDLib: finite elements and domain decomposition. Trilinos: scalable solver framework. NGSolve: multiphysics finite elements.</desc>
+  <rect width="800" height="440" rx="12" fill="#f0f6fa"/>
+  <g fill="#fff" stroke="#ccdbe5" stroke-width="2">
+    <rect x="24" y="24" width="364" height="184" rx="12"/>
+    <rect x="412" y="24" width="364" height="184" rx="12"/>
+    <rect x="24" y="232" width="364" height="184" rx="12"/>
+    <rect x="412" y="232" width="364" height="184" rx="12"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#0c2340">
+    <g font-size="42" font-weight="700">
+      <text x="48" y="90">FROSch</text>
+      <text x="436" y="90">FEDDLib</text>
+      <text x="48" y="298">Trilinos</text>
+      <text x="436" y="298">NGSolve</text>
+    </g>
+    <g font-size="23" fill="#52616d">
+      <text x="48" y="144">Schwarz</text>
+      <text x="48" y="174">preconditioners</text>
+      <text x="436" y="144">Finite elements &amp;</text>
+      <text x="436" y="174">domain decomposition</text>
+      <text x="48" y="352">Scalable solver</text>
+      <text x="48" y="382">framework</text>
+      <text x="436" y="352">Multiphysics</text>
+      <text x="436" y="382">finite elements</text>
+    </g>
+  </g>
+  <g stroke="#0076c2" stroke-width="3" fill="#e6f4ff">
+    <rect x="288" y="54" width="40" height="40" rx="3"/>
+    <rect x="312" y="74" width="40" height="40" rx="3" fill-opacity="0.65"/>
+    <path d="M688 54h60v60h-60z M688 54l60 60 M688 114l60-60 M718 54v60 M688 84h60" fill="none"/>
+    <path d="M290 274h64 M290 302h64 M290 274v28 M322 274v28 M354 274v28" fill="none"/>
+    <circle cx="290" cy="274" r="7"/>
+    <circle cx="322" cy="274" r="7"/>
+    <circle cx="354" cy="274" r="7"/>
+    <circle cx="290" cy="302" r="7"/>
+    <circle cx="322" cy="302" r="7"/>
+    <circle cx="354" cy="302" r="7"/>
+    <path d="M688 310l15-48 45 12-8 42z M688 310l60-36 M703 262l37 54 M695 286l49 10" fill="none"/>
+  </g>
+</svg>

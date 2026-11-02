@@ -1,5 +1,6 @@
 ---
 layout: page
+sitemap: false
 title: people
 permalink: /people/
 nav: false

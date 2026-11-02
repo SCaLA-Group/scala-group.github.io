@@ -10,7 +10,7 @@ nav: false
 
 For collaborations, research visits, and student projects, contact **Alexander Heinlein**, who coordinates enquiries for the group: [a.heinlein@tudelft.nl](mailto:a.heinlein@tudelft.nl).
 
-You can also contact researchers directly through the [People page]({{ '/group/' | relative_url }}).
+You can also contact researchers directly through the [Group page]({{ '/group/' | relative_url }}).
 
 ## Find us
 
