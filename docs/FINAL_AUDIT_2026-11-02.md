@@ -1,5 +1,7 @@
 # Final website audit, 2 November 2026
 
+For the subsequent content revisions and WebKit checks, see the [3 November audit](AUDIT_2026-11-03.md).
+
 This pass covers the current 174-page site after the content corrections, the author's 2025 date for “Decomposing Physics-Informed Neural Networks”, and the university/partner labels on thesis projects. It preserves the agreed layout and content decisions. No commit, push or deployment was performed.
 
 ## Finding fixed

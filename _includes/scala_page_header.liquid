@@ -2,9 +2,11 @@
 {% capture header_controls %}
   {% if page.bibliography_page and site.bib_search %}
     <div class="scala-bib-search">
-      <label for="bibsearch" class="scala-search-label">Search {{ page.title | downcase }} by title, name, venue or year</label>
+      {% assign search_hint = 'Search by title, name, venue or year' %}
+      {% if page.permalink == '/publications/' %}{% assign search_hint = 'Search by title, name, venue, year or status' %}{% endif %}
+      <label for="bibsearch" class="scala-search-label">{{ search_hint }}</label>
       {% capture bibliography_search %}{% include bib_search.liquid %}{% endcapture %}
-      {{ bibliography_search | replace: 'Type to filter', 'Search by title, name, venue or year' }}
+      {{ bibliography_search | replace: 'Type to filter', search_hint }}
     </div>
   {% endif %}
 {% endcapture %}

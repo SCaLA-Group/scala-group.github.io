@@ -9,6 +9,6 @@
 {% endif %}
 {% if publication_status %}
   <div class="scala-publication-status scala-publication-status--{{ publication_status }}">
-    {{ publication_status | capitalize }}
+    {% if entry.status_label %}{{ entry.status_label | escape }}{% else %}{{ publication_status | capitalize }}{% endif %}
   </div>
 {% endif %}

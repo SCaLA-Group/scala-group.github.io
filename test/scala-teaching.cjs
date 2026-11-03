@@ -6,6 +6,11 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
   const browser = await chromium.launch();
   try {
     const page = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+    await page.goto(`${base}/teaching/`);
+    const plannedCourse = page
+      .locator(".scala-teaching-summary-list li")
+      .filter({ has: page.getByRole("heading", { name: "Scientific Machine Learning", exact: true }) });
+    assert.match(await plannedCourse.locator(".scala-teaching-summary-meta").textContent(), /Planned/);
     await page.goto(`${base}/teaching/courses/`);
     const guides = page.getByRole("link", { name: /^Study Guide/, includeHidden: true });
     assert.equal(await guides.count(), 25);

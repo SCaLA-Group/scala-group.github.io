@@ -12,6 +12,21 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
       assert.ok((await groups.count()) > 2);
       assert.equal(await page.locator(".scala-year-group[open]").count(), 1);
       assert.equal(await groups.first().getAttribute("open"), "");
+      if (section === "publications") {
+        const poster = page.locator('[id="Pelzer:2025:FLE"]');
+        assert.equal((await poster.locator(".scala-publication-status").textContent()).trim(), "Accepted poster");
+        assert.ok(!(await page.locator('[id="Kalvankar:2026:SBE"]').textContent()).includes("is first author"));
+        assert.match(await page.locator("#bibsearch").getAttribute("placeholder"), /status/);
+        await page.locator("#bibsearch").fill("submitted");
+        await page.waitForTimeout(400);
+        const visibleEntries = page.locator(".scala-year-group:visible ol > li:visible");
+        assert.ok((await visibleEntries.count()) > 0);
+        for (const entry of await visibleEntries.all()) {
+          assert.equal((await entry.locator(".scala-publication-status").textContent()).trim(), "Submitted");
+        }
+        await page.locator("#bibsearch").fill("");
+        await page.waitForTimeout(400);
+      }
       const yearShortcut = page.locator("[data-bibliography-year-nav] a").nth(1);
       await yearShortcut.focus();
       await page.keyboard.press("Enter");

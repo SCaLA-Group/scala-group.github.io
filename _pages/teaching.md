@@ -27,7 +27,7 @@ nav_order: 5
         {% assign course_period = course.term | remove: teaching_year | strip %}
         <li>
           <h3>{% if course.studyguide_url %}<a href="{{ course.studyguide_url }}">{{ course_title | escape }}</a>{% else %}{{ course_title | escape }}{% endif %}</h3>
-          <p class="scala-teaching-summary-meta">{% if course.course_code %}{{ course.course_code | escape }} · {% endif %}{{ course_period | default: course.institution | escape }}</p>
+          <p class="scala-teaching-summary-meta">{% if course.course_code %}{{ course.course_code | escape }} · {% endif %}{{ course_period | default: course.institution | escape }}{% if course.source_status == 'planned' %} · Planned{% endif %}</p>
         </li>
       {% endfor %}
     </ul>

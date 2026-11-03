@@ -12,6 +12,14 @@ const base = process.env.SCALA_PREVIEW_URL || "http://localhost:8080/al-folio";
     for (const path of ["/blog/", ...posts.map((url) => url.replace("/al-folio", ""))]) {
       const response = await page.goto(`${base}${path}`);
       assert.equal(response.status(), 200);
+      if (path === "/blog/2023/eurotug2023/") {
+        assert.equal(await page.locator('main a[href="https://eurotug.github.io/2023_delft.html"]').count(), 2);
+        assert.equal(
+          await page.locator('main a[href="https://eurotug.github.io/"]').count(),
+          0,
+          "2023 programme links stay with the archived meeting"
+        );
+      }
       for (const image of await page.locator("main img").all()) {
         await image.evaluate((img) => img.decode());
         assert.ok(await image.evaluate((img) => img.naturalWidth > 0));
