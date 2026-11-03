@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Alexander Heinlein
-description: Group lead · Assistant professor
+description: Assistant professor
 permalink: /people/alexander-heinlein/
 nav: false
 member_id: alexander-heinlein

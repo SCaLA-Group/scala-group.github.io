@@ -94,8 +94,7 @@ arturo-de-marinis:
     computing and machine learning with the consortium’s AI-guided biofabrication
     work.
   title_is_descriptive: true
-  source_note: Based on the existing FAB4FUTURE project page; the member card retains
-    the November 2026 start date.
+  source_note: Based on the existing FAB4FUTURE project page.
   links:
     - label: FAB4FUTURE
       url: "/projects/fab4future/"

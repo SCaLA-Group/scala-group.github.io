@@ -15,6 +15,6 @@ project_programme: NWO Perspectief
 
 This project connects scientific computing and machine learning with biofabrication and sustainable living materials in life sciences. Alexander Heinlein contributes to the AI-guided biofabrication toolbox within the consortium and supervises the associated postdoctoral project.
 
-**People:** [Arturo De Marinis]({{ "/people/arturo-de-marinis/" | relative_url }}) (joining November 2026) and [Alexander Heinlein]({{ "/people/alexander-heinlein/" | relative_url }}), with the project consortium.
+**People:** [Arturo De Marinis]({{ "/people/arturo-de-marinis/" | relative_url }}) and [Alexander Heinlein]({{ "/people/alexander-heinlein/" | relative_url }}), with the project consortium.
 
 **Programme duration:** Five years, following the 2023 award ([Maastricht University project announcement](https://www.maastrichtuniversity.nl/nl/nieuws/gekweekt-weefsel-voor-duurzaam-vlees-en-een-betere-gezondheid)).

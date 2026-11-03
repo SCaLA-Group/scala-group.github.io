@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Arturo De Marinis
-description: Postdoctoral researcher · joining November 2026
+description: Postdoctoral researcher
 permalink: /people/arturo-de-marinis/
 nav: false
 member_id: arturo-de-marinis
