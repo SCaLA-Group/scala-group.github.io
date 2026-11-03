@@ -1,17 +1,16 @@
 ---
 publications:
+  - status: submitted
+    key: Helfert:2026:ADD
+    title: Adaptive Domain Decomposition for Finite-Basis Physics-Informed Neural Networks
+    authors: Helfert, Sarah et al.
+    year: "2026"
+    month: Nov
   - status: accepted
     key: Meng:2026:OML
     title: An overview of machine learning-enhanced iterative methods for systems of
       linear and nonlinear equations
     authors: Meng, Yuhuang et al.
-    year: "2026"
-    month: Oct
-  - status: accepted
-    key: Howard:2025:FBK
-    title: "Finite basis Kolmogorov-Arnold networks: domain decomposition for data-driven
-      and physics-informed problems"
-    authors: Howard, Amanda A. et al.
     year: "2026"
     month: Oct
 talks:
