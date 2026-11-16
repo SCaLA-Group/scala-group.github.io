@@ -1377,20 +1377,6 @@ projects:
     links:
       - label: Project description
         url: "/assets/pdf/thesis_projects/2026/2026-voskov_heinlein-foundation-model-proxies-porous-media/2026-voskov_heinlein-foundation-model-proxies-porous-media-project-description.pdf"
-  - id: master-thesis-projects-61-data-driven-dredging-production-optimization
-    category: master-thesis-projects
-    title: Developing Data-Driven Models for Real-Time Dredging Production Optimization
-    institution: TU Delft
-    status: open
-    order: 61
-    url: "/teaching/projects/master-thesis-projects-61-data-driven-dredging-production-optimization/"
-    source_url: https://github.com/searhein/searhein.github.io/blob/master/_teaching/msc-theses/61-data-driven-dredging-production-optimization.md
-    collaboration: Boskalis
-    collaboration_type: industry
-    supervisors: Alexander Heinlein
-    links:
-      - label: Project description
-        url: "/assets/pdf/thesis_projects/2026/2026-heinlein-boskalis-dredging-production-optimization/2026-heinlein_boskalis-dredging-production-optimization-project-description.pdf"
   - id: master-thesis-projects-8-ddm-helmholtz-part1
     category: master-thesis-projects
     title: Domain Decomposition Techniques for the Helmholtz Equation
